@@ -1,0 +1,3870 @@
+2025-02-18 16:56:18,540 - INFO - Detector: word_list
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.07ms
+
+2025-02-18 16:56:18,543 - INFO - Detector: deepseek
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.60ms
+
+2025-02-18 16:56:18,544 - INFO - Detector: google_api
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 0.98
+Processing Time: 93.17ms
+
+2025-02-18 16:56:18,625 - INFO - Detector: word_list
+Text: voltarei comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:18,626 - INFO - Detector: deepseek
+Text: voltarei comprar...
+Language: pt
+Confidence: 0.54
+Processing Time: 10.92ms
+
+2025-02-18 16:56:18,627 - INFO - Detector: google_api
+Text: voltarei comprar...
+Language: pt
+Confidence: 1.00
+Processing Time: 67.53ms
+
+2025-02-18 16:56:18,700 - INFO - Detector: word_list
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:18,701 - INFO - Detector: deepseek
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.89ms
+
+2025-02-18 16:56:18,703 - INFO - Detector: google_api
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 60.97ms
+
+2025-02-18 16:56:18,774 - INFO - Detector: word_list
+Text: correto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.01ms
+
+2025-02-18 16:56:18,775 - INFO - Detector: deepseek
+Text: correto...
+Language: unknown
+Confidence: 0.99
+Processing Time: 9.73ms
+
+2025-02-18 16:56:18,776 - INFO - Detector: google_api
+Text: correto...
+Language: pt
+Confidence: 1.00
+Processing Time: 59.04ms
+
+2025-02-18 16:56:18,847 - INFO - Detector: word_list
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 0.74
+Processing Time: 0.02ms
+
+2025-02-18 16:56:18,848 - INFO - Detector: deepseek
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.98ms
+
+2025-02-18 16:56:18,850 - INFO - Detector: google_api
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 0.97
+Processing Time: 59.32ms
+
+2025-02-18 16:56:18,916 - INFO - Detector: word_list
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:18,917 - INFO - Detector: deepseek
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.98ms
+
+2025-02-18 16:56:18,918 - INFO - Detector: google_api
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.96
+Processing Time: 54.10ms
+
+2025-02-18 16:56:18,987 - INFO - Detector: word_list
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.01ms
+
+2025-02-18 16:56:18,988 - INFO - Detector: deepseek
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.92ms
+
+2025-02-18 16:56:18,990 - INFO - Detector: google_api
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.98
+Processing Time: 57.24ms
+
+2025-02-18 16:56:19,068 - INFO - Detector: word_list
+Text: gostei muito do cord simples fofo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:19,069 - INFO - Detector: deepseek
+Text: gostei muito do cord simples fofo...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.45ms
+
+2025-02-18 16:56:19,071 - INFO - Detector: google_api
+Text: gostei muito do cord simples fofo...
+Language: pt
+Confidence: 0.98
+Processing Time: 62.37ms
+
+2025-02-18 16:56:19,134 - INFO - Detector: word_list
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:19,135 - INFO - Detector: deepseek
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.13ms
+
+2025-02-18 16:56:19,138 - INFO - Detector: google_api
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 0.89
+Processing Time: 50.36ms
+
+2025-02-18 16:56:19,213 - INFO - Detector: word_list
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:19,214 - INFO - Detector: deepseek
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.66ms
+
+2025-02-18 16:56:19,216 - INFO - Detector: google_api
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.95
+Processing Time: 63.30ms
+
+2025-02-18 16:56:19,288 - INFO - Detector: word_list
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.06ms
+
+2025-02-18 16:56:19,289 - INFO - Detector: deepseek
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.55ms
+
+2025-02-18 16:56:19,290 - INFO - Detector: google_api
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 0.93
+Processing Time: 59.50ms
+
+2025-02-18 16:56:19,364 - INFO - Detector: word_list
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.01ms
+
+2025-02-18 16:56:19,365 - INFO - Detector: deepseek
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.88
+Processing Time: 9.41ms
+
+2025-02-18 16:56:19,367 - INFO - Detector: google_api
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.95
+Processing Time: 62.24ms
+
+2025-02-18 16:56:19,461 - INFO - Detector: word_list
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 0.76
+Processing Time: 0.25ms
+
+2025-02-18 16:56:19,463 - INFO - Detector: deepseek
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.43ms
+
+2025-02-18 16:56:19,465 - INFO - Detector: google_api
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 0.82
+Processing Time: 74.67ms
+
+2025-02-18 16:56:19,536 - INFO - Detector: word_list
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.06ms
+
+2025-02-18 16:56:19,537 - INFO - Detector: deepseek
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 1.00
+Processing Time: 14.91ms
+
+2025-02-18 16:56:19,539 - INFO - Detector: google_api
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 0.97
+Processing Time: 53.23ms
+
+2025-02-18 16:56:19,601 - INFO - Detector: word_list
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.04ms
+
+2025-02-18 16:56:19,603 - INFO - Detector: deepseek
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.31ms
+
+2025-02-18 16:56:19,605 - INFO - Detector: google_api
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 0.91
+Processing Time: 48.02ms
+
+2025-02-18 16:56:29,690 - INFO - Detector: word_list
+Text: category relogios presentes product id f819f0c84a64f02d3a5606ca95edd272 review correta usei produto ...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.07ms
+
+2025-02-18 16:56:29,692 - INFO - Detector: deepseek
+Text: category relogios presentes product id f819f0c84a64f02d3a5606ca95edd272 review correta usei produto ...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.91ms
+
+2025-02-18 16:56:29,695 - INFO - Detector: google_api
+Text: category relogios presentes product id f819f0c84a64f02d3a5606ca95edd272 review correta usei produto ...
+Language: pt
+Confidence: 0.98
+Processing Time: 90.02ms
+
+2025-02-18 16:56:29,772 - INFO - Detector: word_list
+Text: category utilidades domesticas product id b9de40e43fccb6ba53b7eadbd5c49077 review voltarei comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:29,774 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id b9de40e43fccb6ba53b7eadbd5c49077 review voltarei comprar...
+Language: pt
+Confidence: 0.60
+Processing Time: 13.35ms
+
+2025-02-18 16:56:29,776 - INFO - Detector: google_api
+Text: category utilidades domesticas product id b9de40e43fccb6ba53b7eadbd5c49077 review voltarei comprar...
+Language: pt
+Confidence: 0.81
+Processing Time: 61.31ms
+
+2025-02-18 16:56:29,843 - INFO - Detector: word_list
+Text: category moveis decoracao product id 26afe4ed5890d941fcba14205863eec7 review recebi metade do pedido...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:29,845 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 26afe4ed5890d941fcba14205863eec7 review recebi metade do pedido...
+Language: pt
+Confidence: 0.99
+Processing Time: 11.58ms
+
+2025-02-18 16:56:29,847 - INFO - Detector: google_api
+Text: category moveis decoracao product id 26afe4ed5890d941fcba14205863eec7 review recebi metade do pedido...
+Language: pt
+Confidence: 0.94
+Processing Time: 53.52ms
+
+2025-02-18 16:56:29,916 - INFO - Detector: word_list
+Text: category moveis decoracao product id 986870b9985d95ef6205bae1953a61a5 review correto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:29,917 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 986870b9985d95ef6205bae1953a61a5 review correto...
+Language: unknown
+Confidence: 0.44
+Processing Time: 12.05ms
+
+2025-02-18 16:56:29,919 - INFO - Detector: google_api
+Text: category moveis decoracao product id 986870b9985d95ef6205bae1953a61a5 review correto...
+Language: pt
+Confidence: 0.83
+Processing Time: 54.91ms
+
+2025-02-18 16:56:29,989 - INFO - Detector: word_list
+Text: category cool stuff product id 28ce57ecf4afba85e6020ec0209cada9 review entrega foi direitinha mas pr...
+Language: pt
+Confidence: 0.74
+Processing Time: 0.04ms
+
+2025-02-18 16:56:29,990 - INFO - Detector: deepseek
+Text: category cool stuff product id 28ce57ecf4afba85e6020ec0209cada9 review entrega foi direitinha mas pr...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.01ms
+
+2025-02-18 16:56:29,992 - INFO - Detector: google_api
+Text: category cool stuff product id 28ce57ecf4afba85e6020ec0209cada9 review entrega foi direitinha mas pr...
+Language: pt
+Confidence: 0.97
+Processing Time: 56.07ms
+
+2025-02-18 16:56:30,065 - INFO - Detector: word_list
+Text: category moveis decoracao product id 7cb2ff3193293db892fd5697aa99a19b review loja mandou bem obrigad...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,066 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 7cb2ff3193293db892fd5697aa99a19b review loja mandou bem obrigad...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.79ms
+
+2025-02-18 16:56:30,068 - INFO - Detector: google_api
+Text: category moveis decoracao product id 7cb2ff3193293db892fd5697aa99a19b review loja mandou bem obrigad...
+Language: pt
+Confidence: 0.91
+Processing Time: 59.68ms
+
+2025-02-18 16:56:30,141 - INFO - Detector: word_list
+Text: category cama mesa banho product id 116a8f521211c179741c051816f2b898 review entrega antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,143 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 116a8f521211c179741c051816f2b898 review entrega antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.58ms
+
+2025-02-18 16:56:30,144 - INFO - Detector: google_api
+Text: category cama mesa banho product id 116a8f521211c179741c051816f2b898 review entrega antes do prazo...
+Language: pt
+Confidence: 0.80
+Processing Time: 62.11ms
+
+2025-02-18 16:56:30,218 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id b3e99300a2d0481e7b1d7ce484d498cf...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,220 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id b3e99300a2d0481e7b1d7ce484d498cf...
+Language: pt
+Confidence: 0.65
+Processing Time: 11.90ms
+
+2025-02-18 16:56:30,221 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id b3e99300a2d0481e7b1d7ce484d498cf...
+Language: en
+Confidence: 0.48
+Processing Time: 60.05ms
+
+2025-02-18 16:56:30,282 - INFO - Detector: word_list
+Text: category brinquedos product id 609092e5b5c4a202878eb9ba03b47793...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,283 - INFO - Detector: deepseek
+Text: category brinquedos product id 609092e5b5c4a202878eb9ba03b47793...
+Language: unknown
+Confidence: 0.48
+Processing Time: 10.92ms
+
+2025-02-18 16:56:30,285 - INFO - Detector: google_api
+Text: category brinquedos product id 609092e5b5c4a202878eb9ba03b47793...
+Language: en
+Confidence: 0.95
+Processing Time: 47.47ms
+
+2025-02-18 16:56:30,358 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id 355c91ffac499557d65c0821237b6350 review gostei muito d...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,359 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id 355c91ffac499557d65c0821237b6350 review gostei muito d...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.85ms
+
+2025-02-18 16:56:30,360 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id 355c91ffac499557d65c0821237b6350 review gostei muito d...
+Language: pt
+Confidence: 0.83
+Processing Time: 57.96ms
+
+2025-02-18 16:56:30,429 - INFO - Detector: word_list
+Text: category cama mesa banho product id dd6171dfce1d62dbf472f83fa352d309...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:30,430 - INFO - Detector: deepseek
+Text: category cama mesa banho product id dd6171dfce1d62dbf472f83fa352d309...
+Language: unknown
+Confidence: 0.87
+Processing Time: 10.15ms
+
+2025-02-18 16:56:30,431 - INFO - Detector: google_api
+Text: category cama mesa banho product id dd6171dfce1d62dbf472f83fa352d309...
+Language: en
+Confidence: 0.67
+Processing Time: 56.30ms
+
+2025-02-18 16:56:30,507 - INFO - Detector: word_list
+Text: category livros tecnicos product id a8b5e02c7f69ca5ccdfa99417079d135 review adorei os livros os cart...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,508 - INFO - Detector: deepseek
+Text: category livros tecnicos product id a8b5e02c7f69ca5ccdfa99417079d135 review adorei os livros os cart...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.33ms
+
+2025-02-18 16:56:30,511 - INFO - Detector: google_api
+Text: category livros tecnicos product id a8b5e02c7f69ca5ccdfa99417079d135 review adorei os livros os cart...
+Language: unknown
+Confidence: 0.62
+Processing Time: 64.41ms
+
+2025-02-18 16:56:30,578 - INFO - Detector: word_list
+Text: category beleza saude product id af210e7b5709fdeb3984f93a10da094e review produto veio direitinho bem...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,579 - INFO - Detector: deepseek
+Text: category beleza saude product id af210e7b5709fdeb3984f93a10da094e review produto veio direitinho bem...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.14ms
+
+2025-02-18 16:56:30,580 - INFO - Detector: google_api
+Text: category beleza saude product id af210e7b5709fdeb3984f93a10da094e review produto veio direitinho bem...
+Language: pt
+Confidence: 0.92
+Processing Time: 55.27ms
+
+2025-02-18 16:56:30,655 - INFO - Detector: word_list
+Text: category utilidades domesticas product id bdb4be6ce2f7f2b5be0a16088028c7fc review entrega rapid ssim...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.09ms
+
+2025-02-18 16:56:30,656 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id bdb4be6ce2f7f2b5be0a16088028c7fc review entrega rapid ssim...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.51ms
+
+2025-02-18 16:56:30,658 - INFO - Detector: google_api
+Text: category utilidades domesticas product id bdb4be6ce2f7f2b5be0a16088028c7fc review entrega rapid ssim...
+Language: pt
+Confidence: 0.93
+Processing Time: 61.26ms
+
+2025-02-18 16:56:30,729 - INFO - Detector: word_list
+Text: category cama mesa banho product id 50f45d42cdfecd33a2424a1c617d251f review pelo pre vale pena...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,730 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 50f45d42cdfecd33a2424a1c617d251f review pelo pre vale pena...
+Language: pt
+Confidence: 0.99
+Processing Time: 11.04ms
+
+2025-02-18 16:56:30,732 - INFO - Detector: google_api
+Text: category cama mesa banho product id 50f45d42cdfecd33a2424a1c617d251f review pelo pre vale pena...
+Language: pt
+Confidence: 0.95
+Processing Time: 57.80ms
+
+2025-02-18 16:56:30,793 - INFO - Detector: word_list
+Text: category bebes product id 1e6981e727154bcd941d51fda894b183...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:30,795 - INFO - Detector: deepseek
+Text: category bebes product id 1e6981e727154bcd941d51fda894b183...
+Language: unknown
+Confidence: 0.66
+Processing Time: 10.54ms
+
+2025-02-18 16:56:30,797 - INFO - Detector: google_api
+Text: category bebes product id 1e6981e727154bcd941d51fda894b183...
+Language: en
+Confidence: 1.00
+Processing Time: 47.76ms
+
+2025-02-18 16:56:30,873 - INFO - Detector: word_list
+Text: category casa conforto product id 35afc973633aaeb6b877ff57b2793310 review estou plenamente satisfeit...
+Language: pt
+Confidence: 0.76
+Processing Time: 0.26ms
+
+2025-02-18 16:56:30,875 - INFO - Detector: deepseek
+Text: category casa conforto product id 35afc973633aaeb6b877ff57b2793310 review estou plenamente satisfeit...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.55ms
+
+2025-02-18 16:56:30,876 - INFO - Detector: google_api
+Text: category casa conforto product id 35afc973633aaeb6b877ff57b2793310 review estou plenamente satisfeit...
+Language: pt
+Confidence: 0.82
+Processing Time: 56.92ms
+
+2025-02-18 16:56:30,943 - INFO - Detector: word_list
+Text: category eletronicos product id b83738ac1903f7c8f0ed378cb085909c review compra foi realizada facilme...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.08ms
+
+2025-02-18 16:56:30,944 - INFO - Detector: deepseek
+Text: category eletronicos product id b83738ac1903f7c8f0ed378cb085909c review compra foi realizada facilme...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.48ms
+
+2025-02-18 16:56:30,946 - INFO - Detector: google_api
+Text: category eletronicos product id b83738ac1903f7c8f0ed378cb085909c review compra foi realizada facilme...
+Language: pt
+Confidence: 0.96
+Processing Time: 54.02ms
+
+2025-02-18 16:56:31,024 - INFO - Detector: word_list
+Text: category cama mesa banho product id cce679660c66e6fbd5c8091dfd29e9cd review produto simples de acord...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.06ms
+
+2025-02-18 16:56:31,026 - INFO - Detector: deepseek
+Text: category cama mesa banho product id cce679660c66e6fbd5c8091dfd29e9cd review produto simples de acord...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.07ms
+
+2025-02-18 16:56:31,028 - INFO - Detector: google_api
+Text: category cama mesa banho product id cce679660c66e6fbd5c8091dfd29e9cd review produto simples de acord...
+Language: pt
+Confidence: 0.90
+Processing Time: 62.54ms
+
+2025-02-18 16:56:31,090 - INFO - Detector: word_list
+Text: category moveis decoracao product id 199f076c011ea5e8b546bff05d4f2477...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,091 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 199f076c011ea5e8b546bff05d4f2477...
+Language: unknown
+Confidence: 0.77
+Processing Time: 11.01ms
+
+2025-02-18 16:56:31,093 - INFO - Detector: google_api
+Text: category moveis decoracao product id 199f076c011ea5e8b546bff05d4f2477...
+Language: pt
+Confidence: 0.85
+Processing Time: 49.57ms
+
+2025-02-18 16:56:31,167 - INFO - Detector: word_list
+Text: category informatica acessorios product id c6bdd07f0a20ccd19d51de91c1551952...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,169 - INFO - Detector: deepseek
+Text: category informatica acessorios product id c6bdd07f0a20ccd19d51de91c1551952...
+Language: pt
+Confidence: 0.62
+Processing Time: 11.67ms
+
+2025-02-18 16:56:31,170 - INFO - Detector: google_api
+Text: category informatica acessorios product id c6bdd07f0a20ccd19d51de91c1551952...
+Language: en
+Confidence: 0.55
+Processing Time: 59.54ms
+
+2025-02-18 16:56:31,241 - INFO - Detector: word_list
+Text: category telefonia product id 9ed00cd89e3b3a0107996fe62feab381...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:31,243 - INFO - Detector: deepseek
+Text: category telefonia product id 9ed00cd89e3b3a0107996fe62feab381...
+Language: unknown
+Confidence: 0.51
+Processing Time: 11.81ms
+
+2025-02-18 16:56:31,244 - INFO - Detector: google_api
+Text: category telefonia product id 9ed00cd89e3b3a0107996fe62feab381...
+Language: en
+Confidence: 0.89
+Processing Time: 57.04ms
+
+2025-02-18 16:56:31,315 - INFO - Detector: word_list
+Text: category telefonia product id 291c7fc5097e83062a4377ca30c6b834...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:31,316 - INFO - Detector: deepseek
+Text: category telefonia product id 291c7fc5097e83062a4377ca30c6b834...
+Language: unknown
+Confidence: 0.56
+Processing Time: 9.80ms
+
+2025-02-18 16:56:31,318 - INFO - Detector: google_api
+Text: category telefonia product id 291c7fc5097e83062a4377ca30c6b834...
+Language: en
+Confidence: 0.98
+Processing Time: 59.84ms
+
+2025-02-18 16:56:31,379 - INFO - Detector: word_list
+Text: category automotivo product id aca71e1fceaea4278f27aab8a3498f60...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,380 - INFO - Detector: deepseek
+Text: category automotivo product id aca71e1fceaea4278f27aab8a3498f60...
+Language: unknown
+Confidence: 0.78
+Processing Time: 10.81ms
+
+2025-02-18 16:56:31,383 - INFO - Detector: google_api
+Text: category automotivo product id aca71e1fceaea4278f27aab8a3498f60...
+Language: en
+Confidence: 0.84
+Processing Time: 47.81ms
+
+2025-02-18 16:56:31,448 - INFO - Detector: word_list
+Text: category ferramentas jardim product id 4eb0d9529369cb573f792d489af46f51 review entrega pida produto ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,449 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id 4eb0d9529369cb573f792d489af46f51 review entrega pida produto ...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.65ms
+
+2025-02-18 16:56:31,451 - INFO - Detector: google_api
+Text: category ferramentas jardim product id 4eb0d9529369cb573f792d489af46f51 review entrega pida produto ...
+Language: pt
+Confidence: 0.91
+Processing Time: 50.50ms
+
+2025-02-18 16:56:31,513 - INFO - Detector: word_list
+Text: category nan product id 0538b3ea14af3cc3ee6bdaf940367cee review produto bom frete caro demorado...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,514 - INFO - Detector: deepseek
+Text: category nan product id 0538b3ea14af3cc3ee6bdaf940367cee review produto bom frete caro demorado...
+Language: pt
+Confidence: 0.73
+Processing Time: 9.44ms
+
+2025-02-18 16:56:31,516 - INFO - Detector: google_api
+Text: category nan product id 0538b3ea14af3cc3ee6bdaf940367cee review produto bom frete caro demorado...
+Language: pt
+Confidence: 0.94
+Processing Time: 50.69ms
+
+2025-02-18 16:56:31,580 - INFO - Detector: word_list
+Text: category bebes product id 30a47cc354b9607076272300c899dce9 review nao gostei do produto pior que loj...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:31,581 - INFO - Detector: deepseek
+Text: category bebes product id 30a47cc354b9607076272300c899dce9 review nao gostei do produto pior que loj...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.58ms
+
+2025-02-18 16:56:31,583 - INFO - Detector: google_api
+Text: category bebes product id 30a47cc354b9607076272300c899dce9 review nao gostei do produto pior que loj...
+Language: pt
+Confidence: 0.96
+Processing Time: 51.42ms
+
+2025-02-18 16:56:31,648 - INFO - Detector: word_list
+Text: category esporte lazer product id 2f46e035eccda1e1e2127096bb7483e7...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,649 - INFO - Detector: deepseek
+Text: category esporte lazer product id 2f46e035eccda1e1e2127096bb7483e7...
+Language: unknown
+Confidence: 0.63
+Processing Time: 9.71ms
+
+2025-02-18 16:56:31,651 - INFO - Detector: google_api
+Text: category esporte lazer product id 2f46e035eccda1e1e2127096bb7483e7...
+Language: en
+Confidence: 0.60
+Processing Time: 53.27ms
+
+2025-02-18 16:56:31,715 - INFO - Detector: word_list
+Text: category brinquedos product id 72b253635b316f49e42e618d6e585ebc review entrega muito antes do prazo ...
+Language: pt
+Confidence: 0.61
+Processing Time: 0.04ms
+
+2025-02-18 16:56:31,716 - INFO - Detector: deepseek
+Text: category brinquedos product id 72b253635b316f49e42e618d6e585ebc review entrega muito antes do prazo ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.20ms
+
+2025-02-18 16:56:31,718 - INFO - Detector: google_api
+Text: category brinquedos product id 72b253635b316f49e42e618d6e585ebc review entrega muito antes do prazo ...
+Language: pt
+Confidence: 0.97
+Processing Time: 52.06ms
+
+2025-02-18 16:56:31,793 - INFO - Detector: word_list
+Text: category relogios presentes product id 564a04f027fb97b53ca08464632db860...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:31,794 - INFO - Detector: deepseek
+Text: category relogios presentes product id 564a04f027fb97b53ca08464632db860...
+Language: unknown
+Confidence: 0.42
+Processing Time: 9.39ms
+
+2025-02-18 16:56:31,796 - INFO - Detector: google_api
+Text: category relogios presentes product id 564a04f027fb97b53ca08464632db860...
+Language: en
+Confidence: 0.56
+Processing Time: 63.79ms
+
+2025-02-18 16:56:31,856 - INFO - Detector: word_list
+Text: category malas acessorios product id 1bc861b90a53405f92c18482e45e897c review eu gosto sempre de comp...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,857 - INFO - Detector: deepseek
+Text: category malas acessorios product id 1bc861b90a53405f92c18482e45e897c review eu gosto sempre de comp...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.23ms
+
+2025-02-18 16:56:31,859 - INFO - Detector: google_api
+Text: category malas acessorios product id 1bc861b90a53405f92c18482e45e897c review eu gosto sempre de comp...
+Language: pt
+Confidence: 0.87
+Processing Time: 48.05ms
+
+2025-02-18 16:56:31,923 - INFO - Detector: word_list
+Text: category audio product id 13db47eae724e2848e12b71a617a3a41 review super recomendo entrega produtos o...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.08ms
+
+2025-02-18 16:56:31,924 - INFO - Detector: deepseek
+Text: category audio product id 13db47eae724e2848e12b71a617a3a41 review super recomendo entrega produtos o...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.85ms
+
+2025-02-18 16:56:31,926 - INFO - Detector: google_api
+Text: category audio product id 13db47eae724e2848e12b71a617a3a41 review super recomendo entrega produtos o...
+Language: pt
+Confidence: 0.97
+Processing Time: 47.70ms
+
+2025-02-18 16:56:31,995 - INFO - Detector: word_list
+Text: category nan product id e47eff9f97c9536c9f768f86e13252f6 review produto al das expectativas...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:31,996 - INFO - Detector: deepseek
+Text: category nan product id e47eff9f97c9536c9f768f86e13252f6 review produto al das expectativas...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.22ms
+
+2025-02-18 16:56:31,998 - INFO - Detector: google_api
+Text: category nan product id e47eff9f97c9536c9f768f86e13252f6 review produto al das expectativas...
+Language: unknown
+Confidence: 0.27
+Processing Time: 54.19ms
+
+2025-02-18 16:56:32,064 - INFO - Detector: word_list
+Text: category informatica acessorios product id e7261ba9b589b73ac45411a15058403e review entregou no prazo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,065 - INFO - Detector: deepseek
+Text: category informatica acessorios product id e7261ba9b589b73ac45411a15058403e review entregou no prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 13.78ms
+
+2025-02-18 16:56:32,067 - INFO - Detector: google_api
+Text: category informatica acessorios product id e7261ba9b589b73ac45411a15058403e review entregou no prazo...
+Language: pt
+Confidence: 0.96
+Processing Time: 48.99ms
+
+2025-02-18 16:56:32,136 - INFO - Detector: word_list
+Text: category utilidades domesticas product id c8e7c2ef329fcda4a233e7e2f8bb8b7d...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,137 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id c8e7c2ef329fcda4a233e7e2f8bb8b7d...
+Language: unknown
+Confidence: 0.86
+Processing Time: 11.42ms
+
+2025-02-18 16:56:32,139 - INFO - Detector: google_api
+Text: category utilidades domesticas product id c8e7c2ef329fcda4a233e7e2f8bb8b7d...
+Language: en
+Confidence: 0.31
+Processing Time: 55.40ms
+
+2025-02-18 16:56:32,211 - INFO - Detector: word_list
+Text: category informatica acessorios product id ae52eeb8383b94455f0a08b1f88ad002 review comprei produto e...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.06ms
+
+2025-02-18 16:56:32,212 - INFO - Detector: deepseek
+Text: category informatica acessorios product id ae52eeb8383b94455f0a08b1f88ad002 review comprei produto e...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.45ms
+
+2025-02-18 16:56:32,214 - INFO - Detector: google_api
+Text: category informatica acessorios product id ae52eeb8383b94455f0a08b1f88ad002 review comprei produto e...
+Language: pt
+Confidence: 0.97
+Processing Time: 59.13ms
+
+2025-02-18 16:56:32,281 - INFO - Detector: word_list
+Text: category bebes product id 10dae91e0aba95747e90280edeffe883 review chegou dentro do prazo como descri...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:32,282 - INFO - Detector: deepseek
+Text: category bebes product id 10dae91e0aba95747e90280edeffe883 review chegou dentro do prazo como descri...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.49ms
+
+2025-02-18 16:56:32,284 - INFO - Detector: google_api
+Text: category bebes product id 10dae91e0aba95747e90280edeffe883 review chegou dentro do prazo como descri...
+Language: pt
+Confidence: 0.74
+Processing Time: 53.01ms
+
+2025-02-18 16:56:32,355 - INFO - Detector: word_list
+Text: category cama mesa banho product id e09cef1f7f2bc3a9c9d996608944de19 review no site tinha informando...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.03ms
+
+2025-02-18 16:56:32,356 - INFO - Detector: deepseek
+Text: category cama mesa banho product id e09cef1f7f2bc3a9c9d996608944de19 review no site tinha informando...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.76ms
+
+2025-02-18 16:56:32,358 - INFO - Detector: google_api
+Text: category cama mesa banho product id e09cef1f7f2bc3a9c9d996608944de19 review no site tinha informando...
+Language: pt
+Confidence: 0.98
+Processing Time: 59.26ms
+
+2025-02-18 16:56:32,422 - INFO - Detector: word_list
+Text: category moveis decoracao product id ccf62ee5ee151b8c5ce49beda185a66e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:32,423 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ccf62ee5ee151b8c5ce49beda185a66e...
+Language: unknown
+Confidence: 0.97
+Processing Time: 10.61ms
+
+2025-02-18 16:56:32,425 - INFO - Detector: google_api
+Text: category moveis decoracao product id ccf62ee5ee151b8c5ce49beda185a66e...
+Language: pt
+Confidence: 0.72
+Processing Time: 51.03ms
+
+2025-02-18 16:56:32,488 - INFO - Detector: word_list
+Text: category beleza saude product id 89f055104adb9365d7f7b5c475f77742 review meu produto chegou muito ma...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.03ms
+
+2025-02-18 16:56:32,489 - INFO - Detector: deepseek
+Text: category beleza saude product id 89f055104adb9365d7f7b5c475f77742 review meu produto chegou muito ma...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.07ms
+
+2025-02-18 16:56:32,492 - INFO - Detector: google_api
+Text: category beleza saude product id 89f055104adb9365d7f7b5c475f77742 review meu produto chegou muito ma...
+Language: pt
+Confidence: 0.97
+Processing Time: 50.83ms
+
+2025-02-18 16:56:32,561 - INFO - Detector: word_list
+Text: category bebes product id b4bbe69ef82d98f932d5c94987c42938...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:32,562 - INFO - Detector: deepseek
+Text: category bebes product id b4bbe69ef82d98f932d5c94987c42938...
+Language: unknown
+Confidence: 0.35
+Processing Time: 9.77ms
+
+2025-02-18 16:56:32,564 - INFO - Detector: google_api
+Text: category bebes product id b4bbe69ef82d98f932d5c94987c42938...
+Language: en
+Confidence: 0.89
+Processing Time: 57.23ms
+
+2025-02-18 16:56:32,623 - INFO - Detector: word_list
+Text: category casa construcao product id ed464125465d8ab04c3615963d27395c review eu pedi outro produto ju...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 16:56:32,625 - INFO - Detector: deepseek
+Text: category casa construcao product id ed464125465d8ab04c3615963d27395c review eu pedi outro produto ju...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.06ms
+
+2025-02-18 16:56:32,627 - INFO - Detector: google_api
+Text: category casa construcao product id ed464125465d8ab04c3615963d27395c review eu pedi outro produto ju...
+Language: pt
+Confidence: 0.92
+Processing Time: 47.14ms
+
+2025-02-18 16:56:32,694 - INFO - Detector: word_list
+Text: category construcao ferramentas construcao product id a88124e0b1d42ca7b0813a78ff630437 review produt...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 16:56:32,695 - INFO - Detector: deepseek
+Text: category construcao ferramentas construcao product id a88124e0b1d42ca7b0813a78ff630437 review produt...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.70ms
+
+2025-02-18 16:56:32,697 - INFO - Detector: google_api
+Text: category construcao ferramentas construcao product id a88124e0b1d42ca7b0813a78ff630437 review produt...
+Language: pt
+Confidence: 0.96
+Processing Time: 51.04ms
+
+2025-02-18 16:56:32,767 - INFO - Detector: word_list
+Text: category brinquedos product id 8e371c2303bcf90383f6cebd67f2dffe...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,768 - INFO - Detector: deepseek
+Text: category brinquedos product id 8e371c2303bcf90383f6cebd67f2dffe...
+Language: unknown
+Confidence: 0.72
+Processing Time: 11.88ms
+
+2025-02-18 16:56:32,770 - INFO - Detector: google_api
+Text: category brinquedos product id 8e371c2303bcf90383f6cebd67f2dffe...
+Language: en
+Confidence: 0.95
+Processing Time: 55.87ms
+
+2025-02-18 16:56:32,833 - INFO - Detector: word_list
+Text: category construcao ferramentas construcao product id f5e48ba4fcfdf3920b7a857b261a3ef3...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,834 - INFO - Detector: deepseek
+Text: category construcao ferramentas construcao product id f5e48ba4fcfdf3920b7a857b261a3ef3...
+Language: pt
+Confidence: 0.90
+Processing Time: 11.59ms
+
+2025-02-18 16:56:32,836 - INFO - Detector: google_api
+Text: category construcao ferramentas construcao product id f5e48ba4fcfdf3920b7a857b261a3ef3...
+Language: pt
+Confidence: 0.94
+Processing Time: 49.16ms
+
+2025-02-18 16:56:32,901 - INFO - Detector: word_list
+Text: category telefonia fixa product id d556492cb91418b6a9d9613592b4367f review tima loja recomendo todos...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,902 - INFO - Detector: deepseek
+Text: category telefonia fixa product id d556492cb91418b6a9d9613592b4367f review tima loja recomendo todos...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.02ms
+
+2025-02-18 16:56:32,904 - INFO - Detector: google_api
+Text: category telefonia fixa product id d556492cb91418b6a9d9613592b4367f review tima loja recomendo todos...
+Language: pt
+Confidence: 0.74
+Processing Time: 50.50ms
+
+2025-02-18 16:56:32,969 - INFO - Detector: word_list
+Text: category fashion underwear moda praia product id e7f85596b92f92cb501855897696f66b...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:32,970 - INFO - Detector: deepseek
+Text: category fashion underwear moda praia product id e7f85596b92f92cb501855897696f66b...
+Language: pt
+Confidence: 0.94
+Processing Time: 10.93ms
+
+2025-02-18 16:56:32,972 - INFO - Detector: google_api
+Text: category fashion underwear moda praia product id e7f85596b92f92cb501855897696f66b...
+Language: en
+Confidence: 1.00
+Processing Time: 51.24ms
+
+2025-02-18 16:56:33,034 - INFO - Detector: word_list
+Text: category papelaria product id 0a1c4b9c1ca294b2c85dbe2d4920abe6 review chega no prazo ainda informa e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,036 - INFO - Detector: deepseek
+Text: category papelaria product id 0a1c4b9c1ca294b2c85dbe2d4920abe6 review chega no prazo ainda informa e...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.52ms
+
+2025-02-18 16:56:33,037 - INFO - Detector: google_api
+Text: category papelaria product id 0a1c4b9c1ca294b2c85dbe2d4920abe6 review chega no prazo ainda informa e...
+Language: pt
+Confidence: 0.74
+Processing Time: 49.46ms
+
+2025-02-18 16:56:33,099 - INFO - Detector: word_list
+Text: category consoles games product id 0be79cf589781c512bd91976eadeeff0...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,100 - INFO - Detector: deepseek
+Text: category consoles games product id 0be79cf589781c512bd91976eadeeff0...
+Language: unknown
+Confidence: 0.30
+Processing Time: 10.06ms
+
+2025-02-18 16:56:33,102 - INFO - Detector: google_api
+Text: category consoles games product id 0be79cf589781c512bd91976eadeeff0...
+Language: en
+Confidence: 1.00
+Processing Time: 49.74ms
+
+2025-02-18 16:56:33,167 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id af64874ef27a7dc357905b75ea78555a...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:33,168 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id af64874ef27a7dc357905b75ea78555a...
+Language: pt
+Confidence: 0.96
+Processing Time: 11.11ms
+
+2025-02-18 16:56:33,171 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id af64874ef27a7dc357905b75ea78555a...
+Language: en
+Confidence: 0.58
+Processing Time: 51.53ms
+
+2025-02-18 16:56:33,231 - INFO - Detector: word_list
+Text: category utilidades domesticas product id cfa14c9ef22bd6c41e20df06de9dfa76 review recebi puff cesta ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,232 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id cfa14c9ef22bd6c41e20df06de9dfa76 review recebi puff cesta ...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.56ms
+
+2025-02-18 16:56:33,234 - INFO - Detector: google_api
+Text: category utilidades domesticas product id cfa14c9ef22bd6c41e20df06de9dfa76 review recebi puff cesta ...
+Language: pt
+Confidence: 0.66
+Processing Time: 48.49ms
+
+2025-02-18 16:56:33,294 - INFO - Detector: word_list
+Text: category moveis decoracao product id 9ce6c37f9df63de67692c3f7d4d209f1 review recebi produto no prazo...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:33,295 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 9ce6c37f9df63de67692c3f7d4d209f1 review recebi produto no prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.45ms
+
+2025-02-18 16:56:33,297 - INFO - Detector: google_api
+Text: category moveis decoracao product id 9ce6c37f9df63de67692c3f7d4d209f1 review recebi produto no prazo...
+Language: pt
+Confidence: 0.97
+Processing Time: 47.59ms
+
+2025-02-18 16:56:33,358 - INFO - Detector: word_list
+Text: category nan product id a08ffa6ecdd0ab3c1f4fe348acc2553b review status da entrega foi mudado para pr...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 16:56:33,359 - INFO - Detector: deepseek
+Text: category nan product id a08ffa6ecdd0ab3c1f4fe348acc2553b review status da entrega foi mudado para pr...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.38ms
+
+2025-02-18 16:56:33,361 - INFO - Detector: google_api
+Text: category nan product id a08ffa6ecdd0ab3c1f4fe348acc2553b review status da entrega foi mudado para pr...
+Language: pt
+Confidence: 0.72
+Processing Time: 49.08ms
+
+2025-02-18 16:56:33,431 - INFO - Detector: word_list
+Text: category perfumaria product id b1c791ce2fd764b4aaea6b9064b224ac review recomendo pre timo chegou mui...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,433 - INFO - Detector: deepseek
+Text: category perfumaria product id b1c791ce2fd764b4aaea6b9064b224ac review recomendo pre timo chegou mui...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.83ms
+
+2025-02-18 16:56:33,434 - INFO - Detector: google_api
+Text: category perfumaria product id b1c791ce2fd764b4aaea6b9064b224ac review recomendo pre timo chegou mui...
+Language: pt
+Confidence: 0.85
+Processing Time: 55.44ms
+
+2025-02-18 16:56:33,505 - INFO - Detector: word_list
+Text: category relogios presentes product id e7dffcd8a3257cf9f6644b7d30eaf727 review chegou antes do prazo...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,506 - INFO - Detector: deepseek
+Text: category relogios presentes product id e7dffcd8a3257cf9f6644b7d30eaf727 review chegou antes do prazo...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.23ms
+
+2025-02-18 16:56:33,508 - INFO - Detector: google_api
+Text: category relogios presentes product id e7dffcd8a3257cf9f6644b7d30eaf727 review chegou antes do prazo...
+Language: pt
+Confidence: 0.89
+Processing Time: 57.87ms
+
+2025-02-18 16:56:33,572 - INFO - Detector: word_list
+Text: category casa construcao product id dd77ffae83ea4313783323ea026dbf0a review produto chegou antes do ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,573 - INFO - Detector: deepseek
+Text: category casa construcao product id dd77ffae83ea4313783323ea026dbf0a review produto chegou antes do ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.41ms
+
+2025-02-18 16:56:33,575 - INFO - Detector: google_api
+Text: category casa construcao product id dd77ffae83ea4313783323ea026dbf0a review produto chegou antes do ...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.51ms
+
+2025-02-18 16:56:33,641 - INFO - Detector: word_list
+Text: category automotivo product id 6f7df385d032846d2941c806179cc78e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:33,643 - INFO - Detector: deepseek
+Text: category automotivo product id 6f7df385d032846d2941c806179cc78e...
+Language: unknown
+Confidence: 0.26
+Processing Time: 11.78ms
+
+2025-02-18 16:56:33,645 - INFO - Detector: google_api
+Text: category automotivo product id 6f7df385d032846d2941c806179cc78e...
+Language: en
+Confidence: 0.92
+Processing Time: 51.00ms
+
+2025-02-18 16:56:33,719 - INFO - Detector: word_list
+Text: category moveis decoracao product id 7d1f165a4a03757ada8c56e9aba9fb41...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,721 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 7d1f165a4a03757ada8c56e9aba9fb41...
+Language: unknown
+Confidence: 0.92
+Processing Time: 12.39ms
+
+2025-02-18 16:56:33,723 - INFO - Detector: google_api
+Text: category moveis decoracao product id 7d1f165a4a03757ada8c56e9aba9fb41...
+Language: pt
+Confidence: 0.86
+Processing Time: 60.33ms
+
+2025-02-18 16:56:33,786 - INFO - Detector: word_list
+Text: category automotivo product id 106ebc8f9982193679d02a4584947b89 review produto entregue...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:33,788 - INFO - Detector: deepseek
+Text: category automotivo product id 106ebc8f9982193679d02a4584947b89 review produto entregue...
+Language: pt
+Confidence: 0.97
+Processing Time: 11.19ms
+
+2025-02-18 16:56:33,789 - INFO - Detector: google_api
+Text: category automotivo product id 106ebc8f9982193679d02a4584947b89 review produto entregue...
+Language: pt
+Confidence: 0.81
+Processing Time: 50.33ms
+
+2025-02-18 16:56:33,851 - INFO - Detector: word_list
+Text: category bebes product id fc94d52bb346616a130e657a8fac829b...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:33,853 - INFO - Detector: deepseek
+Text: category bebes product id fc94d52bb346616a130e657a8fac829b...
+Language: unknown
+Confidence: 0.47
+Processing Time: 9.96ms
+
+2025-02-18 16:56:33,855 - INFO - Detector: google_api
+Text: category bebes product id fc94d52bb346616a130e657a8fac829b...
+Language: en
+Confidence: 0.87
+Processing Time: 49.63ms
+
+2025-02-18 16:56:33,919 - INFO - Detector: word_list
+Text: category instrumentos musicais product id fdc3af4045c7316cadde9fda3c335932...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:33,920 - INFO - Detector: deepseek
+Text: category instrumentos musicais product id fdc3af4045c7316cadde9fda3c335932...
+Language: unknown
+Confidence: 0.83
+Processing Time: 12.47ms
+
+2025-02-18 16:56:33,922 - INFO - Detector: google_api
+Text: category instrumentos musicais product id fdc3af4045c7316cadde9fda3c335932...
+Language: en
+Confidence: 0.90
+Processing Time: 48.99ms
+
+2025-02-18 16:56:33,999 - INFO - Detector: word_list
+Text: category esporte lazer product id ff7824d83aca56224fa3e3b524748ec5...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:34,001 - INFO - Detector: deepseek
+Text: category esporte lazer product id ff7824d83aca56224fa3e3b524748ec5...
+Language: unknown
+Confidence: 0.51
+Processing Time: 9.22ms
+
+2025-02-18 16:56:34,002 - INFO - Detector: google_api
+Text: category esporte lazer product id ff7824d83aca56224fa3e3b524748ec5...
+Language: en
+Confidence: 0.50
+Processing Time: 64.30ms
+
+2025-02-18 16:56:34,067 - INFO - Detector: word_list
+Text: category cama mesa banho product id d7a0d43b22866d7a8c1c22532daff378...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:34,068 - INFO - Detector: deepseek
+Text: category cama mesa banho product id d7a0d43b22866d7a8c1c22532daff378...
+Language: unknown
+Confidence: 0.54
+Processing Time: 11.36ms
+
+2025-02-18 16:56:34,070 - INFO - Detector: google_api
+Text: category cama mesa banho product id d7a0d43b22866d7a8c1c22532daff378...
+Language: en
+Confidence: 0.38
+Processing Time: 50.35ms
+
+2025-02-18 16:56:34,135 - INFO - Detector: word_list
+Text: category cama mesa banho product id 7d761cef314675473eda87ecc3b7e751 review adorei tapete felpudo co...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 16:56:34,136 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 7d761cef314675473eda87ecc3b7e751 review adorei tapete felpudo co...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.01ms
+
+2025-02-18 16:56:34,138 - INFO - Detector: google_api
+Text: category cama mesa banho product id 7d761cef314675473eda87ecc3b7e751 review adorei tapete felpudo co...
+Language: pt
+Confidence: 0.90
+Processing Time: 51.70ms
+
+2025-02-18 16:56:34,206 - INFO - Detector: word_list
+Text: category perfumaria product id 46e4940f28c9231a801873e62ca55c53 review produto chegou sem nenhum pro...
+Language: pt
+Confidence: 0.67
+Processing Time: 0.04ms
+
+2025-02-18 16:56:34,208 - INFO - Detector: deepseek
+Text: category perfumaria product id 46e4940f28c9231a801873e62ca55c53 review produto chegou sem nenhum pro...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.39ms
+
+2025-02-18 16:56:34,209 - INFO - Detector: google_api
+Text: category perfumaria product id 46e4940f28c9231a801873e62ca55c53 review produto chegou sem nenhum pro...
+Language: pt
+Confidence: 0.87
+Processing Time: 53.70ms
+
+2025-02-18 16:56:34,270 - INFO - Detector: word_list
+Text: category beleza saude product id d761571f5524f788ce8a5797c4cd732f review se voc entregam onde eu mor...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:34,271 - INFO - Detector: deepseek
+Text: category beleza saude product id d761571f5524f788ce8a5797c4cd732f review se voc entregam onde eu mor...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.31ms
+
+2025-02-18 16:56:34,273 - INFO - Detector: google_api
+Text: category beleza saude product id d761571f5524f788ce8a5797c4cd732f review se voc entregam onde eu mor...
+Language: pt
+Confidence: 1.00
+Processing Time: 48.45ms
+
+2025-02-18 16:56:34,340 - INFO - Detector: word_list
+Text: category esporte lazer product id ead72457c58dcea14f94c2223c684716 review ainda estou aguardando uma...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:34,341 - INFO - Detector: deepseek
+Text: category esporte lazer product id ead72457c58dcea14f94c2223c684716 review ainda estou aguardando uma...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.13ms
+
+2025-02-18 16:56:34,343 - INFO - Detector: google_api
+Text: category esporte lazer product id ead72457c58dcea14f94c2223c684716 review ainda estou aguardando uma...
+Language: pt
+Confidence: 0.97
+Processing Time: 54.04ms
+
+2025-02-18 16:56:34,407 - INFO - Detector: word_list
+Text: category utilidades domesticas product id a9dad2ea6b0cb39733febae5b7ec1dda...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:34,409 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id a9dad2ea6b0cb39733febae5b7ec1dda...
+Language: unknown
+Confidence: 0.93
+Processing Time: 10.76ms
+
+2025-02-18 16:56:34,411 - INFO - Detector: google_api
+Text: category utilidades domesticas product id a9dad2ea6b0cb39733febae5b7ec1dda...
+Language: unknown
+Confidence: 0.54
+Processing Time: 51.89ms
+
+2025-02-18 16:56:34,472 - INFO - Detector: word_list
+Text: category moveis decoracao product id 79792fabf714677e94472c3ce5e719a5...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:34,474 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 79792fabf714677e94472c3ce5e719a5...
+Language: unknown
+Confidence: 0.81
+Processing Time: 10.95ms
+
+2025-02-18 16:56:34,476 - INFO - Detector: google_api
+Text: category moveis decoracao product id 79792fabf714677e94472c3ce5e719a5...
+Language: en
+Confidence: 0.50
+Processing Time: 48.52ms
+
+2025-02-18 16:56:34,537 - INFO - Detector: word_list
+Text: category informatica acessorios product id c519f4684e315ead8f279de375f4aa61...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:34,539 - INFO - Detector: deepseek
+Text: category informatica acessorios product id c519f4684e315ead8f279de375f4aa61...
+Language: pt
+Confidence: 0.70
+Processing Time: 10.92ms
+
+2025-02-18 16:56:34,540 - INFO - Detector: google_api
+Text: category informatica acessorios product id c519f4684e315ead8f279de375f4aa61...
+Language: en
+Confidence: 0.56
+Processing Time: 48.32ms
+
+2025-02-18 16:56:34,600 - INFO - Detector: word_list
+Text: category cama mesa banho product id 7ad1208884270048a2176ff437f49a9b...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 16:56:34,601 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 7ad1208884270048a2176ff437f49a9b...
+Language: pt
+Confidence: 0.93
+Processing Time: 10.25ms
+
+2025-02-18 16:56:34,603 - INFO - Detector: google_api
+Text: category cama mesa banho product id 7ad1208884270048a2176ff437f49a9b...
+Language: en
+Confidence: 0.41
+Processing Time: 47.80ms
+
+2025-02-18 16:56:34,666 - INFO - Detector: word_list
+Text: category papelaria product id ea5708a5c7124ed181b770fe811ec775...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:34,667 - INFO - Detector: deepseek
+Text: category papelaria product id ea5708a5c7124ed181b770fe811ec775...
+Language: unknown
+Confidence: 0.47
+Processing Time: 10.21ms
+
+2025-02-18 16:56:34,669 - INFO - Detector: google_api
+Text: category papelaria product id ea5708a5c7124ed181b770fe811ec775...
+Language: en
+Confidence: 0.87
+Processing Time: 50.32ms
+
+2025-02-18 16:56:34,736 - INFO - Detector: word_list
+Text: category beleza saude product id c8e3b23381d275296ec611061b616789...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 16:56:34,737 - INFO - Detector: deepseek
+Text: category beleza saude product id c8e3b23381d275296ec611061b616789...
+Language: pt
+Confidence: 0.95
+Processing Time: 10.71ms
+
+2025-02-18 16:56:34,739 - INFO - Detector: google_api
+Text: category beleza saude product id c8e3b23381d275296ec611061b616789...
+Language: en
+Confidence: 0.79
+Processing Time: 53.68ms
+
+2025-02-18 16:56:34,801 - INFO - Detector: word_list
+Text: category informatica acessorios product id 7a63b90eac4831fa1eed304ebb910716...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:34,803 - INFO - Detector: deepseek
+Text: category informatica acessorios product id 7a63b90eac4831fa1eed304ebb910716...
+Language: unknown
+Confidence: 0.46
+Processing Time: 10.67ms
+
+2025-02-18 16:56:34,805 - INFO - Detector: google_api
+Text: category informatica acessorios product id 7a63b90eac4831fa1eed304ebb910716...
+Language: en
+Confidence: 0.70
+Processing Time: 49.52ms
+
+2025-02-18 16:56:34,870 - INFO - Detector: word_list
+Text: category brinquedos product id 96cc6d39d2114a36f318d641c3cae43d review produto chegou antes do prazo...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.06ms
+
+2025-02-18 16:56:34,871 - INFO - Detector: deepseek
+Text: category brinquedos product id 96cc6d39d2114a36f318d641c3cae43d review produto chegou antes do prazo...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.86ms
+
+2025-02-18 16:56:34,873 - INFO - Detector: google_api
+Text: category brinquedos product id 96cc6d39d2114a36f318d641c3cae43d review produto chegou antes do prazo...
+Language: pt
+Confidence: 0.97
+Processing Time: 51.43ms
+
+2025-02-18 16:56:34,943 - INFO - Detector: word_list
+Text: category consoles games product id f5068d43799fc3243cf62b290d885d3e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:34,945 - INFO - Detector: deepseek
+Text: category consoles games product id f5068d43799fc3243cf62b290d885d3e...
+Language: en
+Confidence: 0.65
+Processing Time: 14.68ms
+
+2025-02-18 16:56:34,946 - INFO - Detector: google_api
+Text: category consoles games product id f5068d43799fc3243cf62b290d885d3e...
+Language: en
+Confidence: 1.00
+Processing Time: 53.11ms
+
+2025-02-18 16:56:35,011 - INFO - Detector: word_list
+Text: category ferramentas jardim product id d5de9e83335830f4597d314e63845eb3 review bom atendimento previ...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 16:56:35,013 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id d5de9e83335830f4597d314e63845eb3 review bom atendimento previ...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.16ms
+
+2025-02-18 16:56:35,015 - INFO - Detector: google_api
+Text: category ferramentas jardim product id d5de9e83335830f4597d314e63845eb3 review bom atendimento previ...
+Language: pt
+Confidence: 0.91
+Processing Time: 49.26ms
+
+2025-02-18 16:56:35,091 - INFO - Detector: word_list
+Text: category beleza saude product id 819cc553cef53e5f33e1e74ef5133409 review muito bom bem antes do praz...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.05ms
+
+2025-02-18 16:56:35,093 - INFO - Detector: deepseek
+Text: category beleza saude product id 819cc553cef53e5f33e1e74ef5133409 review muito bom bem antes do praz...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.79ms
+
+2025-02-18 16:56:35,095 - INFO - Detector: google_api
+Text: category beleza saude product id 819cc553cef53e5f33e1e74ef5133409 review muito bom bem antes do praz...
+Language: pt
+Confidence: 1.00
+Processing Time: 62.34ms
+
+2025-02-18 16:56:35,165 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id 60567eaf5cdf794639e94508ec387a82 review material entre...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 16:56:35,167 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id 60567eaf5cdf794639e94508ec387a82 review material entre...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.34ms
+
+2025-02-18 16:56:35,168 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id 60567eaf5cdf794639e94508ec387a82 review material entre...
+Language: pt
+Confidence: 0.95
+Processing Time: 56.32ms
+
+2025-02-18 16:56:35,236 - INFO - Detector: word_list
+Text: category informatica acessorios product id 7b0f65d848af0681e064d72f0d44e862 review cabo de excelente...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:35,238 - INFO - Detector: deepseek
+Text: category informatica acessorios product id 7b0f65d848af0681e064d72f0d44e862 review cabo de excelente...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.22ms
+
+2025-02-18 16:56:35,240 - INFO - Detector: google_api
+Text: category informatica acessorios product id 7b0f65d848af0681e064d72f0d44e862 review cabo de excelente...
+Language: pt
+Confidence: 0.75
+Processing Time: 54.29ms
+
+2025-02-18 16:56:35,305 - INFO - Detector: word_list
+Text: category automotivo product id e5e0c45564bc74a85e8e51968fdefa8d...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:35,307 - INFO - Detector: deepseek
+Text: category automotivo product id e5e0c45564bc74a85e8e51968fdefa8d...
+Language: unknown
+Confidence: 0.69
+Processing Time: 12.05ms
+
+2025-02-18 16:56:35,308 - INFO - Detector: google_api
+Text: category automotivo product id e5e0c45564bc74a85e8e51968fdefa8d...
+Language: en
+Confidence: 0.70
+Processing Time: 51.14ms
+
+2025-02-18 16:56:35,370 - INFO - Detector: word_list
+Text: category moveis decoracao product id 0df2a7a1ee25a81b032358dbb083319b review ainda estou aguardando ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,372 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 0df2a7a1ee25a81b032358dbb083319b review ainda estou aguardando ...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.66ms
+
+2025-02-18 16:56:35,374 - INFO - Detector: google_api
+Text: category moveis decoracao product id 0df2a7a1ee25a81b032358dbb083319b review ainda estou aguardando ...
+Language: pt
+Confidence: 0.90
+Processing Time: 48.74ms
+
+2025-02-18 16:56:35,438 - INFO - Detector: word_list
+Text: category consoles games product id 41587317a0dfddc726a29e86b9527f48...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,440 - INFO - Detector: deepseek
+Text: category consoles games product id 41587317a0dfddc726a29e86b9527f48...
+Language: en
+Confidence: 0.27
+Processing Time: 11.46ms
+
+2025-02-18 16:56:35,442 - INFO - Detector: google_api
+Text: category consoles games product id 41587317a0dfddc726a29e86b9527f48...
+Language: en
+Confidence: 1.00
+Processing Time: 50.23ms
+
+2025-02-18 16:56:35,510 - INFO - Detector: word_list
+Text: category cama mesa banho product id b00cef861f6f633cc9eded86aedd8f3a...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,512 - INFO - Detector: deepseek
+Text: category cama mesa banho product id b00cef861f6f633cc9eded86aedd8f3a...
+Language: unknown
+Confidence: 0.58
+Processing Time: 11.25ms
+
+2025-02-18 16:56:35,513 - INFO - Detector: google_api
+Text: category cama mesa banho product id b00cef861f6f633cc9eded86aedd8f3a...
+Language: pt
+Confidence: 0.54
+Processing Time: 54.79ms
+
+2025-02-18 16:56:35,578 - INFO - Detector: word_list
+Text: category utilidades domesticas product id bf4aa8e63457632377b86424e38fb071 review produto top pra qu...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 16:56:35,579 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id bf4aa8e63457632377b86424e38fb071 review produto top pra qu...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.85ms
+
+2025-02-18 16:56:35,581 - INFO - Detector: google_api
+Text: category utilidades domesticas product id bf4aa8e63457632377b86424e38fb071 review produto top pra qu...
+Language: pt
+Confidence: 0.97
+Processing Time: 50.82ms
+
+2025-02-18 16:56:35,647 - INFO - Detector: word_list
+Text: category esporte lazer product id 1522a5bd5aab30ceb119c8fb8ec5a8f0...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,649 - INFO - Detector: deepseek
+Text: category esporte lazer product id 1522a5bd5aab30ceb119c8fb8ec5a8f0...
+Language: unknown
+Confidence: 0.73
+Processing Time: 10.15ms
+
+2025-02-18 16:56:35,651 - INFO - Detector: google_api
+Text: category esporte lazer product id 1522a5bd5aab30ceb119c8fb8ec5a8f0...
+Language: pt
+Confidence: 0.52
+Processing Time: 52.98ms
+
+2025-02-18 16:56:35,716 - INFO - Detector: word_list
+Text: category instrumentos musicais product id 24d746a5965b583493871d11f75b1068 review comprei duas unida...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.07ms
+
+2025-02-18 16:56:35,717 - INFO - Detector: deepseek
+Text: category instrumentos musicais product id 24d746a5965b583493871d11f75b1068 review comprei duas unida...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.56ms
+
+2025-02-18 16:56:35,719 - INFO - Detector: google_api
+Text: category instrumentos musicais product id 24d746a5965b583493871d11f75b1068 review comprei duas unida...
+Language: pt
+Confidence: 0.92
+Processing Time: 49.23ms
+
+2025-02-18 16:56:35,794 - INFO - Detector: word_list
+Text: category informatica acessorios product id 68bec1af3851f58027db8beadf3914d7...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,795 - INFO - Detector: deepseek
+Text: category informatica acessorios product id 68bec1af3851f58027db8beadf3914d7...
+Language: pt
+Confidence: 0.44
+Processing Time: 10.68ms
+
+2025-02-18 16:56:35,796 - INFO - Detector: google_api
+Text: category informatica acessorios product id 68bec1af3851f58027db8beadf3914d7...
+Language: en
+Confidence: 0.59
+Processing Time: 61.89ms
+
+2025-02-18 16:56:35,858 - INFO - Detector: word_list
+Text: category moveis decoracao product id ec5b5cce0b8464a1c618325f35c779dc review entrega bem antes do pr...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.04ms
+
+2025-02-18 16:56:35,860 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ec5b5cce0b8464a1c618325f35c779dc review entrega bem antes do pr...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.37ms
+
+2025-02-18 16:56:35,862 - INFO - Detector: google_api
+Text: category moveis decoracao product id ec5b5cce0b8464a1c618325f35c779dc review entrega bem antes do pr...
+Language: pt
+Confidence: 0.92
+Processing Time: 49.24ms
+
+2025-02-18 16:56:35,924 - INFO - Detector: word_list
+Text: category casa conforto product id 6bc53d46b55a38602aad862a37153ea6...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:35,926 - INFO - Detector: deepseek
+Text: category casa conforto product id 6bc53d46b55a38602aad862a37153ea6...
+Language: unknown
+Confidence: 0.58
+Processing Time: 11.25ms
+
+2025-02-18 16:56:35,928 - INFO - Detector: google_api
+Text: category casa conforto product id 6bc53d46b55a38602aad862a37153ea6...
+Language: en
+Confidence: 0.76
+Processing Time: 48.97ms
+
+2025-02-18 16:56:36,000 - INFO - Detector: word_list
+Text: category moveis decoracao product id 184f6e7e403fe477af4b1a02b9d432e4 review fiquei muito feliz cm p...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:36,002 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 184f6e7e403fe477af4b1a02b9d432e4 review fiquei muito feliz cm p...
+Language: pt
+Confidence: 0.99
+Processing Time: 16.72ms
+
+2025-02-18 16:56:36,004 - INFO - Detector: google_api
+Text: category moveis decoracao product id 184f6e7e403fe477af4b1a02b9d432e4 review fiquei muito feliz cm p...
+Language: pt
+Confidence: 0.87
+Processing Time: 53.52ms
+
+2025-02-18 16:56:36,069 - INFO - Detector: word_list
+Text: category malas acessorios product id 1272db6c9d16e3c3b9878c3462a0f369...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,070 - INFO - Detector: deepseek
+Text: category malas acessorios product id 1272db6c9d16e3c3b9878c3462a0f369...
+Language: unknown
+Confidence: 0.92
+Processing Time: 11.11ms
+
+2025-02-18 16:56:36,072 - INFO - Detector: google_api
+Text: category malas acessorios product id 1272db6c9d16e3c3b9878c3462a0f369...
+Language: en
+Confidence: 0.77
+Processing Time: 51.20ms
+
+2025-02-18 16:56:36,138 - INFO - Detector: word_list
+Text: category telefonia product id f40ef461e35cca158e568c17293fb5be...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,139 - INFO - Detector: deepseek
+Text: category telefonia product id f40ef461e35cca158e568c17293fb5be...
+Language: unknown
+Confidence: 0.59
+Processing Time: 13.53ms
+
+2025-02-18 16:56:36,141 - INFO - Detector: google_api
+Text: category telefonia product id f40ef461e35cca158e568c17293fb5be...
+Language: en
+Confidence: 0.80
+Processing Time: 50.57ms
+
+2025-02-18 16:56:36,203 - INFO - Detector: word_list
+Text: category moveis decoracao product id 92473ca06aa61791e4dc02c9af82bf83 review obrigado...
+Language: pt
+Confidence: 0.90
+Processing Time: 0.03ms
+
+2025-02-18 16:56:36,204 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 92473ca06aa61791e4dc02c9af82bf83 review obrigado...
+Language: pt
+Confidence: 0.93
+Processing Time: 9.97ms
+
+2025-02-18 16:56:36,206 - INFO - Detector: google_api
+Text: category moveis decoracao product id 92473ca06aa61791e4dc02c9af82bf83 review obrigado...
+Language: pt
+Confidence: 0.76
+Processing Time: 48.79ms
+
+2025-02-18 16:56:36,281 - INFO - Detector: word_list
+Text: category telefonia product id b8be700cb8f91067761b685ac5d1664f review produto foi entregue conforme ...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,282 - INFO - Detector: deepseek
+Text: category telefonia product id b8be700cb8f91067761b685ac5d1664f review produto foi entregue conforme ...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.78ms
+
+2025-02-18 16:56:36,284 - INFO - Detector: google_api
+Text: category telefonia product id b8be700cb8f91067761b685ac5d1664f review produto foi entregue conforme ...
+Language: pt
+Confidence: 0.93
+Processing Time: 60.86ms
+
+2025-02-18 16:56:36,351 - INFO - Detector: word_list
+Text: category moveis sala product id e27c4dd075a521097a085bced0631ce7 review sempre comprei nas lannister...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 16:56:36,352 - INFO - Detector: deepseek
+Text: category moveis sala product id e27c4dd075a521097a085bced0631ce7 review sempre comprei nas lannister...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.86ms
+
+2025-02-18 16:56:36,355 - INFO - Detector: google_api
+Text: category moveis sala product id e27c4dd075a521097a085bced0631ce7 review sempre comprei nas lannister...
+Language: pt
+Confidence: 0.97
+Processing Time: 53.49ms
+
+2025-02-18 16:56:36,418 - INFO - Detector: word_list
+Text: category utilidades domesticas product id bf59082c832c1a67b92ee5ca73971f4e review otima...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,420 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id bf59082c832c1a67b92ee5ca73971f4e review otima...
+Language: unknown
+Confidence: 0.55
+Processing Time: 12.38ms
+
+2025-02-18 16:56:36,421 - INFO - Detector: google_api
+Text: category utilidades domesticas product id bf59082c832c1a67b92ee5ca73971f4e review otima...
+Language: en
+Confidence: 0.34
+Processing Time: 48.80ms
+
+2025-02-18 16:56:36,487 - INFO - Detector: word_list
+Text: category pet shop product id 36876fa11e21f66fcbe91abde34210c5...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,489 - INFO - Detector: deepseek
+Text: category pet shop product id 36876fa11e21f66fcbe91abde34210c5...
+Language: en
+Confidence: 0.28
+Processing Time: 11.61ms
+
+2025-02-18 16:56:36,491 - INFO - Detector: google_api
+Text: category pet shop product id 36876fa11e21f66fcbe91abde34210c5...
+Language: en
+Confidence: 1.00
+Processing Time: 52.18ms
+
+2025-02-18 16:56:36,558 - INFO - Detector: word_list
+Text: category utilidades domesticas product id b776dbd8d7dfb18b7422dd99b1f1ba03...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,560 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id b776dbd8d7dfb18b7422dd99b1f1ba03...
+Language: unknown
+Confidence: 0.27
+Processing Time: 11.40ms
+
+2025-02-18 16:56:36,561 - INFO - Detector: google_api
+Text: category utilidades domesticas product id b776dbd8d7dfb18b7422dd99b1f1ba03...
+Language: en
+Confidence: 0.41
+Processing Time: 53.22ms
+
+2025-02-18 16:56:36,638 - INFO - Detector: word_list
+Text: category moveis decoracao product id 07797d4315ce5c1570e0a484472e04b5 review impress do quadro ssima...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 16:56:36,639 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 07797d4315ce5c1570e0a484472e04b5 review impress do quadro ssima...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.00ms
+
+2025-02-18 16:56:36,642 - INFO - Detector: google_api
+Text: category moveis decoracao product id 07797d4315ce5c1570e0a484472e04b5 review impress do quadro ssima...
+Language: pt
+Confidence: 0.94
+Processing Time: 60.87ms
+
+2025-02-18 16:56:36,703 - INFO - Detector: word_list
+Text: category eletroportateis product id a4feaaaf220690fe86cad96217774d0e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:36,705 - INFO - Detector: deepseek
+Text: category eletroportateis product id a4feaaaf220690fe86cad96217774d0e...
+Language: unknown
+Confidence: 0.40
+Processing Time: 11.37ms
+
+2025-02-18 16:56:36,707 - INFO - Detector: google_api
+Text: category eletroportateis product id a4feaaaf220690fe86cad96217774d0e...
+Language: en
+Confidence: 0.89
+Processing Time: 47.91ms
+
+2025-02-18 16:56:36,780 - INFO - Detector: word_list
+Text: category moveis decoracao product id 32224b437cefd35300f4adeff01db8f4 review papel lindo chegou bem ...
+Language: pt
+Confidence: 0.72
+Processing Time: 0.04ms
+
+2025-02-18 16:56:36,781 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 32224b437cefd35300f4adeff01db8f4 review papel lindo chegou bem ...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.34ms
+
+2025-02-18 16:56:36,782 - INFO - Detector: google_api
+Text: category moveis decoracao product id 32224b437cefd35300f4adeff01db8f4 review papel lindo chegou bem ...
+Language: pt
+Confidence: 1.00
+Processing Time: 57.94ms
+
+2025-02-18 16:56:36,845 - INFO - Detector: word_list
+Text: category eletroportateis product id 529deff9c151e0db37c88a43952868bb review dou parab ns para entreg...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.04ms
+
+2025-02-18 16:56:36,846 - INFO - Detector: deepseek
+Text: category eletroportateis product id 529deff9c151e0db37c88a43952868bb review dou parab ns para entreg...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.58ms
+
+2025-02-18 16:56:36,848 - INFO - Detector: google_api
+Text: category eletroportateis product id 529deff9c151e0db37c88a43952868bb review dou parab ns para entreg...
+Language: pt
+Confidence: 0.96
+Processing Time: 49.61ms
+
+2025-02-18 16:56:36,911 - INFO - Detector: word_list
+Text: category informatica acessorios product id 3e442d09f9dfef002aadf31960869f65 review produto timo cheg...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.05ms
+
+2025-02-18 16:56:36,912 - INFO - Detector: deepseek
+Text: category informatica acessorios product id 3e442d09f9dfef002aadf31960869f65 review produto timo cheg...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.18ms
+
+2025-02-18 16:56:36,914 - INFO - Detector: google_api
+Text: category informatica acessorios product id 3e442d09f9dfef002aadf31960869f65 review produto timo cheg...
+Language: pt
+Confidence: 0.96
+Processing Time: 49.59ms
+
+2025-02-18 16:56:36,975 - INFO - Detector: word_list
+Text: category utilidades domesticas product id 4039be757013ccb66cb41d683261dece review muito bom como sem...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:36,976 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id 4039be757013ccb66cb41d683261dece review muito bom como sem...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.48ms
+
+2025-02-18 16:56:36,978 - INFO - Detector: google_api
+Text: category utilidades domesticas product id 4039be757013ccb66cb41d683261dece review muito bom como sem...
+Language: pt
+Confidence: 0.66
+Processing Time: 49.52ms
+
+2025-02-18 16:56:37,040 - INFO - Detector: word_list
+Text: category pet shop product id d540d228abea2bb0713acb40e4f3d341 review chegou bem antes da data previs...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,041 - INFO - Detector: deepseek
+Text: category pet shop product id d540d228abea2bb0713acb40e4f3d341 review chegou bem antes da data previs...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.67ms
+
+2025-02-18 16:56:37,043 - INFO - Detector: google_api
+Text: category pet shop product id d540d228abea2bb0713acb40e4f3d341 review chegou bem antes da data previs...
+Language: pt
+Confidence: 0.88
+Processing Time: 48.40ms
+
+2025-02-18 16:56:37,107 - INFO - Detector: word_list
+Text: category bebes product id 1c63d0a4d75df524d4605a43285925d7 review alem de ter recebido dentro do pra...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.04ms
+
+2025-02-18 16:56:37,109 - INFO - Detector: deepseek
+Text: category bebes product id 1c63d0a4d75df524d4605a43285925d7 review alem de ter recebido dentro do pra...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.27ms
+
+2025-02-18 16:56:37,111 - INFO - Detector: google_api
+Text: category bebes product id 1c63d0a4d75df524d4605a43285925d7 review alem de ter recebido dentro do pra...
+Language: pt
+Confidence: 0.64
+Processing Time: 49.15ms
+
+2025-02-18 16:56:37,178 - INFO - Detector: word_list
+Text: category beleza saude product id 5e094b8daf1ba2eb4d6c0cc6ac2ad51e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,179 - INFO - Detector: deepseek
+Text: category beleza saude product id 5e094b8daf1ba2eb4d6c0cc6ac2ad51e...
+Language: pt
+Confidence: 0.74
+Processing Time: 11.14ms
+
+2025-02-18 16:56:37,181 - INFO - Detector: google_api
+Text: category beleza saude product id 5e094b8daf1ba2eb4d6c0cc6ac2ad51e...
+Language: en
+Confidence: 0.89
+Processing Time: 53.66ms
+
+2025-02-18 16:56:37,243 - INFO - Detector: word_list
+Text: category brinquedos product id 4aca38e787c979a6106440c7a63036b4 review recomendo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,244 - INFO - Detector: deepseek
+Text: category brinquedos product id 4aca38e787c979a6106440c7a63036b4 review recomendo...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.50ms
+
+2025-02-18 16:56:37,246 - INFO - Detector: google_api
+Text: category brinquedos product id 4aca38e787c979a6106440c7a63036b4 review recomendo...
+Language: en
+Confidence: 0.93
+Processing Time: 48.38ms
+
+2025-02-18 16:56:37,309 - INFO - Detector: word_list
+Text: category moveis decoracao product id ab9456d1c4cb5ef44bdecc0aa8021f39...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:37,310 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ab9456d1c4cb5ef44bdecc0aa8021f39...
+Language: unknown
+Confidence: 0.80
+Processing Time: 10.52ms
+
+2025-02-18 16:56:37,312 - INFO - Detector: google_api
+Text: category moveis decoracao product id ab9456d1c4cb5ef44bdecc0aa8021f39...
+Language: pt
+Confidence: 0.79
+Processing Time: 50.49ms
+
+2025-02-18 16:56:37,376 - INFO - Detector: word_list
+Text: category ferramentas jardim product id 21733435c91b1a39455537eeacd3c467...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,377 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id 21733435c91b1a39455537eeacd3c467...
+Language: pt
+Confidence: 0.55
+Processing Time: 10.55ms
+
+2025-02-18 16:56:37,379 - INFO - Detector: google_api
+Text: category ferramentas jardim product id 21733435c91b1a39455537eeacd3c467...
+Language: pt
+Confidence: 0.49
+Processing Time: 51.05ms
+
+2025-02-18 16:56:37,449 - INFO - Detector: word_list
+Text: category cama mesa banho product id a5502e9954017124d95f7bce4c89d339 review satisfeita...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,451 - INFO - Detector: deepseek
+Text: category cama mesa banho product id a5502e9954017124d95f7bce4c89d339 review satisfeita...
+Language: pt
+Confidence: 0.94
+Processing Time: 13.00ms
+
+2025-02-18 16:56:37,453 - INFO - Detector: google_api
+Text: category cama mesa banho product id a5502e9954017124d95f7bce4c89d339 review satisfeita...
+Language: pt
+Confidence: 0.86
+Processing Time: 55.49ms
+
+2025-02-18 16:56:37,521 - INFO - Detector: word_list
+Text: category esporte lazer product id 7b8603501af310bf297351a4cc8cd3a5 review site bom para comprar cheg...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 16:56:37,522 - INFO - Detector: deepseek
+Text: category esporte lazer product id 7b8603501af310bf297351a4cc8cd3a5 review site bom para comprar cheg...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.81ms
+
+2025-02-18 16:56:37,524 - INFO - Detector: google_api
+Text: category esporte lazer product id 7b8603501af310bf297351a4cc8cd3a5 review site bom para comprar cheg...
+Language: pt
+Confidence: 1.00
+Processing Time: 55.36ms
+
+2025-02-18 16:56:37,593 - INFO - Detector: word_list
+Text: category automotivo product id 70aa499facb0946dc40ff974166fd522 review recebi produto errado produto...
+Language: pt
+Confidence: 0.72
+Processing Time: 0.04ms
+
+2025-02-18 16:56:37,594 - INFO - Detector: deepseek
+Text: category automotivo product id 70aa499facb0946dc40ff974166fd522 review recebi produto errado produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.21ms
+
+2025-02-18 16:56:37,596 - INFO - Detector: google_api
+Text: category automotivo product id 70aa499facb0946dc40ff974166fd522 review recebi produto errado produto...
+Language: pt
+Confidence: 0.96
+Processing Time: 56.75ms
+
+2025-02-18 16:56:37,659 - INFO - Detector: word_list
+Text: category moveis decoracao product id c4b5776ae19c3e9ee28323b38d41c72f...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,660 - INFO - Detector: deepseek
+Text: category moveis decoracao product id c4b5776ae19c3e9ee28323b38d41c72f...
+Language: unknown
+Confidence: 0.97
+Processing Time: 9.81ms
+
+2025-02-18 16:56:37,662 - INFO - Detector: google_api
+Text: category moveis decoracao product id c4b5776ae19c3e9ee28323b38d41c72f...
+Language: pt
+Confidence: 0.52
+Processing Time: 50.65ms
+
+2025-02-18 16:56:37,723 - INFO - Detector: word_list
+Text: category instrumentos musicais product id ef9f731f8f63f85ea53e94df375baf54 review produto entregue e...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.05ms
+
+2025-02-18 16:56:37,724 - INFO - Detector: deepseek
+Text: category instrumentos musicais product id ef9f731f8f63f85ea53e94df375baf54 review produto entregue e...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.13ms
+
+2025-02-18 16:56:37,726 - INFO - Detector: google_api
+Text: category instrumentos musicais product id ef9f731f8f63f85ea53e94df375baf54 review produto entregue e...
+Language: pt
+Confidence: 0.97
+Processing Time: 48.04ms
+
+2025-02-18 16:56:37,786 - INFO - Detector: word_list
+Text: category informatica acessorios product id b0fd7a18daa40299b5393b4280b55dad review recebi produto ai...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:37,788 - INFO - Detector: deepseek
+Text: category informatica acessorios product id b0fd7a18daa40299b5393b4280b55dad review recebi produto ai...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.39ms
+
+2025-02-18 16:56:37,789 - INFO - Detector: google_api
+Text: category informatica acessorios product id b0fd7a18daa40299b5393b4280b55dad review recebi produto ai...
+Language: pt
+Confidence: 0.94
+Processing Time: 48.65ms
+
+2025-02-18 16:56:37,850 - INFO - Detector: word_list
+Text: category utilidades domesticas product id aa8dbe0ebad6906e9253479e1027185e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:37,851 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id aa8dbe0ebad6906e9253479e1027185e...
+Language: unknown
+Confidence: 0.82
+Processing Time: 9.59ms
+
+2025-02-18 16:56:37,853 - INFO - Detector: google_api
+Text: category utilidades domesticas product id aa8dbe0ebad6906e9253479e1027185e...
+Language: unknown
+Confidence: 0.48
+Processing Time: 48.71ms
+
+2025-02-18 16:56:37,915 - INFO - Detector: word_list
+Text: category brinquedos product id d517de1f2a8247cc1ea2951c4039ae20 review adorei...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:37,917 - INFO - Detector: deepseek
+Text: category brinquedos product id d517de1f2a8247cc1ea2951c4039ae20 review adorei...
+Language: pt
+Confidence: 0.97
+Processing Time: 10.42ms
+
+2025-02-18 16:56:37,919 - INFO - Detector: google_api
+Text: category brinquedos product id d517de1f2a8247cc1ea2951c4039ae20 review adorei...
+Language: pt
+Confidence: 0.52
+Processing Time: 49.06ms
+
+2025-02-18 16:56:37,981 - INFO - Detector: word_list
+Text: category moveis decoracao product id 84d0969ab5317ca361e0a628948a4624 review excelente...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:37,982 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 84d0969ab5317ca361e0a628948a4624 review excelente...
+Language: unknown
+Confidence: 0.80
+Processing Time: 11.07ms
+
+2025-02-18 16:56:37,985 - INFO - Detector: google_api
+Text: category moveis decoracao product id 84d0969ab5317ca361e0a628948a4624 review excelente...
+Language: pt
+Confidence: 0.75
+Processing Time: 49.18ms
+
+2025-02-18 16:56:38,051 - INFO - Detector: word_list
+Text: category cama mesa banho product id b7605b5b483063d12bd90a772bff9d21 review xxx foi muito bom compra...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.07ms
+
+2025-02-18 16:56:38,052 - INFO - Detector: deepseek
+Text: category cama mesa banho product id b7605b5b483063d12bd90a772bff9d21 review xxx foi muito bom compra...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.90ms
+
+2025-02-18 16:56:38,054 - INFO - Detector: google_api
+Text: category cama mesa banho product id b7605b5b483063d12bd90a772bff9d21 review xxx foi muito bom compra...
+Language: pt
+Confidence: 0.69
+Processing Time: 51.97ms
+
+2025-02-18 16:56:38,121 - INFO - Detector: word_list
+Text: category utilidades domesticas product id 70c6bcc1ade2c8284d07bddfe37dcfee review olha gostei muito ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:38,122 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id 70c6bcc1ade2c8284d07bddfe37dcfee review olha gostei muito ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.39ms
+
+2025-02-18 16:56:38,124 - INFO - Detector: google_api
+Text: category utilidades domesticas product id 70c6bcc1ade2c8284d07bddfe37dcfee review olha gostei muito ...
+Language: unknown
+Confidence: 0.72
+Processing Time: 52.46ms
+
+2025-02-18 16:56:38,189 - INFO - Detector: word_list
+Text: category cama mesa banho product id b42c05a477c94b52587fa47d777928df review gostei efetuei compra pa...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.05ms
+
+2025-02-18 16:56:38,191 - INFO - Detector: deepseek
+Text: category cama mesa banho product id b42c05a477c94b52587fa47d777928df review gostei efetuei compra pa...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.31ms
+
+2025-02-18 16:56:38,193 - INFO - Detector: google_api
+Text: category cama mesa banho product id b42c05a477c94b52587fa47d777928df review gostei efetuei compra pa...
+Language: pt
+Confidence: 0.98
+Processing Time: 49.48ms
+
+2025-02-18 16:56:38,255 - INFO - Detector: word_list
+Text: category market place product id de6517dda8e49774f58c07f80abc8d7a review produto entregue dentro do ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:38,256 - INFO - Detector: deepseek
+Text: category market place product id de6517dda8e49774f58c07f80abc8d7a review produto entregue dentro do ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.54ms
+
+2025-02-18 16:56:38,259 - INFO - Detector: google_api
+Text: category market place product id de6517dda8e49774f58c07f80abc8d7a review produto entregue dentro do ...
+Language: unknown
+Confidence: 0.64
+Processing Time: 49.16ms
+
+2025-02-18 16:56:38,321 - INFO - Detector: word_list
+Text: category telefonia product id b1035b3d307f0aeb6157fdd3e09f8119 review recebi produto mais veio errad...
+Language: pt
+Confidence: 0.65
+Processing Time: 0.03ms
+
+2025-02-18 16:56:38,323 - INFO - Detector: deepseek
+Text: category telefonia product id b1035b3d307f0aeb6157fdd3e09f8119 review recebi produto mais veio errad...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.27ms
+
+2025-02-18 16:56:38,325 - INFO - Detector: google_api
+Text: category telefonia product id b1035b3d307f0aeb6157fdd3e09f8119 review recebi produto mais veio errad...
+Language: pt
+Confidence: 1.00
+Processing Time: 47.80ms
+
+2025-02-18 16:56:38,388 - INFO - Detector: word_list
+Text: category nan product id de6702c748c719cbd13bb814f006ba22 review muito bom compara muito bonito pre r...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:38,389 - INFO - Detector: deepseek
+Text: category nan product id de6702c748c719cbd13bb814f006ba22 review muito bom compara muito bonito pre r...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.92ms
+
+2025-02-18 16:56:38,391 - INFO - Detector: google_api
+Text: category nan product id de6702c748c719cbd13bb814f006ba22 review muito bom compara muito bonito pre r...
+Language: pt
+Confidence: 0.89
+Processing Time: 50.65ms
+
+2025-02-18 16:56:38,456 - INFO - Detector: word_list
+Text: category bebes product id bb7181410b4e02f93f3697f765db53c7 review prazo de entrega podia ser menor s...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.06ms
+
+2025-02-18 16:56:38,457 - INFO - Detector: deepseek
+Text: category bebes product id bb7181410b4e02f93f3697f765db53c7 review prazo de entrega podia ser menor s...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.68ms
+
+2025-02-18 16:56:38,459 - INFO - Detector: google_api
+Text: category bebes product id bb7181410b4e02f93f3697f765db53c7 review prazo de entrega podia ser menor s...
+Language: pt
+Confidence: 0.92
+Processing Time: 51.69ms
+
+2025-02-18 16:56:38,523 - INFO - Detector: word_list
+Text: category cool stuff product id b825640a6e030d36a45c34eed447a07a...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:38,524 - INFO - Detector: deepseek
+Text: category cool stuff product id b825640a6e030d36a45c34eed447a07a...
+Language: unknown
+Confidence: 0.58
+Processing Time: 11.10ms
+
+2025-02-18 16:56:38,526 - INFO - Detector: google_api
+Text: category cool stuff product id b825640a6e030d36a45c34eed447a07a...
+Language: en
+Confidence: 1.00
+Processing Time: 49.46ms
+
+2025-02-18 16:56:38,587 - INFO - Detector: word_list
+Text: category cool stuff product id 7f253218cda162fcc215fd4e0768b00c review legal...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:38,588 - INFO - Detector: deepseek
+Text: category cool stuff product id 7f253218cda162fcc215fd4e0768b00c review legal...
+Language: en
+Confidence: 0.37
+Processing Time: 11.29ms
+
+2025-02-18 16:56:38,590 - INFO - Detector: google_api
+Text: category cool stuff product id 7f253218cda162fcc215fd4e0768b00c review legal...
+Language: en
+Confidence: 1.00
+Processing Time: 47.75ms
+
+2025-02-18 16:56:38,652 - INFO - Detector: word_list
+Text: category consoles games product id ed5f0d58e27cf65a07283c251747936f review estou tentando entrar em ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:38,654 - INFO - Detector: deepseek
+Text: category consoles games product id ed5f0d58e27cf65a07283c251747936f review estou tentando entrar em ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.64ms
+
+2025-02-18 16:56:38,657 - INFO - Detector: google_api
+Text: category consoles games product id ed5f0d58e27cf65a07283c251747936f review estou tentando entrar em ...
+Language: pt
+Confidence: 0.93
+Processing Time: 49.02ms
+
+2025-02-18 16:56:38,721 - INFO - Detector: word_list
+Text: category cama mesa banho product id 128d1c88b601731fe8ed4044b1ae7a6a review gostei muito da minha ca...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 16:56:38,722 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 128d1c88b601731fe8ed4044b1ae7a6a review gostei muito da minha ca...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.59ms
+
+2025-02-18 16:56:38,723 - INFO - Detector: google_api
+Text: category cama mesa banho product id 128d1c88b601731fe8ed4044b1ae7a6a review gostei muito da minha ca...
+Language: pt
+Confidence: 0.90
+Processing Time: 50.74ms
+
+2025-02-18 16:56:38,784 - INFO - Detector: word_list
+Text: category esporte lazer product id 9223a3da528213e384a176a70d92130a review sou cliente ass duo das lo...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.02ms
+
+2025-02-18 16:56:38,785 - INFO - Detector: deepseek
+Text: category esporte lazer product id 9223a3da528213e384a176a70d92130a review sou cliente ass duo das lo...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.43ms
+
+2025-02-18 16:56:38,788 - INFO - Detector: google_api
+Text: category esporte lazer product id 9223a3da528213e384a176a70d92130a review sou cliente ass duo das lo...
+Language: pt
+Confidence: 0.84
+Processing Time: 47.82ms
+
+2025-02-18 16:56:38,851 - INFO - Detector: word_list
+Text: category esporte lazer product id d0f60ef2a4823f57f00f1bd5cb463148 review mto bom parab ns...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:38,852 - INFO - Detector: deepseek
+Text: category esporte lazer product id d0f60ef2a4823f57f00f1bd5cb463148 review mto bom parab ns...
+Language: unknown
+Confidence: 0.55
+Processing Time: 9.70ms
+
+2025-02-18 16:56:38,854 - INFO - Detector: google_api
+Text: category esporte lazer product id d0f60ef2a4823f57f00f1bd5cb463148 review mto bom parab ns...
+Language: en
+Confidence: 0.62
+Processing Time: 51.40ms
+
+2025-02-18 16:56:38,918 - INFO - Detector: word_list
+Text: category moveis decoracao product id ad7beed1d6b41ea967b2724468a23c92...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:38,920 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ad7beed1d6b41ea967b2724468a23c92...
+Language: unknown
+Confidence: 0.90
+Processing Time: 10.77ms
+
+2025-02-18 16:56:38,922 - INFO - Detector: google_api
+Text: category moveis decoracao product id ad7beed1d6b41ea967b2724468a23c92...
+Language: en
+Confidence: 0.49
+Processing Time: 51.38ms
+
+2025-02-18 16:56:38,987 - INFO - Detector: word_list
+Text: category ferramentas jardim product id edac4210602e69d752554780d5a913f4...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:38,988 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id edac4210602e69d752554780d5a913f4...
+Language: pt
+Confidence: 0.86
+Processing Time: 10.71ms
+
+2025-02-18 16:56:38,990 - INFO - Detector: google_api
+Text: category ferramentas jardim product id edac4210602e69d752554780d5a913f4...
+Language: pt
+Confidence: 0.53
+Processing Time: 52.57ms
+
+2025-02-18 16:56:39,056 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id 368ba390a67a37fa114450dc1f19e047 review adorei produto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,057 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id 368ba390a67a37fa114450dc1f19e047 review adorei produto...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.82ms
+
+2025-02-18 16:56:39,059 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id 368ba390a67a37fa114450dc1f19e047 review adorei produto...
+Language: pt
+Confidence: 0.84
+Processing Time: 50.07ms
+
+2025-02-18 16:56:39,127 - INFO - Detector: word_list
+Text: category perfumaria product id 6a3370dbb5bd5817ac81a5db12cb2baa...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:39,128 - INFO - Detector: deepseek
+Text: category perfumaria product id 6a3370dbb5bd5817ac81a5db12cb2baa...
+Language: unknown
+Confidence: 0.53
+Processing Time: 15.79ms
+
+2025-02-18 16:56:39,131 - INFO - Detector: google_api
+Text: category perfumaria product id 6a3370dbb5bd5817ac81a5db12cb2baa...
+Language: en
+Confidence: 0.79
+Processing Time: 49.61ms
+
+2025-02-18 16:56:39,197 - INFO - Detector: word_list
+Text: category esporte lazer product id a01d1cbb398e386a4a8f8364401a7584...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:39,198 - INFO - Detector: deepseek
+Text: category esporte lazer product id a01d1cbb398e386a4a8f8364401a7584...
+Language: unknown
+Confidence: 0.59
+Processing Time: 15.21ms
+
+2025-02-18 16:56:39,200 - INFO - Detector: google_api
+Text: category esporte lazer product id a01d1cbb398e386a4a8f8364401a7584...
+Language: en
+Confidence: 0.60
+Processing Time: 48.64ms
+
+2025-02-18 16:56:39,260 - INFO - Detector: word_list
+Text: category perfumaria product id b1d69027dcf7fec05464c24c1e197dde...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,261 - INFO - Detector: deepseek
+Text: category perfumaria product id b1d69027dcf7fec05464c24c1e197dde...
+Language: unknown
+Confidence: 0.96
+Processing Time: 10.41ms
+
+2025-02-18 16:56:39,263 - INFO - Detector: google_api
+Text: category perfumaria product id b1d69027dcf7fec05464c24c1e197dde...
+Language: en
+Confidence: 0.92
+Processing Time: 47.32ms
+
+2025-02-18 16:56:39,327 - INFO - Detector: word_list
+Text: category moveis decoracao product id 1d1d29cb3e67f3a4d7eb040b5a13d361...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,329 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 1d1d29cb3e67f3a4d7eb040b5a13d361...
+Language: unknown
+Confidence: 0.89
+Processing Time: 10.11ms
+
+2025-02-18 16:56:39,330 - INFO - Detector: google_api
+Text: category moveis decoracao product id 1d1d29cb3e67f3a4d7eb040b5a13d361...
+Language: pt
+Confidence: 0.92
+Processing Time: 51.80ms
+
+2025-02-18 16:56:39,398 - INFO - Detector: word_list
+Text: category cool stuff product id 725cbfcaff95a4d43742fdf13cf43c75 review produto foi entregue super pi...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.04ms
+
+2025-02-18 16:56:39,399 - INFO - Detector: deepseek
+Text: category cool stuff product id 725cbfcaff95a4d43742fdf13cf43c75 review produto foi entregue super pi...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.81ms
+
+2025-02-18 16:56:39,402 - INFO - Detector: google_api
+Text: category cool stuff product id 725cbfcaff95a4d43742fdf13cf43c75 review produto foi entregue super pi...
+Language: pt
+Confidence: 1.00
+Processing Time: 54.80ms
+
+2025-02-18 16:56:39,466 - INFO - Detector: word_list
+Text: category esporte lazer product id db59f0dfd5593c492b2ff1a6ab50cc2d...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 16:56:39,467 - INFO - Detector: deepseek
+Text: category esporte lazer product id db59f0dfd5593c492b2ff1a6ab50cc2d...
+Language: unknown
+Confidence: 0.36
+Processing Time: 10.36ms
+
+2025-02-18 16:56:39,469 - INFO - Detector: google_api
+Text: category esporte lazer product id db59f0dfd5593c492b2ff1a6ab50cc2d...
+Language: en
+Confidence: 0.77
+Processing Time: 51.20ms
+
+2025-02-18 16:56:39,539 - INFO - Detector: word_list
+Text: category cama mesa banho product id 5bc6f966c95b579fc0982b73007f1917...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,540 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 5bc6f966c95b579fc0982b73007f1917...
+Language: pt
+Confidence: 0.64
+Processing Time: 9.88ms
+
+2025-02-18 16:56:39,541 - INFO - Detector: google_api
+Text: category cama mesa banho product id 5bc6f966c95b579fc0982b73007f1917...
+Language: pt
+Confidence: 0.30
+Processing Time: 57.93ms
+
+2025-02-18 16:56:39,603 - INFO - Detector: word_list
+Text: category construcao ferramentas construcao product id ce7757befc6e69c9a3c2d7551ea423ce...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:39,604 - INFO - Detector: deepseek
+Text: category construcao ferramentas construcao product id ce7757befc6e69c9a3c2d7551ea423ce...
+Language: pt
+Confidence: 0.94
+Processing Time: 10.38ms
+
+2025-02-18 16:56:39,606 - INFO - Detector: google_api
+Text: category construcao ferramentas construcao product id ce7757befc6e69c9a3c2d7551ea423ce...
+Language: pt
+Confidence: 0.83
+Processing Time: 48.79ms
+
+2025-02-18 16:56:39,669 - INFO - Detector: word_list
+Text: category artes product id 48633254f8b7b802b1ca8c4f4dcf3e33 review produto de qualidade...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,670 - INFO - Detector: deepseek
+Text: category artes product id 48633254f8b7b802b1ca8c4f4dcf3e33 review produto de qualidade...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.64ms
+
+2025-02-18 16:56:39,672 - INFO - Detector: google_api
+Text: category artes product id 48633254f8b7b802b1ca8c4f4dcf3e33 review produto de qualidade...
+Language: pt
+Confidence: 0.85
+Processing Time: 51.13ms
+
+2025-02-18 16:56:39,731 - INFO - Detector: word_list
+Text: category cama mesa banho product id 6a4bdc32bf81f50cb387fd6178ce7b07 review gostei bastante do produ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,732 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 6a4bdc32bf81f50cb387fd6178ce7b07 review gostei bastante do produ...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.95ms
+
+2025-02-18 16:56:39,734 - INFO - Detector: google_api
+Text: category cama mesa banho product id 6a4bdc32bf81f50cb387fd6178ce7b07 review gostei bastante do produ...
+Language: pt
+Confidence: 0.79
+Processing Time: 47.32ms
+
+2025-02-18 16:56:39,794 - INFO - Detector: word_list
+Text: category casa construcao product id 15a581e2cae15fe40ac430f07dc6aa12...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:39,795 - INFO - Detector: deepseek
+Text: category casa construcao product id 15a581e2cae15fe40ac430f07dc6aa12...
+Language: unknown
+Confidence: 0.63
+Processing Time: 10.14ms
+
+2025-02-18 16:56:39,796 - INFO - Detector: google_api
+Text: category casa construcao product id 15a581e2cae15fe40ac430f07dc6aa12...
+Language: unknown
+Confidence: 0.46
+Processing Time: 47.94ms
+
+2025-02-18 16:56:39,860 - INFO - Detector: word_list
+Text: category esporte lazer product id 0a859d8dc68f6a746b4709217110c439...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:39,862 - INFO - Detector: deepseek
+Text: category esporte lazer product id 0a859d8dc68f6a746b4709217110c439...
+Language: unknown
+Confidence: 0.24
+Processing Time: 9.31ms
+
+2025-02-18 16:56:39,863 - INFO - Detector: google_api
+Text: category esporte lazer product id 0a859d8dc68f6a746b4709217110c439...
+Language: en
+Confidence: 0.74
+Processing Time: 52.25ms
+
+2025-02-18 16:56:39,929 - INFO - Detector: word_list
+Text: category papelaria product id 6acecf7108cde510886d761f5d107fe1 review chegou antes do previsto veio ...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.03ms
+
+2025-02-18 16:56:39,931 - INFO - Detector: deepseek
+Text: category papelaria product id 6acecf7108cde510886d761f5d107fe1 review chegou antes do previsto veio ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.77ms
+
+2025-02-18 16:56:39,933 - INFO - Detector: google_api
+Text: category papelaria product id 6acecf7108cde510886d761f5d107fe1 review chegou antes do previsto veio ...
+Language: pt
+Confidence: 0.54
+Processing Time: 52.77ms
+
+2025-02-18 16:56:40,003 - INFO - Detector: word_list
+Text: category cama mesa banho product id a3c933b29543a2b90e9aca184ee7397a review eu recebi os dois produt...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:40,005 - INFO - Detector: deepseek
+Text: category cama mesa banho product id a3c933b29543a2b90e9aca184ee7397a review eu recebi os dois produt...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.91ms
+
+2025-02-18 16:56:40,007 - INFO - Detector: google_api
+Text: category cama mesa banho product id a3c933b29543a2b90e9aca184ee7397a review eu recebi os dois produt...
+Language: pt
+Confidence: 0.97
+Processing Time: 54.77ms
+
+2025-02-18 16:56:40,071 - INFO - Detector: word_list
+Text: category moveis decoracao product id 9e45be91c990797c9bb60ce6fa369bff...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:40,072 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 9e45be91c990797c9bb60ce6fa369bff...
+Language: unknown
+Confidence: 0.86
+Processing Time: 10.49ms
+
+2025-02-18 16:56:40,074 - INFO - Detector: google_api
+Text: category moveis decoracao product id 9e45be91c990797c9bb60ce6fa369bff...
+Language: pt
+Confidence: 0.48
+Processing Time: 49.86ms
+
+2025-02-18 16:56:40,144 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id 49e70ba5085cd95e69fb041635304a0c...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,145 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id 49e70ba5085cd95e69fb041635304a0c...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.08ms
+
+2025-02-18 16:56:40,147 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id 49e70ba5085cd95e69fb041635304a0c...
+Language: en
+Confidence: 0.82
+Processing Time: 54.75ms
+
+2025-02-18 16:56:40,218 - INFO - Detector: word_list
+Text: category moveis decoracao product id 60dfe129ad287ca8cd2656a8151138ad...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:40,220 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 60dfe129ad287ca8cd2656a8151138ad...
+Language: unknown
+Confidence: 0.90
+Processing Time: 11.93ms
+
+2025-02-18 16:56:40,222 - INFO - Detector: google_api
+Text: category moveis decoracao product id 60dfe129ad287ca8cd2656a8151138ad...
+Language: pt
+Confidence: 0.66
+Processing Time: 56.25ms
+
+2025-02-18 16:56:40,282 - INFO - Detector: word_list
+Text: category telefonia product id 8aefc25069d9ccef99f9f08d4a869ac4 review posso avaliar sei oque houve...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,284 - INFO - Detector: deepseek
+Text: category telefonia product id 8aefc25069d9ccef99f9f08d4a869ac4 review posso avaliar sei oque houve...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.79ms
+
+2025-02-18 16:56:40,285 - INFO - Detector: google_api
+Text: category telefonia product id 8aefc25069d9ccef99f9f08d4a869ac4 review posso avaliar sei oque houve...
+Language: pt
+Confidence: 0.96
+Processing Time: 48.60ms
+
+2025-02-18 16:56:40,348 - INFO - Detector: word_list
+Text: category automotivo product id 8abdb2ffbf92eb0bcdd82fce515fde6a...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,350 - INFO - Detector: deepseek
+Text: category automotivo product id 8abdb2ffbf92eb0bcdd82fce515fde6a...
+Language: unknown
+Confidence: 0.65
+Processing Time: 12.40ms
+
+2025-02-18 16:56:40,352 - INFO - Detector: google_api
+Text: category automotivo product id 8abdb2ffbf92eb0bcdd82fce515fde6a...
+Language: en
+Confidence: 0.62
+Processing Time: 48.34ms
+
+2025-02-18 16:56:40,414 - INFO - Detector: word_list
+Text: category automotivo product id 1027d3061ac141bbb2ea003c63dc3d66 review td como ofertado no site...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,416 - INFO - Detector: deepseek
+Text: category automotivo product id 1027d3061ac141bbb2ea003c63dc3d66 review td como ofertado no site...
+Language: pt
+Confidence: 0.68
+Processing Time: 10.54ms
+
+2025-02-18 16:56:40,418 - INFO - Detector: google_api
+Text: category automotivo product id 1027d3061ac141bbb2ea003c63dc3d66 review td como ofertado no site...
+Language: pt
+Confidence: 0.46
+Processing Time: 49.82ms
+
+2025-02-18 16:56:40,485 - INFO - Detector: word_list
+Text: category beleza saude product id 2e91e5644d8da04d17ade8d59c0990ca review produto chegou pido antes d...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,486 - INFO - Detector: deepseek
+Text: category beleza saude product id 2e91e5644d8da04d17ade8d59c0990ca review produto chegou pido antes d...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.55ms
+
+2025-02-18 16:56:40,488 - INFO - Detector: google_api
+Text: category beleza saude product id 2e91e5644d8da04d17ade8d59c0990ca review produto chegou pido antes d...
+Language: pt
+Confidence: 0.97
+Processing Time: 54.08ms
+
+2025-02-18 16:56:40,552 - INFO - Detector: word_list
+Text: category perfumaria product id c20fbbd4ccf2f7da70e150689a6a905f review loja coloca prazo extremament...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,553 - INFO - Detector: deepseek
+Text: category perfumaria product id c20fbbd4ccf2f7da70e150689a6a905f review loja coloca prazo extremament...
+Language: pt
+Confidence: 0.99
+Processing Time: 11.34ms
+
+2025-02-18 16:56:40,555 - INFO - Detector: google_api
+Text: category perfumaria product id c20fbbd4ccf2f7da70e150689a6a905f review loja coloca prazo extremament...
+Language: pt
+Confidence: 0.83
+Processing Time: 50.04ms
+
+2025-02-18 16:56:40,621 - INFO - Detector: word_list
+Text: category moveis decoracao product id ace5d86cf1ac63cdb76f49e5cd23d2f8 review as cores da estampa vib...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.09ms
+
+2025-02-18 16:56:40,622 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ace5d86cf1ac63cdb76f49e5cd23d2f8 review as cores da estampa vib...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.68ms
+
+2025-02-18 16:56:40,624 - INFO - Detector: google_api
+Text: category moveis decoracao product id ace5d86cf1ac63cdb76f49e5cd23d2f8 review as cores da estampa vib...
+Language: pt
+Confidence: 0.93
+Processing Time: 52.95ms
+
+2025-02-18 16:56:40,695 - INFO - Detector: word_list
+Text: category cama mesa banho product id 703d742887bb9267f89b675608ba7aa0 review otimo produto tudo timo ...
+Language: pt
+Confidence: 0.79
+Processing Time: 0.13ms
+
+2025-02-18 16:56:40,696 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 703d742887bb9267f89b675608ba7aa0 review otimo produto tudo timo ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.34ms
+
+2025-02-18 16:56:40,697 - INFO - Detector: google_api
+Text: category cama mesa banho product id 703d742887bb9267f89b675608ba7aa0 review otimo produto tudo timo ...
+Language: pt
+Confidence: 0.89
+Processing Time: 55.83ms
+
+2025-02-18 16:56:40,757 - INFO - Detector: word_list
+Text: category beleza saude product id 756eab67d3c0edae186c4617412c056b review produto veio na cor escolhi...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:40,758 - INFO - Detector: deepseek
+Text: category beleza saude product id 756eab67d3c0edae186c4617412c056b review produto veio na cor escolhi...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.50ms
+
+2025-02-18 16:56:40,760 - INFO - Detector: google_api
+Text: category beleza saude product id 756eab67d3c0edae186c4617412c056b review produto veio na cor escolhi...
+Language: pt
+Confidence: 0.63
+Processing Time: 47.84ms
+
+2025-02-18 16:56:40,819 - INFO - Detector: word_list
+Text: category fashion roupa masculina product id 6401d2f82d6e6c52998ce626fe4eda24 review recebi produtos ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:40,820 - INFO - Detector: deepseek
+Text: category fashion roupa masculina product id 6401d2f82d6e6c52998ce626fe4eda24 review recebi produtos ...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.33ms
+
+2025-02-18 16:56:40,822 - INFO - Detector: google_api
+Text: category fashion roupa masculina product id 6401d2f82d6e6c52998ce626fe4eda24 review recebi produtos ...
+Language: pt
+Confidence: 0.98
+Processing Time: 47.07ms
+
+2025-02-18 16:56:40,883 - INFO - Detector: word_list
+Text: category eletronicos product id 02d48451331287e2bf12560d032d57a6 review tive que comprar um cabo que...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,884 - INFO - Detector: deepseek
+Text: category eletronicos product id 02d48451331287e2bf12560d032d57a6 review tive que comprar um cabo que...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.72ms
+
+2025-02-18 16:56:40,885 - INFO - Detector: google_api
+Text: category eletronicos product id 02d48451331287e2bf12560d032d57a6 review tive que comprar um cabo que...
+Language: pt
+Confidence: 0.97
+Processing Time: 48.98ms
+
+2025-02-18 16:56:40,950 - INFO - Detector: word_list
+Text: category informatica acessorios product id 795156625747aca0c4d4b44d22a5e6dd review ok...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:40,952 - INFO - Detector: deepseek
+Text: category informatica acessorios product id 795156625747aca0c4d4b44d22a5e6dd review ok...
+Language: unknown
+Confidence: 0.78
+Processing Time: 10.77ms
+
+2025-02-18 16:56:40,954 - INFO - Detector: google_api
+Text: category informatica acessorios product id 795156625747aca0c4d4b44d22a5e6dd review ok...
+Language: en
+Confidence: 0.79
+Processing Time: 51.64ms
+
+2025-02-18 16:56:41,018 - INFO - Detector: word_list
+Text: category moveis decoracao product id 9059b4009ee73aff5c683ea3b9307604...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:41,020 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 9059b4009ee73aff5c683ea3b9307604...
+Language: unknown
+Confidence: 0.42
+Processing Time: 9.93ms
+
+2025-02-18 16:56:41,022 - INFO - Detector: google_api
+Text: category moveis decoracao product id 9059b4009ee73aff5c683ea3b9307604...
+Language: en
+Confidence: 0.73
+Processing Time: 51.69ms
+
+2025-02-18 16:56:41,086 - INFO - Detector: word_list
+Text: category bebes product id 706a5e521711344bfd262cb3f2a77a78...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,087 - INFO - Detector: deepseek
+Text: category bebes product id 706a5e521711344bfd262cb3f2a77a78...
+Language: unknown
+Confidence: 0.64
+Processing Time: 12.42ms
+
+2025-02-18 16:56:41,089 - INFO - Detector: google_api
+Text: category bebes product id 706a5e521711344bfd262cb3f2a77a78...
+Language: unknown
+Confidence: 0.54
+Processing Time: 49.31ms
+
+2025-02-18 16:56:41,149 - INFO - Detector: word_list
+Text: category pet shop product id 64367bed3ed96fd9381676fbe33b6443 review as aves responderam muito bem c...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,150 - INFO - Detector: deepseek
+Text: category pet shop product id 64367bed3ed96fd9381676fbe33b6443 review as aves responderam muito bem c...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.79ms
+
+2025-02-18 16:56:41,152 - INFO - Detector: google_api
+Text: category pet shop product id 64367bed3ed96fd9381676fbe33b6443 review as aves responderam muito bem c...
+Language: pt
+Confidence: 0.92
+Processing Time: 47.63ms
+
+2025-02-18 16:56:41,216 - INFO - Detector: word_list
+Text: category utilidades domesticas product id 7aa6e062307255430c735f98b847578e...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:41,217 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id 7aa6e062307255430c735f98b847578e...
+Language: unknown
+Confidence: 0.52
+Processing Time: 12.82ms
+
+2025-02-18 16:56:41,219 - INFO - Detector: google_api
+Text: category utilidades domesticas product id 7aa6e062307255430c735f98b847578e...
+Language: en
+Confidence: 0.55
+Processing Time: 48.53ms
+
+2025-02-18 16:56:41,282 - INFO - Detector: word_list
+Text: category moveis decoracao product id c6f46351ae5ae5a6d75ab14996584ce1 review pedido foi entregue par...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.03ms
+
+2025-02-18 16:56:41,283 - INFO - Detector: deepseek
+Text: category moveis decoracao product id c6f46351ae5ae5a6d75ab14996584ce1 review pedido foi entregue par...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.59ms
+
+2025-02-18 16:56:41,285 - INFO - Detector: google_api
+Text: category moveis decoracao product id c6f46351ae5ae5a6d75ab14996584ce1 review pedido foi entregue par...
+Language: pt
+Confidence: 0.91
+Processing Time: 49.49ms
+
+2025-02-18 16:56:41,348 - INFO - Detector: word_list
+Text: category utilidades domesticas product id c625ae2c17fb3590976b5822c1505126 review recebi produto est...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,349 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id c625ae2c17fb3590976b5822c1505126 review recebi produto est...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.25ms
+
+2025-02-18 16:56:41,351 - INFO - Detector: google_api
+Text: category utilidades domesticas product id c625ae2c17fb3590976b5822c1505126 review recebi produto est...
+Language: pt
+Confidence: 0.94
+Processing Time: 49.33ms
+
+2025-02-18 16:56:41,416 - INFO - Detector: word_list
+Text: category moveis decoracao product id 3f9e3d09e34ab9b3235a0e9d584bba25 review bom eu recomendo vended...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:41,417 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 3f9e3d09e34ab9b3235a0e9d584bba25 review bom eu recomendo vended...
+Language: pt
+Confidence: 0.99
+Processing Time: 11.52ms
+
+2025-02-18 16:56:41,420 - INFO - Detector: google_api
+Text: category moveis decoracao product id 3f9e3d09e34ab9b3235a0e9d584bba25 review bom eu recomendo vended...
+Language: pt
+Confidence: 0.91
+Processing Time: 50.09ms
+
+2025-02-18 16:56:41,489 - INFO - Detector: word_list
+Text: category moveis decoracao product id 0fce35c0b7338bda3e52e2389f0c0762 review muito bom quero trocar ...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:41,491 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 0fce35c0b7338bda3e52e2389f0c0762 review muito bom quero trocar ...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.53ms
+
+2025-02-18 16:56:41,493 - INFO - Detector: google_api
+Text: category moveis decoracao product id 0fce35c0b7338bda3e52e2389f0c0762 review muito bom quero trocar ...
+Language: pt
+Confidence: 0.92
+Processing Time: 52.96ms
+
+2025-02-18 16:56:41,559 - INFO - Detector: word_list
+Text: category utilidades domesticas product id e06eb527f0a6ce904044687bd2faa582 review posso culpar loja ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 16:56:41,560 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id e06eb527f0a6ce904044687bd2faa582 review posso culpar loja ...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.41ms
+
+2025-02-18 16:56:41,562 - INFO - Detector: google_api
+Text: category utilidades domesticas product id e06eb527f0a6ce904044687bd2faa582 review posso culpar loja ...
+Language: pt
+Confidence: 0.60
+Processing Time: 52.89ms
+
+2025-02-18 16:56:41,625 - INFO - Detector: word_list
+Text: category beleza saude product id 69faf0d53eb73597d6cfd50175901a56...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:41,627 - INFO - Detector: deepseek
+Text: category beleza saude product id 69faf0d53eb73597d6cfd50175901a56...
+Language: pt
+Confidence: 0.83
+Processing Time: 10.12ms
+
+2025-02-18 16:56:41,628 - INFO - Detector: google_api
+Text: category beleza saude product id 69faf0d53eb73597d6cfd50175901a56...
+Language: en
+Confidence: 0.94
+Processing Time: 51.62ms
+
+2025-02-18 16:56:41,690 - INFO - Detector: word_list
+Text: category utilidades domesticas product id 79d5da4087dedefe5ef7086bf68e6408...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,692 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id 79d5da4087dedefe5ef7086bf68e6408...
+Language: unknown
+Confidence: 0.76
+Processing Time: 11.76ms
+
+2025-02-18 16:56:41,694 - INFO - Detector: google_api
+Text: category utilidades domesticas product id 79d5da4087dedefe5ef7086bf68e6408...
+Language: unknown
+Confidence: 0.38
+Processing Time: 47.97ms
+
+2025-02-18 16:56:41,759 - INFO - Detector: word_list
+Text: category relogios presentes product id 04d5a0ec1f6db00db01676199151df4c review fiz pedido em 30 04 2...
+Language: pt
+Confidence: 0.83
+Processing Time: 0.03ms
+
+2025-02-18 16:56:41,761 - INFO - Detector: deepseek
+Text: category relogios presentes product id 04d5a0ec1f6db00db01676199151df4c review fiz pedido em 30 04 2...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.20ms
+
+2025-02-18 16:56:41,763 - INFO - Detector: google_api
+Text: category relogios presentes product id 04d5a0ec1f6db00db01676199151df4c review fiz pedido em 30 04 2...
+Language: pt
+Confidence: 0.74
+Processing Time: 49.09ms
+
+2025-02-18 16:56:41,827 - INFO - Detector: word_list
+Text: category esporte lazer product id 3f4a3b8846f4522bd68853a50114da49...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,828 - INFO - Detector: deepseek
+Text: category esporte lazer product id 3f4a3b8846f4522bd68853a50114da49...
+Language: unknown
+Confidence: 0.37
+Processing Time: 12.42ms
+
+2025-02-18 16:56:41,830 - INFO - Detector: google_api
+Text: category esporte lazer product id 3f4a3b8846f4522bd68853a50114da49...
+Language: en
+Confidence: 0.90
+Processing Time: 49.98ms
+
+2025-02-18 16:56:41,894 - INFO - Detector: word_list
+Text: category beleza saude product id 48acade3f4dd39bbab10bd14bcfc8735...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:41,896 - INFO - Detector: deepseek
+Text: category beleza saude product id 48acade3f4dd39bbab10bd14bcfc8735...
+Language: pt
+Confidence: 0.97
+Processing Time: 11.35ms
+
+2025-02-18 16:56:41,898 - INFO - Detector: google_api
+Text: category beleza saude product id 48acade3f4dd39bbab10bd14bcfc8735...
+Language: en
+Confidence: 0.49
+Processing Time: 50.49ms
+
+2025-02-18 16:56:41,960 - INFO - Detector: word_list
+Text: category brinquedos product id c747d118db61a1c79977309b0ca33ddc review pedido chegou antes do previs...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 16:56:41,961 - INFO - Detector: deepseek
+Text: category brinquedos product id c747d118db61a1c79977309b0ca33ddc review pedido chegou antes do previs...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.08ms
+
+2025-02-18 16:56:41,963 - INFO - Detector: google_api
+Text: category brinquedos product id c747d118db61a1c79977309b0ca33ddc review pedido chegou antes do previs...
+Language: pt
+Confidence: 0.97
+Processing Time: 48.29ms
+
+2025-02-18 16:56:42,028 - INFO - Detector: word_list
+Text: category casa construcao product id 679a3e5e1d2bb68982be5734c6e55e63 review parab ns est empresa ent...
+Language: pt
+Confidence: 0.77
+Processing Time: 0.10ms
+
+2025-02-18 16:56:42,029 - INFO - Detector: deepseek
+Text: category casa construcao product id 679a3e5e1d2bb68982be5734c6e55e63 review parab ns est empresa ent...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.62ms
+
+2025-02-18 16:56:42,031 - INFO - Detector: google_api
+Text: category casa construcao product id 679a3e5e1d2bb68982be5734c6e55e63 review parab ns est empresa ent...
+Language: pt
+Confidence: 0.95
+Processing Time: 48.76ms
+
+2025-02-18 16:56:42,092 - INFO - Detector: word_list
+Text: category cama mesa banho product id 4886ee6eaf4ab72e0e91ed0c42815f49...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,094 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 4886ee6eaf4ab72e0e91ed0c42815f49...
+Language: pt
+Confidence: 0.47
+Processing Time: 11.11ms
+
+2025-02-18 16:56:42,096 - INFO - Detector: google_api
+Text: category cama mesa banho product id 4886ee6eaf4ab72e0e91ed0c42815f49...
+Language: unknown
+Confidence: 0.37
+Processing Time: 47.67ms
+
+2025-02-18 16:56:42,157 - INFO - Detector: word_list
+Text: category moveis decoracao product id ace1e48f1eaabcd539235e93e361133b...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:42,158 - INFO - Detector: deepseek
+Text: category moveis decoracao product id ace1e48f1eaabcd539235e93e361133b...
+Language: unknown
+Confidence: 0.74
+Processing Time: 11.03ms
+
+2025-02-18 16:56:42,160 - INFO - Detector: google_api
+Text: category moveis decoracao product id ace1e48f1eaabcd539235e93e361133b...
+Language: pt
+Confidence: 0.51
+Processing Time: 47.50ms
+
+2025-02-18 16:56:42,223 - INFO - Detector: word_list
+Text: category bebes product id 50c903691960bdd77acb82418a4445ec...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,224 - INFO - Detector: deepseek
+Text: category bebes product id 50c903691960bdd77acb82418a4445ec...
+Language: unknown
+Confidence: 0.44
+Processing Time: 11.92ms
+
+2025-02-18 16:56:42,226 - INFO - Detector: google_api
+Text: category bebes product id 50c903691960bdd77acb82418a4445ec...
+Language: en
+Confidence: 1.00
+Processing Time: 49.76ms
+
+2025-02-18 16:56:42,287 - INFO - Detector: word_list
+Text: category moveis decoracao product id e7593e3c84b3302e1531a715f1ded8b2 review foram comprados itens c...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,288 - INFO - Detector: deepseek
+Text: category moveis decoracao product id e7593e3c84b3302e1531a715f1ded8b2 review foram comprados itens c...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.88ms
+
+2025-02-18 16:56:42,290 - INFO - Detector: google_api
+Text: category moveis decoracao product id e7593e3c84b3302e1531a715f1ded8b2 review foram comprados itens c...
+Language: pt
+Confidence: 0.91
+Processing Time: 48.09ms
+
+2025-02-18 16:56:42,352 - INFO - Detector: word_list
+Text: category beleza saude product id 3f3d9760b163e08f9566ea1b2b8e1cd4...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 16:56:42,354 - INFO - Detector: deepseek
+Text: category beleza saude product id 3f3d9760b163e08f9566ea1b2b8e1cd4...
+Language: pt
+Confidence: 0.85
+Processing Time: 10.35ms
+
+2025-02-18 16:56:42,356 - INFO - Detector: google_api
+Text: category beleza saude product id 3f3d9760b163e08f9566ea1b2b8e1cd4...
+Language: en
+Confidence: 0.92
+Processing Time: 49.63ms
+
+2025-02-18 16:56:42,418 - INFO - Detector: word_list
+Text: category brinquedos product id ffdde3d63e889c9a9f9ec30d82a4c815...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:42,419 - INFO - Detector: deepseek
+Text: category brinquedos product id ffdde3d63e889c9a9f9ec30d82a4c815...
+Language: unknown
+Confidence: 0.79
+Processing Time: 10.24ms
+
+2025-02-18 16:56:42,421 - INFO - Detector: google_api
+Text: category brinquedos product id ffdde3d63e889c9a9f9ec30d82a4c815...
+Language: en
+Confidence: 0.91
+Processing Time: 49.17ms
+
+2025-02-18 16:56:42,487 - INFO - Detector: word_list
+Text: category ferramentas jardim product id f6605392877b41d225dd146d2cf116b5...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,488 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id f6605392877b41d225dd146d2cf116b5...
+Language: pt
+Confidence: 0.74
+Processing Time: 13.07ms
+
+2025-02-18 16:56:42,490 - INFO - Detector: google_api
+Text: category ferramentas jardim product id f6605392877b41d225dd146d2cf116b5...
+Language: pt
+Confidence: 0.51
+Processing Time: 50.33ms
+
+2025-02-18 16:56:42,553 - INFO - Detector: word_list
+Text: category ferramentas jardim product id 475152a7f8c7ddd5457fef29a9d20dd1...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,555 - INFO - Detector: deepseek
+Text: category ferramentas jardim product id 475152a7f8c7ddd5457fef29a9d20dd1...
+Language: pt
+Confidence: 0.57
+Processing Time: 10.33ms
+
+2025-02-18 16:56:42,557 - INFO - Detector: google_api
+Text: category ferramentas jardim product id 475152a7f8c7ddd5457fef29a9d20dd1...
+Language: en
+Confidence: 0.46
+Processing Time: 50.60ms
+
+2025-02-18 16:56:42,617 - INFO - Detector: word_list
+Text: category eletrodomesticos product id b0ed7fe63babb3e705115f53fa74b20c review quando mercadoria entre...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 16:56:42,619 - INFO - Detector: deepseek
+Text: category eletrodomesticos product id b0ed7fe63babb3e705115f53fa74b20c review quando mercadoria entre...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.86ms
+
+2025-02-18 16:56:42,620 - INFO - Detector: google_api
+Text: category eletrodomesticos product id b0ed7fe63babb3e705115f53fa74b20c review quando mercadoria entre...
+Language: pt
+Confidence: 0.93
+Processing Time: 47.91ms
+
+2025-02-18 16:56:42,687 - INFO - Detector: word_list
+Text: category fashion bolsas acessorios product id e13f46cf68d356e0ac0f32058af20911 review muito bom fiqu...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 16:56:42,689 - INFO - Detector: deepseek
+Text: category fashion bolsas acessorios product id e13f46cf68d356e0ac0f32058af20911 review muito bom fiqu...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.99ms
+
+2025-02-18 16:56:42,691 - INFO - Detector: google_api
+Text: category fashion bolsas acessorios product id e13f46cf68d356e0ac0f32058af20911 review muito bom fiqu...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.68ms
+
+2025-02-18 16:56:42,751 - INFO - Detector: word_list
+Text: category moveis decoracao product id 0a23fd10720c5ffc6c7f5e66b0b26ae2...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,752 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 0a23fd10720c5ffc6c7f5e66b0b26ae2...
+Language: unknown
+Confidence: 0.94
+Processing Time: 10.45ms
+
+2025-02-18 16:56:42,754 - INFO - Detector: google_api
+Text: category moveis decoracao product id 0a23fd10720c5ffc6c7f5e66b0b26ae2...
+Language: pt
+Confidence: 0.54
+Processing Time: 47.35ms
+
+2025-02-18 16:56:42,817 - INFO - Detector: word_list
+Text: category moveis decoracao product id 7070d77d89af4f2865ff26b1323312ed...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,818 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 7070d77d89af4f2865ff26b1323312ed...
+Language: unknown
+Confidence: 0.88
+Processing Time: 10.56ms
+
+2025-02-18 16:56:42,820 - INFO - Detector: google_api
+Text: category moveis decoracao product id 7070d77d89af4f2865ff26b1323312ed...
+Language: pt
+Confidence: 0.62
+Processing Time: 50.33ms
+
+2025-02-18 16:56:42,884 - INFO - Detector: word_list
+Text: category cama mesa banho product id 51555187e14ed8bb8addc25344848ef7 review recebi por enquanto apen...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 16:56:42,885 - INFO - Detector: deepseek
+Text: category cama mesa banho product id 51555187e14ed8bb8addc25344848ef7 review recebi por enquanto apen...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.69ms
+
+2025-02-18 16:56:42,887 - INFO - Detector: google_api
+Text: category cama mesa banho product id 51555187e14ed8bb8addc25344848ef7 review recebi por enquanto apen...
+Language: pt
+Confidence: 0.58
+Processing Time: 50.52ms
+
+2025-02-18 16:56:42,948 - INFO - Detector: word_list
+Text: category moveis decoracao product id 41b7b870b6097bb62f462bc0af141d0d review gostei muito do produto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:42,950 - INFO - Detector: deepseek
+Text: category moveis decoracao product id 41b7b870b6097bb62f462bc0af141d0d review gostei muito do produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.58ms
+
+2025-02-18 16:56:42,952 - INFO - Detector: google_api
+Text: category moveis decoracao product id 41b7b870b6097bb62f462bc0af141d0d review gostei muito do produto...
+Language: pt
+Confidence: 0.75
+Processing Time: 48.73ms
+
+2025-02-18 16:56:43,017 - INFO - Detector: word_list
+Text: category utilidades domesticas product id b1ff030591e1d0e0069e54d11c5c21d5 review produto veio como ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:43,019 - INFO - Detector: deepseek
+Text: category utilidades domesticas product id b1ff030591e1d0e0069e54d11c5c21d5 review produto veio como ...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.38ms
+
+2025-02-18 16:56:43,020 - INFO - Detector: google_api
+Text: category utilidades domesticas product id b1ff030591e1d0e0069e54d11c5c21d5 review produto veio como ...
+Language: pt
+Confidence: 0.81
+Processing Time: 54.00ms
+
+2025-02-18 16:56:43,083 - INFO - Detector: word_list
+Text: category alimentos bebidas product id b71ed32edb9ce4684e10a11309011b60 review otimo timo timo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:43,085 - INFO - Detector: deepseek
+Text: category alimentos bebidas product id b71ed32edb9ce4684e10a11309011b60 review otimo timo timo...
+Language: unknown
+Confidence: 0.63
+Processing Time: 10.22ms
+
+2025-02-18 16:56:43,087 - INFO - Detector: google_api
+Text: category alimentos bebidas product id b71ed32edb9ce4684e10a11309011b60 review otimo timo timo...
+Language: unknown
+Confidence: 0.40
+Processing Time: 49.96ms
+
+2025-02-18 16:56:43,147 - INFO - Detector: word_list
+Text: category construcao ferramentas construcao product id 0b1b954cb171434674907a8da1778e11...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 16:56:43,148 - INFO - Detector: deepseek
+Text: category construcao ferramentas construcao product id 0b1b954cb171434674907a8da1778e11...
+Language: pt
+Confidence: 0.98
+Processing Time: 9.66ms
+
+2025-02-18 16:56:43,150 - INFO - Detector: google_api
+Text: category construcao ferramentas construcao product id 0b1b954cb171434674907a8da1778e11...
+Language: pt
+Confidence: 0.95
+Processing Time: 47.39ms
+
+2025-02-18 16:56:43,214 - INFO - Detector: word_list
+Text: category eletroportateis product id 6f5b86fea3f029028ff6b3a88248be45 review mto bom...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 16:56:43,215 - INFO - Detector: deepseek
+Text: category eletroportateis product id 6f5b86fea3f029028ff6b3a88248be45 review mto bom...
+Language: unknown
+Confidence: 0.81
+Processing Time: 10.17ms
+
+2025-02-18 16:56:43,216 - INFO - Detector: google_api
+Text: category eletroportateis product id 6f5b86fea3f029028ff6b3a88248be45 review mto bom...
+Language: en
+Confidence: 0.89
+Processing Time: 51.25ms
+
+2025-02-18 16:56:43,280 - INFO - Detector: word_list
+Text: category construcao ferramentas construcao product id f7566c7c51e266442be8db4b8797ee1f...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 16:56:43,281 - INFO - Detector: deepseek
+Text: category construcao ferramentas construcao product id f7566c7c51e266442be8db4b8797ee1f...
+Language: pt
+Confidence: 0.98
+Processing Time: 12.41ms
+
+2025-02-18 16:56:43,283 - INFO - Detector: google_api
+Text: category construcao ferramentas construcao product id f7566c7c51e266442be8db4b8797ee1f...
+Language: pt
+Confidence: 0.91
+Processing Time: 48.82ms
+
+2025-02-18 16:56:43,348 - INFO - Detector: word_list
+Text: category eletrodomesticos product id 9de7867a5bc245bcbb1e2ce6471ba208 review chegou at antes do praz...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.03ms
+
+2025-02-18 16:56:43,349 - INFO - Detector: deepseek
+Text: category eletrodomesticos product id 9de7867a5bc245bcbb1e2ce6471ba208 review chegou at antes do praz...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.14ms
+
+2025-02-18 16:56:43,352 - INFO - Detector: google_api
+Text: category eletrodomesticos product id 9de7867a5bc245bcbb1e2ce6471ba208 review chegou at antes do praz...
+Language: pt
+Confidence: 0.96
+Processing Time: 51.60ms
+

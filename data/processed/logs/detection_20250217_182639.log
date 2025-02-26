@@ -1,0 +1,270 @@
+2025-02-17 18:26:42,731 - INFO - Detector: word_list
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.12ms
+
+2025-02-17 18:26:42,735 - INFO - Detector: deepseek
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.79ms
+
+2025-02-17 18:26:42,737 - INFO - Detector: google_api
+Text: correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil vou com...
+Language: pt
+Confidence: 0.98
+Processing Time: 93.28ms
+
+2025-02-17 18:26:42,816 - INFO - Detector: word_list
+Text: voltarei comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 18:26:42,818 - INFO - Detector: deepseek
+Text: voltarei comprar...
+Language: pt
+Confidence: 0.54
+Processing Time: 19.38ms
+
+2025-02-17 18:26:42,821 - INFO - Detector: google_api
+Text: voltarei comprar...
+Language: pt
+Confidence: 1.00
+Processing Time: 54.82ms
+
+2025-02-17 18:26:42,899 - INFO - Detector: word_list
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-17 18:26:42,901 - INFO - Detector: deepseek
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.65ms
+
+2025-02-17 18:26:42,903 - INFO - Detector: google_api
+Text: recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 59.16ms
+
+2025-02-17 18:26:42,978 - INFO - Detector: word_list
+Text: correto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-17 18:26:42,980 - INFO - Detector: deepseek
+Text: correto...
+Language: unknown
+Confidence: 0.99
+Processing Time: 15.29ms
+
+2025-02-17 18:26:42,982 - INFO - Detector: google_api
+Text: correto...
+Language: pt
+Confidence: 1.00
+Processing Time: 58.23ms
+
+2025-02-17 18:26:43,052 - INFO - Detector: word_list
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 0.74
+Processing Time: 0.04ms
+
+2025-02-17 18:26:43,054 - INFO - Detector: deepseek
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.41ms
+
+2025-02-17 18:26:43,058 - INFO - Detector: google_api
+Text: entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebrado entre...
+Language: pt
+Confidence: 0.97
+Processing Time: 51.88ms
+
+2025-02-17 18:26:43,130 - INFO - Detector: word_list
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-17 18:26:43,132 - INFO - Detector: deepseek
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.71ms
+
+2025-02-17 18:26:43,134 - INFO - Detector: google_api
+Text: loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.96
+Processing Time: 51.61ms
+
+2025-02-17 18:26:43,216 - INFO - Detector: word_list
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-17 18:26:43,217 - INFO - Detector: deepseek
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 16.57ms
+
+2025-02-17 18:26:43,220 - INFO - Detector: google_api
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.98
+Processing Time: 62.39ms
+
+2025-02-17 18:26:43,295 - INFO - Detector: word_list
+Text: gostei muito do cord simples fofo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-17 18:26:43,296 - INFO - Detector: deepseek
+Text: gostei muito do cord simples fofo...
+Language: pt
+Confidence: 1.00
+Processing Time: 18.64ms
+
+2025-02-17 18:26:43,298 - INFO - Detector: google_api
+Text: gostei muito do cord simples fofo...
+Language: pt
+Confidence: 0.98
+Processing Time: 54.33ms
+
+2025-02-17 18:26:43,379 - INFO - Detector: word_list
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 18:26:43,381 - INFO - Detector: deepseek
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.89ms
+
+2025-02-17 18:26:43,383 - INFO - Detector: google_api
+Text: adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 0.89
+Processing Time: 62.11ms
+
+2025-02-17 18:26:43,465 - INFO - Detector: word_list
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.04ms
+
+2025-02-17 18:26:43,467 - INFO - Detector: deepseek
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.80ms
+
+2025-02-17 18:26:43,469 - INFO - Detector: google_api
+Text: produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.95
+Processing Time: 60.93ms
+
+2025-02-17 18:26:43,532 - INFO - Detector: word_list
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.11ms
+
+2025-02-17 18:26:43,533 - INFO - Detector: deepseek
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 1.00
+Processing Time: 14.41ms
+
+2025-02-17 18:26:43,535 - INFO - Detector: google_api
+Text: entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega no prazo ...
+Language: pt
+Confidence: 0.93
+Processing Time: 45.11ms
+
+2025-02-17 18:26:43,604 - INFO - Detector: word_list
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.02ms
+
+2025-02-17 18:26:43,606 - INFO - Detector: deepseek
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.88
+Processing Time: 20.53ms
+
+2025-02-17 18:26:43,608 - INFO - Detector: google_api
+Text: pelo pre vale pena...
+Language: pt
+Confidence: 0.95
+Processing Time: 44.91ms
+
+2025-02-17 18:26:43,691 - INFO - Detector: word_list
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 0.76
+Processing Time: 0.34ms
+
+2025-02-17 18:26:43,693 - INFO - Detector: deepseek
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 1.00
+Processing Time: 26.38ms
+
+2025-02-17 18:26:43,695 - INFO - Detector: google_api
+Text: estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de frete au...
+Language: pt
+Confidence: 0.82
+Processing Time: 53.42ms
+
+2025-02-17 18:26:43,780 - INFO - Detector: word_list
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.08ms
+
+2025-02-17 18:26:43,782 - INFO - Detector: deepseek
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 1.00
+Processing Time: 19.63ms
+
+2025-02-17 18:26:43,784 - INFO - Detector: google_api
+Text: compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ou ser u...
+Language: pt
+Confidence: 0.97
+Processing Time: 60.70ms
+
+2025-02-17 18:26:43,858 - INFO - Detector: word_list
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.05ms
+
+2025-02-17 18:26:43,861 - INFO - Detector: deepseek
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.93ms
+
+2025-02-17 18:26:43,863 - INFO - Detector: google_api
+Text: produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produto serviu...
+Language: pt
+Confidence: 0.91
+Processing Time: 56.53ms
+

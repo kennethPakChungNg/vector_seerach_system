@@ -1,0 +1,360 @@
+2025-02-17 17:42:46,154 - INFO - Detector: word_list
+Text: correta não usei o produto não mas parece bom eu comprei um relógio e me mandaram outro melhor do br...
+Language: pt
+Confidence: 0.81
+Processing Time: 0.29ms
+
+2025-02-17 17:42:46,157 - INFO - Detector: deepseek_failed
+Text: correta não usei o produto não mas parece bom eu comprei um relógio e me mandaram outro melhor do br...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.06ms
+
+2025-02-17 17:42:46,161 - INFO - Detector: google_api
+Text: correta não usei o produto não mas parece bom eu comprei um relógio e me mandaram outro melhor do br...
+Language: pt
+Confidence: 0.98
+Processing Time: 83.73ms
+
+2025-02-17 17:42:46,216 - INFO - Detector: word_list
+Text: voltarei a comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,218 - INFO - Detector: deepseek_failed
+Text: voltarei a comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-17 17:42:46,220 - INFO - Detector: google_api
+Text: voltarei a comprar...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.63ms
+
+2025-02-17 17:42:46,275 - INFO - Detector: word_list
+Text: recebi a metade do pedido nao recebi o lustre ainda...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,276 - INFO - Detector: deepseek_failed
+Text: recebi a metade do pedido nao recebi o lustre ainda...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-17 17:42:46,279 - INFO - Detector: google_api
+Text: recebi a metade do pedido nao recebi o lustre ainda...
+Language: pt
+Confidence: 0.98
+Processing Time: 52.94ms
+
+2025-02-17 17:42:46,346 - INFO - Detector: word_list
+Text: correto...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-17 17:42:46,347 - INFO - Detector: deepseek_failed
+Text: correto...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.07ms
+
+2025-02-17 17:42:46,350 - INFO - Detector: google_api
+Text: correto...
+Language: pt
+Confidence: 1.00
+Processing Time: 65.29ms
+
+2025-02-17 17:42:46,407 - INFO - Detector: word_list
+Text: a entrega foi direitinha mas o produto é péssimo a embalagem veio danificada assim como o produto qu...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.05ms
+
+2025-02-17 17:42:46,409 - INFO - Detector: deepseek_failed
+Text: a entrega foi direitinha mas o produto é péssimo a embalagem veio danificada assim como o produto qu...
+Language: unknown
+Confidence: 0.00
+Processing Time: 1.10ms
+
+2025-02-17 17:42:46,411 - INFO - Detector: google_api
+Text: a entrega foi direitinha mas o produto é péssimo a embalagem veio danificada assim como o produto qu...
+Language: pt
+Confidence: 0.87
+Processing Time: 54.67ms
+
+2025-02-17 17:42:46,471 - INFO - Detector: word_list
+Text: a loja mandou bemobrigado ronaldo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-17 17:42:46,473 - INFO - Detector: deepseek_failed
+Text: a loja mandou bemobrigado ronaldo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,475 - INFO - Detector: google_api
+Text: a loja mandou bemobrigado ronaldo...
+Language: pt
+Confidence: 0.98
+Processing Time: 57.81ms
+
+2025-02-17 17:42:46,528 - INFO - Detector: word_list
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-17 17:42:46,529 - INFO - Detector: deepseek_failed
+Text: entrega antes do prazo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,530 - INFO - Detector: google_api
+Text: entrega antes do prazo...
+Language: pt
+Confidence: 0.98
+Processing Time: 52.90ms
+
+2025-02-17 17:42:46,583 - INFO - Detector: word_list
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.00ms
+
+2025-02-17 17:42:46,584 - INFO - Detector: deepseek_failed
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,585 - INFO - Detector: google_api
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 51.14ms
+
+2025-02-17 17:42:46,647 - INFO - Detector: word_list
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.00ms
+
+2025-02-17 17:42:46,648 - INFO - Detector: deepseek_failed
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,649 - INFO - Detector: google_api
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 60.85ms
+
+2025-02-17 17:42:46,688 - INFO - Detector: word_list
+Text: gostei muito do cordão simples e fofo...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.02ms
+
+2025-02-17 17:42:46,689 - INFO - Detector: deepseek_failed
+Text: gostei muito do cordão simples e fofo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-17 17:42:46,690 - INFO - Detector: google_api
+Text: gostei muito do cordão simples e fofo...
+Language: pt
+Confidence: 0.97
+Processing Time: 38.03ms
+
+2025-02-17 17:42:46,728 - INFO - Detector: word_list
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.00ms
+
+2025-02-17 17:42:46,729 - INFO - Detector: deepseek_failed
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-17 17:42:46,731 - INFO - Detector: google_api
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 36.66ms
+
+2025-02-17 17:42:46,783 - INFO - Detector: word_list
+Text: adorei os livros e os cartazes são excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,784 - INFO - Detector: deepseek_failed
+Text: adorei os livros e os cartazes são excelentes para usarmos com nossos alunos...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,786 - INFO - Detector: google_api
+Text: adorei os livros e os cartazes são excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 0.81
+Processing Time: 50.70ms
+
+2025-02-17 17:42:46,829 - INFO - Detector: word_list
+Text: produto veio direitinho bem embalado e chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,830 - INFO - Detector: deepseek_failed
+Text: produto veio direitinho bem embalado e chegou antes do prazo estou muito satisfeita...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,831 - INFO - Detector: google_api
+Text: produto veio direitinho bem embalado e chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.94
+Processing Time: 42.02ms
+
+2025-02-17 17:42:46,965 - INFO - Detector: word_list
+Text: entrega rapidíssima foi comprado e no dia seguinte já estava disponível show compra fácil e entrega ...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.12ms
+
+2025-02-17 17:42:46,966 - INFO - Detector: deepseek_failed
+Text: entrega rapidíssima foi comprado e no dia seguinte já estava disponível show compra fácil e entrega ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:46,967 - INFO - Detector: google_api
+Text: entrega rapidíssima foi comprado e no dia seguinte já estava disponível show compra fácil e entrega ...
+Language: pt
+Confidence: 0.89
+Processing Time: 132.92ms
+
+2025-02-17 17:42:47,014 - INFO - Detector: word_list
+Text: pelo preço vale a pena...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.02ms
+
+2025-02-17 17:42:47,015 - INFO - Detector: deepseek_failed
+Text: pelo preço vale a pena...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:47,016 - INFO - Detector: google_api
+Text: pelo preço vale a pena...
+Language: pt
+Confidence: 0.93
+Processing Time: 45.56ms
+
+2025-02-17 17:42:47,068 - INFO - Detector: word_list
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.00ms
+
+2025-02-17 17:42:47,069 - INFO - Detector: deepseek_failed
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-17 17:42:47,070 - INFO - Detector: google_api
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 50.61ms
+
+2025-02-17 17:42:47,132 - INFO - Detector: word_list
+Text: estou plenamente satisfeita com minha aquisição e recomendo a única coisa que não concordo é com o v...
+Language: pt
+Confidence: 0.82
+Processing Time: 0.50ms
+
+2025-02-17 17:42:47,133 - INFO - Detector: deepseek_failed
+Text: estou plenamente satisfeita com minha aquisição e recomendo a única coisa que não concordo é com o v...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.05ms
+
+2025-02-17 17:42:47,135 - INFO - Detector: google_api
+Text: estou plenamente satisfeita com minha aquisição e recomendo a única coisa que não concordo é com o v...
+Language: pt
+Confidence: 0.76
+Processing Time: 59.32ms
+
+2025-02-17 17:42:47,181 - INFO - Detector: word_list
+Text: a compra foi realizada facilmente a entrega foi efetuada muito antes do prazo dado o produto já come...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.11ms
+
+2025-02-17 17:42:47,183 - INFO - Detector: deepseek_failed
+Text: a compra foi realizada facilmente a entrega foi efetuada muito antes do prazo dado o produto já come...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-17 17:42:47,184 - INFO - Detector: google_api
+Text: a compra foi realizada facilmente a entrega foi efetuada muito antes do prazo dado o produto já come...
+Language: pt
+Confidence: 0.92
+Processing Time: 44.43ms
+
+2025-02-17 17:42:47,233 - INFO - Detector: word_list
+Text: o produto é simplesde acordo com a imagem e com o preço pagoobrigada satisfeita gostei muito do prod...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.05ms
+
+2025-02-17 17:42:47,234 - INFO - Detector: deepseek_failed
+Text: o produto é simplesde acordo com a imagem e com o preço pagoobrigada satisfeita gostei muito do prod...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:47,235 - INFO - Detector: google_api
+Text: o produto é simplesde acordo com a imagem e com o preço pagoobrigada satisfeita gostei muito do prod...
+Language: pt
+Confidence: 0.62
+Processing Time: 47.70ms
+
+2025-02-17 17:42:47,276 - INFO - Detector: word_list
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.00ms
+
+2025-02-17 17:42:47,277 - INFO - Detector: deepseek_failed
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-17 17:42:47,278 - INFO - Detector: google_api
+Text: ...
+Language: unknown
+Confidence: 0.00
+Processing Time: 40.13ms
+

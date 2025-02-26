@@ -1,0 +1,1157 @@
+================================================
+                 1st cell
+================================================
+!pip install pandas numpy sentence-transformers faiss-cpu torch bitsandbytes transformers google-cloud-translate
+!pip install requests beautifulsoup4 Pillow
+!pip install tenacity
+!pip install nltk
+%pip install scikit-learn
+!pip install accelerate
+!pip install tqdm
+
+
+
+================================================
+                 2nd cell
+================================================
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
+
+import os
+import pandas as pd
+import sys
+from pathlib import Path
+
+# Add project root directory to sys.path
+project_root = Path("/content/drive/My Drive/E-commerce_Analysis")
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+print("Python path updated:")
+print(sys.path[:5])
+
+# Set display option for long text
+pd.set_option('display.max_colwidth', None)
+
+# Define the file path to your Amazon dataset with images
+amazon_data_path = "/content/drive/My Drive/E-commerce_Analysis/data/raw/amazon_with_images.csv"
+
+# Verify file existence
+if os.path.exists(amazon_data_path):
+    print("Amazon dataset with images found!")
+else:
+    print("Amazon dataset with images not found. Check the file path.")
+
+# Load the dataset
+amazon_df = pd.read_csv(amazon_data_path)
+print("Amazon Sales Dataset Columns:")
+print(amazon_df.columns.tolist())
+
+print("\nSample data:")
+print(amazon_df.head())
+
+# Set device explicitly
+device = "cpu"
+print(f"Device set to: {device}")
+
+
+
+
+================================================
+                 3rd cell
+================================================
+# Print project directory structure
+from pathlib import Path
+
+# Check if the project root exists
+if not project_root.exists():
+    print(f"Project root not found: {project_root}")
+else:
+    print(f"Directory structure of {project_root}:")
+
+    # Function to print directory tree with indentation and depth limit
+    def print_directory_tree(path, indent="", depth=0, max_depth=2):
+        if depth > max_depth:
+            return
+        for item in path.iterdir():
+            if item.is_dir():
+                print(f"{indent}Directory: {item.name}")
+                print_directory_tree(item, indent + "  ", depth + 1, max_depth)
+            else:
+                print(f"{indent}File: {item.name}")
+
+    # Print the directory structure up to 2 levels deep
+    print_directory_tree(project_root, max_depth=2)
+
+
+
+
+================================================
+                 4th cell
+================================================
+import os
+import requests
+
+# Create directory for images
+image_dir = "/content/drive/My Drive/E-commerce_Analysis/data/images"
+os.makedirs(image_dir, exist_ok=True)
+
+def download_image(url, product_id):
+    """Download the image and save it with the product ID."""
+    if pd.isna(url):
+        return None
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            image_path = os.path.join(image_dir, f"{product_id}.jpg")
+            with open(image_path, 'wb') as f:
+                f.write(response.content)
+            return image_path
+        else:
+            print(f"Failed to download {url} (Status: {response.status_code})")
+            return None
+    except Exception as e:
+        print(f"Error downloading {url}: {e}")
+        return None
+
+# Apply to the dataset
+amazon_df['image_path'] = amazon_df.apply(lambda row: download_image(row['image_url'], row['product_id']), axis=1)
+
+# Save the updated dataset
+amazon_df.to_csv("/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_images.csv", index=False)
+print("Images downloaded and paths saved to amazon_with_images.csv")
+
+
+
+
+================================================
+                 5th cell
+================================================
+import pandas as pd
+
+def create_product_text(product_name, about_product, category, discounted_price, reviews=None):
+    parts = [str(product_name), str(about_product)]
+    # Split category terms
+    category_terms = str(category).split('>')
+    parts.extend([term.strip() for term in category_terms])
+    # Add price (converted to USD for consistency)
+    exchange_rate = 83  # INR to USD
+    price_usd = float(str(discounted_price).replace('₹', '').replace(',', '')) / exchange_rate
+    parts.append(f"Price: {price_usd:.2f} USD")
+    if reviews and isinstance(reviews, list) and reviews[0]:
+        parts.append(str(reviews[0]))
+    return " ".join(parts)
+
+# Create combined_text if not already present
+if 'combined_text' not in amazon_df.columns:
+    amazon_df['combined_text'] = amazon_df.apply(
+        lambda row: create_product_text(
+            row['product_name'],
+            row['about_product'],
+            row['category'],
+            row['discounted_price'],
+            [row['review_content']] if pd.notna(row['review_content']) else None
+        ),
+        axis=1
+    )
+
+# Save updated dataset
+amazon_df.to_csv("/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_images.csv", index=False)
+print("Updated combined_text with price and category terms.")
+print(amazon_df.columns)
+
+
+
+================================================
+                 6th cell
+================================================
+from transformers import CLIPProcessor, CLIPModel
+import torch
+from PIL import Image
+import numpy as np
+import pandas as pd
+import faiss
+
+# Lazy loading for CLIP model and processor
+_clip_model = None
+_clip_processor = None
+
+def get_clip_model(device="cpu"):
+    global _clip_model, _clip_processor
+    if _clip_model is None:
+        _clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
+        _clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+    return _clip_model, _clip_processor
+
+# Load CLIP model on CPU
+model, processor = get_clip_model(device=device)
+
+def generate_text_embedding(text):
+    """Generate text embedding using CLIP."""
+    inputs = processor(text=[text], return_tensors="pt", padding=True, truncation=True, max_length=77).to(device)
+    with torch.no_grad():
+        embedding = model.get_text_features(**inputs).cpu().numpy()[0]
+    # Normalize the embedding
+    embedding /= np.linalg.norm(embedding)
+    return embedding
+
+def generate_image_embedding(image_path):
+    """Generate image embedding using CLIP."""
+    if pd.isna(image_path):
+        return np.zeros(512)
+    try:
+        image = Image.open(image_path).convert('RGB')
+        inputs = processor(images=image, return_tensors="pt").to(device)
+        with torch.no_grad():
+            embedding = model.get_image_features(**inputs).cpu().numpy()[0]
+        # Normalize the embedding
+        embedding /= np.linalg.norm(embedding)
+        return embedding
+    except Exception as e:
+        print(f"Error processing {image_path}: {e}")
+        return np.zeros(512)
+
+# Generate embeddings in batches
+batch_size = 100
+for start in range(0, len(amazon_df), batch_size):
+    end = min(start + batch_size, len(amazon_df))
+
+    # Generate text embeddings
+    text_embeddings_batch = amazon_df.loc[start:end-1, 'combined_text'].apply(generate_text_embedding)
+    amazon_df.loc[start:end-1, 'text_embedding'] = text_embeddings_batch
+
+    # Generate image embeddings
+    image_embeddings_batch = amazon_df.loc[start:end-1, 'image_path'].apply(generate_image_embedding)
+    amazon_df.loc[start:end-1, 'image_embedding'] = image_embeddings_batch
+
+# After generating normalized embeddings
+text_embeddings = np.vstack(amazon_df['text_embedding'].values)
+image_embeddings = np.vstack(amazon_df['image_embedding'].values)
+
+# Build indexes with inner product (cosine similarity)
+text_index = faiss.IndexFlatIP(512)
+text_index.add(text_embeddings)
+
+image_index = faiss.IndexFlatIP(512)
+image_index.add(image_embeddings)
+
+# Check shapes before saving
+print("Text embeddings shape before saving:", text_embeddings.shape)
+print("Image embeddings shape before saving:", image_embeddings.shape)
+
+# Save embeddings and indexes
+np.save("/content/drive/My Drive/E-commerce_Analysis/data/processed/text_embeddings.npy", text_embeddings)
+np.save("/content/drive/My Drive/E-commerce_Analysis/data/processed/image_embeddings.npy", image_embeddings)
+faiss.write_index(text_index, "/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss")
+faiss.write_index(image_index, "/content/drive/My Drive/E-commerce_Analysis/data/processed/image_index.faiss")
+print("Text and image embeddings generated and saved successfully")
+
+
+================================================
+                 7th cell
+================================================
+from transformers import Blip2Processor, Blip2ForConditionalGeneration
+from PIL import Image
+import torch
+import pandas as pd
+
+# Define device as CPU explicitly
+device = torch.device("cpu")
+
+# Load processor and model on CPU
+processor_blip = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
+model_blip = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b").to(device)
+
+def describe_image(image_path):
+    if pd.isna(image_path):
+        return ""
+    try:
+        image = Image.open(image_path).convert("RGB")
+        inputs = processor_blip(image, return_tensors="pt").to(device)
+        with torch.no_grad():
+            generated_ids = model_blip.generate(**inputs, max_length=50)
+        return processor_blip.batch_decode(generated_ids, skip_special_tokens=True)[0]
+    except Exception as e:
+        print(f"Error describing {image_path}: {e}")
+        return ""
+
+# Generate descriptions for all images (batch processing for efficiency)
+batch_size = 50
+for start in range(0, len(amazon_df), batch_size):
+    end = min(start + batch_size, len(amazon_df))
+    amazon_df.loc[start:end-1, 'image_desc'] = amazon_df.loc[start:end-1, 'image_path'].apply(describe_image)
+
+# Append image descriptions to combined_text
+amazon_df['combined_text'] = amazon_df.apply(
+    lambda row: row['combined_text'] + " Image Description: " + row['image_desc'] if pd.notna(row['image_desc']) else row['combined_text'],
+    axis=1
+)
+
+# Save updated dataset
+amazon_df.to_csv("/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_images.csv", index=False)
+print("Image descriptions generated and appended to combined_text.")
+
+# Regenerate text embeddings with updated combined_text
+for start in range(0, len(amazon_df), batch_size):
+    end = min(start + batch_size, len(amazon_df))
+    text_embeddings_batch = amazon_df.loc[start:end-1, 'combined_text'].apply(generate_text_embedding)
+    amazon_df.loc[start:end-1, 'text_embedding'] = text_embeddings_batch
+
+# Update text embeddings and index
+text_embeddings = np.vstack(amazon_df['text_embedding'].values)
+text_index = faiss.IndexFlatIP(512)
+text_index.add(text_embeddings)
+np.save("/content/drive/My Drive/E-commerce_Analysis/data/processed/text_embeddings.npy", text_embeddings)
+faiss.write_index(text_index, "/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss")
+print("Text embeddings updated with image descriptions.")
+
+
+
+================================================
+                 8th cell
+================================================
+print(amazon_df.head())
+print(device)
+print(amazon_df.info())
+
+
+
+================================================
+                 9th cell
+================================================
+import faiss
+import numpy as np
+
+# Load embeddings
+text_embeddings = np.load("/content/drive/My Drive/E-commerce_Analysis/data/processed/text_embeddings.npy")
+image_embeddings = np.load("/content/drive/My Drive/E-commerce_Analysis/data/processed/image_embeddings.npy")
+
+# Print shapes to verify
+print("Loaded text embeddings shape:", text_embeddings.shape)  # Should be (65, 512)
+print("Loaded image embeddings shape:", image_embeddings.shape)  # Should be (65, 512)
+
+# Build Faiss indexes
+embedding_dim = 512  # CLIP embedding dimension
+text_index = faiss.IndexFlatL2(embedding_dim)
+text_index.add(text_embeddings)
+
+image_index = faiss.IndexFlatL2(embedding_dim)
+image_index.add(image_embeddings)
+
+# Save indexes
+faiss.write_index(text_index, "/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss")
+faiss.write_index(image_index, "/content/drive/My Drive/E-commerce_Analysis/data/processed/image_index.faiss")
+print("Faiss indexes created and saved")
+
+
+
+================================================
+                 10th cell
+================================================
+# Print shapes to verify
+print("Loaded text embeddings shape:", text_embeddings.shape)  # Should be (65, 512)
+print("Loaded image embeddings shape:", image_embeddings.shape)  # Should be (65, 512)
+
+
+
+================================================
+                 11th cell
+================================================
+from sklearn.feature_extraction.text import TfidfVectorizer
+tfidf = TfidfVectorizer()
+tfidf_matrix = tfidf.fit_transform(amazon_df['combined_text'])
+
+
+
+================================================
+                 12th cell
+================================================
+# Find a product with "earphones" in its name
+earphone_idx = amazon_df[amazon_df['product_name'].str.contains("earphones", case=False)].index[0]
+earphone_emb = text_embeddings[earphone_idx]  # Use the text_embeddings array instead of DataFrame
+
+# Search the text index
+_, indices = text_index.search(np.expand_dims(earphone_emb, 0), 1)
+retrieved_product = amazon_df.iloc[indices[0][0]]
+
+print(f"Known product: {amazon_df.iloc[earphone_idx]['product_name']}")
+print(f"Retrieved product: {retrieved_product['product_name']}")
+
+
+
+
+================================================
+                 13th cell
+================================================
+"""
+Test script for DeepSeek-enhanced vector search.
+"""
+
+import faiss
+import numpy as np
+import pandas as pd
+import torch
+from transformers import CLIPProcessor, CLIPModel
+from sklearn.feature_extraction.text import TfidfVectorizer
+import time
+
+# Import both search functions for comparison
+from vectorshop.embedding.vector_search import search_multi_modal, improved_search_multi_modal
+
+# Path configuration
+DATA_PATH = "/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_images.csv"
+TEXT_INDEX_PATH = "/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss"
+IMAGE_INDEX_PATH = "/content/drive/My Drive/E-commerce_Analysis/data/processed/image_index.faiss"
+
+def run_test():
+    """Run test comparing original and improved search functions."""
+    
+    print("Loading dataset and indexes...")
+    # Load dataset
+    amazon_df = pd.read_csv(DATA_PATH)
+    
+    # Load FAISS indexes
+    text_index = faiss.read_index(TEXT_INDEX_PATH)
+    image_index = faiss.read_index(IMAGE_INDEX_PATH)
+    
+    # Set device
+    device = "cpu"  # Use "cuda" if GPU is available
+    
+    # Load CLIP model and processor
+    print("Loading CLIP model...")
+    clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
+    clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+    
+    # Create TF-IDF vectorizer and matrix
+    print("Computing TF-IDF matrix...")
+    tfidf = TfidfVectorizer()
+    tfidf_matrix = tfidf.fit_transform(amazon_df['combined_text'])
+    
+    # Test queries with expected product IDs
+    test_queries = [
+        "good quality of fast charging Cable for iPhone under 5 USD",
+        "good quality headset with Noise Cancelling for computer and have warranty"
+    ]
+    expected_product_ids = ["B08CF3B7N1", "B009LJ2BXA"]
+    
+    # Run tests for each query
+    for i, query in enumerate(test_queries):
+        expected_id = expected_product_ids[i]
+        print(f"\n{'-'*80}")
+        print(f"Testing query: {query}")
+        print(f"Expected product: {expected_id}")
+        print(f"{'-'*80}\n")
+        
+        # Test original search function
+        print("\n--- ORIGINAL SEARCH FUNCTION ---\n")
+        start_time = time.time()
+        original_results = search_multi_modal(
+            query=query,
+            text_index=text_index,
+            image_index=image_index,
+            df=amazon_df,
+            model=clip_model,
+            processor=clip_processor,
+            tfidf=tfidf,
+            tfidf_matrix=tfidf_matrix,
+            device=device,
+            top_k=5,
+            exchange_rate=83
+        )
+        original_time = time.time() - start_time
+        
+        # Check if expected product is in top results
+        if expected_id in original_results['product_id'].values:
+            original_rank = original_results[original_results['product_id'] == expected_id].index[0] + 1
+            print(f"✅ Original search found {expected_id} at rank {original_rank}")
+        else:
+            print(f"❌ Original search did not find {expected_id} in top results")
+        
+        print(f"Original search time: {original_time:.2f} seconds")
+        
+        # Test improved search function
+        print("\n--- IMPROVED SEARCH FUNCTION (WITH DEEPSEEK) ---\n")
+        start_time = time.time()
+        improved_results = improved_search_multi_modal(
+            query=query,
+            text_index=text_index,
+            image_index=image_index,
+            df=amazon_df,
+            model=clip_model,
+            processor=clip_processor,
+            tfidf=tfidf,
+            tfidf_matrix=tfidf_matrix,
+            device=device,
+            top_k=5,
+            exchange_rate=83,
+            use_deepseek=True
+        )
+        improved_time = time.time() - start_time
+        
+        # Check if expected product is in top results
+        if expected_id in improved_results['product_id'].values:
+            improved_rank = improved_results[improved_results['product_id'] == expected_id].index[0] + 1
+            print(f"✅ Improved search found {expected_id} at rank {improved_rank}")
+        else:
+            print(f"❌ Improved search did not find {expected_id} in top results")
+        
+        print(f"Improved search time: {improved_time:.2f} seconds")
+        
+        # Compare results
+        print("\n--- COMPARISON ---\n")
+        print("Original top 5 results:")
+        print(original_results[['product_id', 'product_name', 'price_usd', 'score']])
+        
+        print("\nImproved top 5 results:")
+        if 'final_score' in improved_results.columns:
+            print(improved_results[['product_id', 'product_name', 'price_usd', 'final_score']])
+        else:
+            print(improved_results[['product_id', 'product_name', 'price_usd', 'score']])
+
+if __name__ == "__main__":
+    run_test()
+
+
+
+
+================================================
+                 14th cell
+================================================
+# Import necessary module for TF-IDF
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+# Load Faiss indexes
+text_index = faiss.read_index("/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss")
+image_index = faiss.read_index("/content/drive/My Drive/E-commerce_Analysis/data/processed/image_index.faiss")
+
+# Load CLIP model and processor using lazy loading
+model, processor = get_clip_model(device=device)
+
+# Clear any residual GPU memory (just in case)
+torch.cuda.empty_cache()
+
+# Compute TF-IDF vectorizer and matrix
+tfidf = TfidfVectorizer()
+tfidf_matrix = tfidf.fit_transform(amazon_df['combined_text'])
+
+# Test queries
+queries = [
+    "good quality of fast charging Cable for iPhone under 5 USD",
+    "good quality headset with Noise Cancelling for computer and have warranty"
+]
+
+expected_product_ids = ["B08CF3B7N1", "B009LJ2BXA"]
+
+for query, expected_id in zip(queries, expected_product_ids):
+    print(f"\nTesting query: {query}")
+    results = search_multi_modal(
+        query=query,
+        text_index=text_index,
+        image_index=image_index,
+        df=amazon_df,
+        model=model,
+        processor=processor,
+        tfidf=tfidf,  # Pass the TF-IDF vectorizer
+        tfidf_matrix=tfidf_matrix,  # Pass the precomputed TF-IDF matrix
+        device=device,
+        top_k=5,
+        exchange_rate=83
+    )
+    print("Search results:")
+    print(results[['product_id', 'product_name', 'price_usd', 'score']])
+    # Check if expected product ID is in top results
+    if expected_id in results['product_id'].values:
+        rank = results[results['product_id'] == expected_id].index[0] + 1
+        print(f"Expected product {expected_id} found at rank {rank}")
+    else:
+        print(f"Expected product {expected_id} not found in top results")
+
+
+
+
+================================================
+                 15th cell
+================================================
+print(amazon_df[amazon_df['product_id'] == 'B08CF3B7N1']['category'])
+print(amazon_df[amazon_df['product_id'] == 'B009LJ2BXA']['category'])
+
+
+
+================================================
+                 16th cell
+================================================
+# Assuming 'results' is the DataFrame returned by search_multi_modal with top_k=100
+
+# Add a 'rank' column based on the order of results (1 = highest score)
+results['rank'] = range(1, len(results) + 1)
+
+# Filter for the products of interest
+products_of_interest = ['B08CF3B7N1', 'B009LJ2BXA']
+filtered_results = results[results['product_id'].isin(products_of_interest)]
+
+# Select relevant columns: product_id, score, rank
+relevant_info = filtered_results[['product_id', 'score', 'rank']]
+
+# Display the results
+print(relevant_info)
+
+
+================================================
+                 17th cell
+================================================
+import numpy as np
+
+# Check a few text embeddings
+for i in range(3):
+    text_emb_norm = np.linalg.norm(amazon_df['text_embedding'].iloc[i])
+    print(f"Text embedding {i} norm: {text_emb_norm:.4f}")
+
+# Check a few image embeddings
+for i in range(3):
+    image_emb_norm = np.linalg.norm(amazon_df['image_embedding'].iloc[i])
+    print(f"Image embedding {i} norm: {image_emb_norm:.4f}")
+
+# Check query embedding normalization
+query = "wireless earphones with excellent noise cancelling below 200USD"
+inputs = processor(text=[query], return_tensors="pt").to(device)
+query_embedding = model.get_text_features(**inputs).detach().cpu().numpy()[0]  # Detach the tensor
+query_embedding /= np.linalg.norm(query_embedding)  # Normalize it
+print(f"Query embedding norm: {np.linalg.norm(query_embedding):.4f}")
+
+================================================
+                 18th cell
+================================================
+# Check similarity between two text embeddings
+emb1 = amazon_df['text_embedding'].iloc[0]
+emb2 = amazon_df['text_embedding'].iloc[1]
+similarity = np.dot(emb1, emb2)
+print(f"Cosine similarity between text embeddings 0 and 1: {similarity:.4f}")
+
+# Check similarity between two image embeddings
+img_emb1 = amazon_df['image_embedding'].iloc[0]
+img_emb2 = amazon_df['image_embedding'].iloc[1]
+img_similarity = np.dot(img_emb1, img_emb2)
+print(f"Cosine similarity between image embeddings 0 and 1: {img_similarity:.4f}")
+
+
+
+================================================
+                 19th cell
+================================================
+# Assuming query_embedding is defined (if not, regenerate it as in Step 1)
+query = "wireless earphones with excellent noise cancelling below 200USD"
+inputs = processor(text=[query], return_tensors="pt").to(device)
+query_embedding = model.get_text_features(**inputs).detach().cpu().numpy()[0]  # Detach and convert
+query_embedding /= np.linalg.norm(query_embedding)  # Normalize
+
+# Text-only search
+text_scores, text_indices = text_index.search(np.expand_dims(query_embedding, 0), 5)
+text_results = amazon_df.iloc[text_indices[0]].copy()
+text_results['score'] = text_scores[0]
+print("Text-only search results:")
+print(text_results[['product_id', 'product_name', 'score']])
+
+# Image-only search
+image_scores, image_indices = image_index.search(np.expand_dims(query_embedding, 0), 5)
+image_results = amazon_df.iloc[image_indices[0]].copy()
+image_results['score'] = image_scores[0]
+print("Image-only search results:")
+print(image_results[['product_id', 'product_name', 'score']])
+
+
+================================================
+                 20th cell
+================================================
+# Import our new search components
+from vectorshop.embedding.deepseek_embeddings import DeepSeekEmbeddings, create_product_text
+from vectorshop.embedding.bm25_search import ProductBM25Search
+from vectorshop.embedding.hybrid_search import HybridSearch
+
+print("Successfully imported new search modules!")
+
+
+================================================
+                 21st cell
+================================================
+def create_robust_product_text(row):
+    """
+    Create a comprehensive text representation of a product with proper error handling.
+    """
+    parts = []
+
+    # Add product name
+    if 'product_name' in row and not pd.isna(row['product_name']):
+        parts.append(f"Product: {row['product_name']}")
+
+    # Add category with hierarchy
+    if 'category' in row and not pd.isna(row['category']):
+        category = str(row['category'])
+        # Handle different category separators
+        if '|' in category:
+            category_parts = category.split('|')
+        elif '>' in category:
+            category_parts = category.split('>')
+        else:
+            category_parts = [category]
+
+        # Add category information
+        parts.append(f"Category: {' > '.join(category_parts)}")
+
+        # Add primary category separately
+        if len(category_parts) > 0:
+            parts.append(f"Primary Category: {category_parts[0].strip()}")
+
+    # Add product description
+    if 'about_product' in row and not pd.isna(row['about_product']):
+        parts.append(f"Description: {row['about_product']}")
+
+    # Add rating information with careful error handling
+    if 'rating' in row and not pd.isna(row['rating']):
+        try:
+            # Clean the rating string by keeping only digits and decimal point
+            if isinstance(row['rating'], str):
+                import re
+                cleaned_rating = re.sub(r'[^\d.]', '', row['rating'])
+                if cleaned_rating:
+                    rating = float(cleaned_rating)
+                else:
+                    rating = None
+            else:
+                rating = float(row['rating'])
+
+            # Add rating information if valid
+            if rating is not None and rating > 0:
+                if rating >= 4.0:
+                    parts.append("Quality: High Rating")
+                parts.append(f"Rating: {rating}")
+        except:
+            # Skip rating if conversion fails
+            pass
+
+    # Add price information
+    if 'discounted_price' in row and not pd.isna(row['discounted_price']):
+        try:
+            price_str = str(row['discounted_price']).replace('₹', '').replace(',', '')
+            price_inr = float(price_str)
+            price_usd = price_inr / 83  # Convert to USD
+            parts.append(f"Price: {price_usd:.2f} USD")
+        except:
+            # Skip price if conversion fails
+            pass
+
+    # Add review content if available
+    if 'review_content' in row and not pd.isna(row['review_content']):
+        parts.append(f"Reviews: {row['review_content']}")
+
+    # Add image description if available
+    if 'image_desc' in row and not pd.isna(row['image_desc']):
+        parts.append(f"Image: {row['image_desc']}")
+
+    # Join all parts with line breaks for better tokenization
+    return "\n".join(parts)
+
+# Use the robust function to regenerate combined_text
+print("Regenerating combined_text with improved structure and error handling...")
+amazon_df['combined_text_improved'] = amazon_df.apply(create_robust_product_text, axis=1)
+
+# Keep the original combined_text (we'll need it for the original CLIP embeddings)
+# and save the improved version to a new column
+
+# Save the updated dataset
+amazon_df.to_csv("/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_improved_text.csv", index=False)
+print("Updated dataset saved with improved text structure")
+
+# Print a sample of the improved text
+print("\nSample of improved text representation:")
+print(amazon_df['combined_text_improved'].iloc[0])
+
+================================================
+                 22nd cell
+================================================
+amazon_df.info()
+
+
+
+================================================
+                 23rd cell
+================================================
+!pip install --user -U nltk
+import nltk
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+# Download with a specific download directory
+nltk.download('punkt', download_dir='/root/nltk_data')
+nltk.download('stopwords', download_dir='/root/nltk_data')
+
+
+
+================================================
+                 24th cell
+================================================
+import torch
+
+# Now you can use torch.cuda.is_available()
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+
+================================================
+                 25th cell
+================================================
+# Import our new search components
+from vectorshop.embedding.bm25_search import ProductBM25Search
+from vectorshop.embedding.hybrid_search import HybridSearch
+
+# Initialize the hybrid search system with the improved text column
+print("Initializing hybrid search system...")
+search_system = HybridSearch(
+    df=amazon_df,
+    device="cuda" if torch.cuda.is_available() else "cpu",  # Use GPU if available
+    use_deepseek_reranking=True,
+    exchange_rate=83
+)
+
+# We'll use the existing CLIP embeddings first to test the system
+# But we'll tell the system to use our improved text for BM25 search
+search_system.bm25_search = ProductBM25Search(amazon_df, text_column='combined_text_improved')
+
+print("Search system initialized with improved text for BM25!")
+
+
+
+================================================
+                 26th cell
+================================================
+import os
+import torch
+import numpy as np
+import faiss
+from tqdm.notebook import tqdm  # For progress bars
+
+# Define paths
+DATA_PATH = "/content/drive/My Drive/E-commerce_Analysis/data/processed/amazon_with_images.csv"
+OUTPUT_DIR = "/content/drive/My Drive/E-commerce_Analysis/data/search_system"
+EMBEDDINGS_DIR = os.path.join(OUTPUT_DIR, "embeddings_chunks")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(EMBEDDINGS_DIR, exist_ok=True)
+
+# Initialize the search system
+print(f"Using {'GPU' if torch.cuda.is_available() else 'CPU'} for processing")
+print(f"Available GPU memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB") if torch.cuda.is_available() else print("No GPU available")
+
+# Process in chunks to enable restart capability
+CHUNK_SIZE = 100  # Process 100 products at a time
+total_products = len(amazon_df)
+chunks = [(i, min(i+CHUNK_SIZE, total_products)) for i in range(0, total_products, CHUNK_SIZE)]
+
+# Check for existing embeddings chunks
+completed_chunks = []
+for start, end in chunks:
+    chunk_path = os.path.join(EMBEDDINGS_DIR, f"embeddings_{start}_{end}.npy")
+    if os.path.exists(chunk_path):
+        completed_chunks.append((start, end))
+
+print(f"Found {len(completed_chunks)} completed chunks out of {len(chunks)} total")
+
+# Only process remaining chunks
+remaining_chunks = [chunk for chunk in chunks if chunk not in completed_chunks]
+
+if not remaining_chunks:
+    print("All chunks already processed!")
+else:
+    # Initialize search system for chunk processing
+    search_system = HybridSearch(
+        df=amazon_df,
+        device="cuda" if torch.cuda.is_available() else "cpu",
+        use_deepseek_reranking=False,  # Turn off during embedding generation to save memory
+        exchange_rate=83
+    )
+    
+    # Process each chunk
+    for start, end in tqdm(remaining_chunks, desc="Processing chunks"):
+        print(f"Processing products {start} to {end-1}")
+        
+        # Get subset of DataFrame
+        chunk_df = amazon_df.iloc[start:end].copy()
+        
+        # Generate embeddings for this chunk
+        embeddings = search_system.embeddings_generator.generate_product_embeddings(
+            df=chunk_df,
+            text_column='combined_text_improved',
+            batch_size=16  # Adjust based on GPU memory
+        )
+        
+        # Save this chunk's embeddings
+        chunk_path = os.path.join(EMBEDDINGS_DIR, f"embeddings_{start}_{end}.npy")
+        np.save(chunk_path, embeddings)
+        print(f"Saved embeddings chunk to {chunk_path}")
+        
+        # Clear GPU memory after each chunk
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+# After all chunks are processed, combine them
+if os.path.exists(os.path.join(OUTPUT_DIR, "combined_embeddings.npy")):
+    print("Using existing combined embeddings")
+    combined_embeddings = np.load(os.path.join(OUTPUT_DIR, "combined_embeddings.npy"))
+else:
+    # Combine all embedding chunks
+    embedding_chunks = []
+    for start, end in chunks:
+        chunk_path = os.path.join(EMBEDDINGS_DIR, f"embeddings_{start}_{end}.npy")
+        if os.path.exists(chunk_path):
+            embedding_chunks.append(np.load(chunk_path))
+    
+    combined_embeddings = np.vstack(embedding_chunks)
+    np.save(os.path.join(OUTPUT_DIR, "combined_embeddings.npy"), combined_embeddings)
+    print(f"Combined embeddings saved with shape {combined_embeddings.shape}")
+
+# Build the FAISS index from combined embeddings
+vector_index_path = os.path.join(OUTPUT_DIR, "deepseek_vector_index.faiss")
+if os.path.exists(vector_index_path):
+    print(f"Using existing index from {vector_index_path}")
+else:
+    print("Building FAISS index from combined embeddings...")
+    dimension = combined_embeddings.shape[1]
+    index = faiss.IndexFlatIP(dimension)
+    
+    # Normalize embeddings for cosine similarity
+    faiss.normalize_L2(combined_embeddings)
+    
+    # Add to index
+    index.add(combined_embeddings)
+    
+    # Save index
+    faiss.write_index(index, vector_index_path)
+    print(f"Index saved to {vector_index_path}")
+
+# Initialize the final search system with the built index
+search_system = HybridSearch(
+    df=amazon_df,
+    vector_index_path=vector_index_path,
+    device="cuda" if torch.cuda.is_available() else "cpu",
+    use_deepseek_reranking=True,
+    exchange_rate=83
+)
+
+print("Search system initialized successfully!")
+
+
+================================================
+                 27th cell
+================================================
+# Test queries with the new hybrid search system
+test_queries = [
+    "good quality of fast charging Cable for iPhone under 5 USD",
+    "good quality headset with Noise Cancelling for computer and have warranty",
+    "bluetooth wireless earbuds with long battery life",
+    "premium gaming mouse with RGB lighting"
+]
+
+target_product_ids = {
+    "good quality of fast charging Cable for iPhone under 5 USD": "B08CF3B7N1",
+    "good quality headset with Noise Cancelling for computer and have warranty": "B009LJ2BXA"
+}
+
+# Test each query
+for query in test_queries:
+    print(f"\n{'='*80}")
+    print(f"Test Query: {query}")
+    print(f"{'='*80}")
+
+    # Check if this is a target query
+    target_id = target_product_ids.get(query, None)
+    if target_id:
+        print(f"Target product ID: {target_id}")
+
+    # Run the search
+    results = search_system.search(query, top_k=5, debug=True)
+
+    # Print results
+    print("\nTop 5 Results with Details:")
+    display_cols = ['product_id', 'product_name', 'category', 'price_usd']
+    if 'hybrid_score' in results.columns:
+        display_cols.append('hybrid_score')
+    if 'bm25_score' in results.columns:
+        display_cols.append('bm25_score')
+    if 'vector_score' in results.columns:
+        display_cols.append('vector_score')
+    if 'semantic_score' in results.columns:
+        display_cols.append('semantic_score')
+    if 'final_score' in results.columns:
+        display_cols.append('final_score')
+
+    print(results[display_cols])
+
+    # Check if target product is in results
+    if target_id and target_id in results['product_id'].values:
+        rank = results[results['product_id'] == target_id].index.tolist()[0] + 1
+        print(f"\n✅ Target product {target_id} found at rank {rank}")
+    elif target_id:
+        print(f"\n❌ Target product {target_id} not found in top 5 results")
+
+
+================================================
+                 28th cell
+================================================
+# Compare the old and new search systems side by side
+from prettytable import PrettyTable
+import time
+from sklearn.feature_extraction.text import TfidfVectorizer
+from transformers import CLIPProcessor, CLIPModel
+from vectorshop.embedding.vector_search import search_multi_modal
+
+# Define CLIP model loading function
+def get_clip_model(device="cpu"):
+    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
+    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+    return model, processor
+
+# Load existing indexes
+text_index_clip = faiss.read_index("/content/drive/My Drive/E-commerce_Analysis/data/processed/text_index.faiss")
+image_index_clip = faiss.read_index("/content/drive/My Drive/E-commerce_Analysis/data/processed/image_index.faiss")
+
+# Initialize TF-IDF for the original search system
+print("Initializing TF-IDF vectorizer...")
+tfidf = TfidfVectorizer()
+tfidf_matrix = tfidf.fit_transform(amazon_df['combined_text_improved'])
+print("TF-IDF matrix created with shape:", tfidf_matrix.shape)
+
+# Get CLIP model
+print("Loading CLIP model...")
+clip_model, clip_processor = get_clip_model(device=device)
+
+# Create comparison table
+comparison_table = PrettyTable()
+comparison_table.field_names = ["Query", "Target Product ID", "Original System Rank", "Hybrid System Rank", "Speed Improvement"]
+
+# Test queries
+test_queries = [
+    "good quality of fast charging Cable for iPhone under 5 USD",
+    "good quality headset with Noise Cancelling for computer and have warranty"
+]
+
+for query in test_queries:
+    print(f"\nComparing search systems for: {query}")
+    target_id = target_product_ids.get(query)
+
+    # Test original system
+    start_time = time.time()
+    original_results = search_multi_modal(
+        query=query,
+        text_index=text_index_clip,
+        image_index=image_index_clip,
+        df=amazon_df,
+        model=clip_model,
+        processor=clip_processor,
+        tfidf=tfidf,
+        tfidf_matrix=tfidf_matrix,
+        device=device,
+        top_k=10,
+        exchange_rate=83
+    )
+    original_time = time.time() - start_time
+
+    original_rank = "Not Found"
+    if target_id in original_results['product_id'].values:
+        original_rank = original_results[original_results['product_id'] == target_id].index[0] + 1
+
+    # Test hybrid system
+    start_time = time.time()
+    hybrid_results = search_system.search(query, top_k=10, debug=False)
+    hybrid_time = time.time() - start_time
+
+    hybrid_rank = "Not Found"
+    if target_id in hybrid_results['product_id'].values:
+        hybrid_rank = hybrid_results[hybrid_results['product_id'] == target_id].index[0] + 1
+
+    # Speed comparison
+    speed_ratio = original_time / hybrid_time
+    speed_improvement = f"{speed_ratio:.2f}x"
+
+    # Add to table
+    comparison_table.add_row([
+        query[:30] + "...",
+        target_id,
+        original_rank,
+        hybrid_rank,
+        speed_improvement
+    ])
+
+print("\nSearch System Comparison:")
+print(comparison_table)
+
+================================================
+                 29th cell
+================================================
+def demo_search_for_stakeholders(query, top_k=5):
+    """
+    Demonstration function that shows the power of the hybrid search system.
+    This function is designed to showcase the system to Shopify stakeholders.
+
+    Args:
+        query: The search query from the user
+        top_k: Number of results to return
+    """
+    print(f"\n{'='*80}")
+    print(f"🔍 SEARCH QUERY: {query}")
+    print(f"{'='*80}")
+
+    # Start timing
+    start_time = time.time()
+
+    # Run the search with our hybrid system
+    results = search_system.search(query, top_k=top_k, debug=False)
+
+    # Calculate search time
+    elapsed_time = time.time() - start_time
+
+    # Print the query analysis (if available from DeepSeek)
+    if hasattr(search_system, 'reranker') and search_system.reranker:
+        try:
+            query_analysis = search_system.reranker.analyze_query(query)
+            print("\n🧠 QUERY UNDERSTANDING:")
+            if 'product_type' in query_analysis:
+                print(f"• Product Type: {query_analysis['product_type']}")
+            if 'key_features' in query_analysis:
+                print(f"• Key Features: {', '.join(query_analysis['key_features'])}")
+            if 'price_constraint' in query_analysis:
+                print(f"• Price Constraint: Under ${query_analysis['price_constraint']} USD")
+        except:
+            pass
+
+    # Print search results in a nice format
+    print(f"\n📊 TOP {top_k} RESULTS (found in {elapsed_time:.2f} seconds):")
+
+    for i, (idx, row) in enumerate(results.iterrows()):
+        print(f"\n{i+1}. {row['product_name']}")
+        print(f"   Product ID: {row['product_id']}")
+        print(f"   Category: {row['category']}")
+        print(f"   Price: ${row['price_usd']:.2f} USD")
+
+        # Print the top matching features (if available)
+        if 'about_product' in row and isinstance(row['about_product'], str):
+            about = row['about_product']
+            print(f"   Key Features: {about[:100]}...")
+
+    return results
+
+# Try the demo function with different queries
+demo_queries = [
+    "wireless earbuds with noise cancelling under $25",
+    "gaming keyboard with RGB lighting",
+    "smart watch with heart rate monitor waterproof",
+    "HDMI cable 4K compatible under $10"
+]
+
+for query in demo_queries:
+    demo_search_for_stakeholders(query)
+
+
+

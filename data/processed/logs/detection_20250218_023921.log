@@ -1,0 +1,1944 @@
+2025-02-18 02:39:24,690 - INFO - Detector: word_list
+Text: reviews correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.07ms
+
+2025-02-18 02:39:24,693 - INFO - Detector: deepseek
+Text: reviews correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.73ms
+
+2025-02-18 02:39:24,696 - INFO - Detector: google_api
+Text: reviews correta usei produto mas parece bom eu comprei um rel gio me mandaram outro melhor do brasil...
+Language: pt
+Confidence: 0.98
+Processing Time: 92.82ms
+
+2025-02-18 02:39:24,769 - INFO - Detector: word_list
+Text: reviews voltarei comprar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:24,771 - INFO - Detector: deepseek
+Text: reviews voltarei comprar...
+Language: pt
+Confidence: 0.80
+Processing Time: 11.44ms
+
+2025-02-18 02:39:24,774 - INFO - Detector: google_api
+Text: reviews voltarei comprar...
+Language: pt
+Confidence: 1.00
+Processing Time: 59.35ms
+
+2025-02-18 02:39:24,844 - INFO - Detector: word_list
+Text: reviews recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:24,847 - INFO - Detector: deepseek
+Text: reviews recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.68ms
+
+2025-02-18 02:39:24,849 - INFO - Detector: google_api
+Text: reviews recebi metade do pedido nao recebi lustre ainda...
+Language: pt
+Confidence: 1.00
+Processing Time: 57.07ms
+
+2025-02-18 02:39:24,923 - INFO - Detector: word_list
+Text: reviews entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebra...
+Language: pt
+Confidence: 0.74
+Processing Time: 0.05ms
+
+2025-02-18 02:39:24,924 - INFO - Detector: deepseek
+Text: reviews entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebra...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.94ms
+
+2025-02-18 02:39:24,927 - INFO - Detector: google_api
+Text: reviews entrega foi direitinha mas produto ssimo embalagem veio danificada assim como produto quebra...
+Language: pt
+Confidence: 0.99
+Processing Time: 59.96ms
+
+2025-02-18 02:39:24,999 - INFO - Detector: word_list
+Text: reviews loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:25,001 - INFO - Detector: deepseek
+Text: reviews loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.66ms
+
+2025-02-18 02:39:25,002 - INFO - Detector: google_api
+Text: reviews loja mandou bem obrigado ronaldo...
+Language: pt
+Confidence: 0.98
+Processing Time: 56.74ms
+
+2025-02-18 02:39:25,077 - INFO - Detector: word_list
+Text: reviews entrega antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:25,079 - INFO - Detector: deepseek
+Text: reviews entrega antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 22.22ms
+
+2025-02-18 02:39:25,081 - INFO - Detector: google_api
+Text: reviews entrega antes do prazo...
+Language: pt
+Confidence: 0.93
+Processing Time: 50.68ms
+
+2025-02-18 02:39:25,152 - INFO - Detector: word_list
+Text: reviews gostei muito do cord simples fofo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.01ms
+
+2025-02-18 02:39:25,154 - INFO - Detector: deepseek
+Text: reviews gostei muito do cord simples fofo...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.23ms
+
+2025-02-18 02:39:25,156 - INFO - Detector: google_api
+Text: reviews gostei muito do cord simples fofo...
+Language: pt
+Confidence: 1.00
+Processing Time: 58.58ms
+
+2025-02-18 02:39:25,227 - INFO - Detector: word_list
+Text: reviews adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:25,228 - INFO - Detector: deepseek
+Text: reviews adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.44ms
+
+2025-02-18 02:39:25,231 - INFO - Detector: google_api
+Text: reviews adorei os livros os cartazes excelentes para usarmos com nossos alunos...
+Language: pt
+Confidence: 0.87
+Processing Time: 56.65ms
+
+2025-02-18 02:39:25,305 - INFO - Detector: word_list
+Text: reviews produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 02:39:25,307 - INFO - Detector: deepseek
+Text: reviews produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 1.00
+Processing Time: 12.66ms
+
+2025-02-18 02:39:25,310 - INFO - Detector: google_api
+Text: reviews produto veio direitinho bem embalado chegou antes do prazo estou muito satisfeita...
+Language: pt
+Confidence: 0.96
+Processing Time: 59.58ms
+
+2025-02-18 02:39:25,383 - INFO - Detector: word_list
+Text: reviews entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega n...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.10ms
+
+2025-02-18 02:39:25,386 - INFO - Detector: deepseek
+Text: reviews entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega n...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.28ms
+
+2025-02-18 02:39:25,388 - INFO - Detector: google_api
+Text: reviews entrega rapid ssima foi comprado no dia seguinte estava dispon vel show compra cil entrega n...
+Language: pt
+Confidence: 0.93
+Processing Time: 59.32ms
+
+2025-02-18 02:39:25,461 - INFO - Detector: word_list
+Text: reviews pelo pre vale pena...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.02ms
+
+2025-02-18 02:39:25,462 - INFO - Detector: deepseek
+Text: reviews pelo pre vale pena...
+Language: pt
+Confidence: 0.97
+Processing Time: 10.96ms
+
+2025-02-18 02:39:25,465 - INFO - Detector: google_api
+Text: reviews pelo pre vale pena...
+Language: pt
+Confidence: 0.94
+Processing Time: 58.27ms
+
+2025-02-18 02:39:25,551 - INFO - Detector: word_list
+Text: reviews estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de ...
+Language: pt
+Confidence: 0.76
+Processing Time: 0.24ms
+
+2025-02-18 02:39:25,553 - INFO - Detector: deepseek
+Text: reviews estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de ...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.92ms
+
+2025-02-18 02:39:25,556 - INFO - Detector: google_api
+Text: reviews estou plenamente satisfeita com minha aquisi recomendo nica coisa que concordo com valor de ...
+Language: pt
+Confidence: 0.82
+Processing Time: 64.63ms
+
+2025-02-18 02:39:25,631 - INFO - Detector: word_list
+Text: reviews compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.08ms
+
+2025-02-18 02:39:25,633 - INFO - Detector: deepseek
+Text: reviews compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.66ms
+
+2025-02-18 02:39:25,636 - INFO - Detector: google_api
+Text: reviews compra foi realizada facilmente entrega foi efetuada muito antes do prazo dado produto come ...
+Language: pt
+Confidence: 0.97
+Processing Time: 60.28ms
+
+2025-02-18 02:39:25,717 - INFO - Detector: word_list
+Text: reviews produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produt...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.05ms
+
+2025-02-18 02:39:25,720 - INFO - Detector: deepseek
+Text: reviews produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produt...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.94ms
+
+2025-02-18 02:39:25,724 - INFO - Detector: google_api
+Text: reviews produto simples de acordo com imagem com pre pago obrigada satisfeita gostei muito do produt...
+Language: pt
+Confidence: 0.92
+Processing Time: 68.55ms
+
+2025-02-18 02:39:25,794 - INFO - Detector: word_list
+Text: reviews entrega pida produto de boa qualidade recomendo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:25,797 - INFO - Detector: deepseek
+Text: reviews entrega pida produto de boa qualidade recomendo...
+Language: pt
+Confidence: 0.97
+Processing Time: 12.01ms
+
+2025-02-18 02:39:25,799 - INFO - Detector: google_api
+Text: reviews entrega pida produto de boa qualidade recomendo...
+Language: pt
+Confidence: 0.95
+Processing Time: 55.19ms
+
+2025-02-18 02:39:25,867 - INFO - Detector: word_list
+Text: reviews produto bom frete caro demorado...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:25,869 - INFO - Detector: deepseek
+Text: reviews produto bom frete caro demorado...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.11ms
+
+2025-02-18 02:39:25,872 - INFO - Detector: google_api
+Text: reviews produto bom frete caro demorado...
+Language: pt
+Confidence: 1.00
+Processing Time: 55.59ms
+
+2025-02-18 02:39:25,944 - INFO - Detector: word_list
+Text: reviews nao gostei do produto pior que loja nao op ao de troca no site no contato das lannister nao ...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:25,946 - INFO - Detector: deepseek
+Text: reviews nao gostei do produto pior que loja nao op ao de troca no site no contato das lannister nao ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.50ms
+
+2025-02-18 02:39:25,948 - INFO - Detector: google_api
+Text: reviews nao gostei do produto pior que loja nao op ao de troca no site no contato das lannister nao ...
+Language: pt
+Confidence: 1.00
+Processing Time: 58.88ms
+
+2025-02-18 02:39:26,025 - INFO - Detector: word_list
+Text: reviews entrega muito antes do prazo parab ns veio com defeito com cola embaixo forma de pagamento s...
+Language: pt
+Confidence: 0.61
+Processing Time: 0.03ms
+
+2025-02-18 02:39:26,027 - INFO - Detector: deepseek
+Text: reviews entrega muito antes do prazo parab ns veio com defeito com cola embaixo forma de pagamento s...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.87ms
+
+2025-02-18 02:39:26,030 - INFO - Detector: google_api
+Text: reviews entrega muito antes do prazo parab ns veio com defeito com cola embaixo forma de pagamento s...
+Language: pt
+Confidence: 0.98
+Processing Time: 61.24ms
+
+2025-02-18 02:39:26,113 - INFO - Detector: word_list
+Text: reviews eu gosto sempre de comprar na lannister...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:26,115 - INFO - Detector: deepseek
+Text: reviews eu gosto sempre de comprar na lannister...
+Language: pt
+Confidence: 0.99
+Processing Time: 20.16ms
+
+2025-02-18 02:39:26,116 - INFO - Detector: google_api
+Text: reviews eu gosto sempre de comprar na lannister...
+Language: pt
+Confidence: 1.00
+Processing Time: 60.54ms
+
+2025-02-18 02:39:26,188 - INFO - Detector: word_list
+Text: reviews super recomendo entrega produtos ok produto de qualidade entrega muito demorada chegou bem a...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.10ms
+
+2025-02-18 02:39:26,189 - INFO - Detector: deepseek
+Text: reviews super recomendo entrega produtos ok produto de qualidade entrega muito demorada chegou bem a...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.45ms
+
+2025-02-18 02:39:26,192 - INFO - Detector: google_api
+Text: reviews super recomendo entrega produtos ok produto de qualidade entrega muito demorada chegou bem a...
+Language: pt
+Confidence: 0.98
+Processing Time: 51.06ms
+
+2025-02-18 02:39:26,258 - INFO - Detector: word_list
+Text: reviews produto al das expectativas...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:26,260 - INFO - Detector: deepseek
+Text: reviews produto al das expectativas...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.98ms
+
+2025-02-18 02:39:26,263 - INFO - Detector: google_api
+Text: reviews produto al das expectativas...
+Language: pt
+Confidence: 0.95
+Processing Time: 53.63ms
+
+2025-02-18 02:39:26,332 - INFO - Detector: word_list
+Text: reviews entregou no prazo at agora retornou meus contatos lament vel confi vel pido...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:26,333 - INFO - Detector: deepseek
+Text: reviews entregou no prazo at agora retornou meus contatos lament vel confi vel pido...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.44ms
+
+2025-02-18 02:39:26,336 - INFO - Detector: google_api
+Text: reviews entregou no prazo at agora retornou meus contatos lament vel confi vel pido...
+Language: pt
+Confidence: 1.00
+Processing Time: 55.85ms
+
+2025-02-18 02:39:26,430 - INFO - Detector: word_list
+Text: reviews comprei produto em 25 01 2018 at hoje 26 02 2018 ainda recebi comprei quantidade recebi qty ...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.09ms
+
+2025-02-18 02:39:26,432 - INFO - Detector: deepseek
+Text: reviews comprei produto em 25 01 2018 at hoje 26 02 2018 ainda recebi comprei quantidade recebi qty ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.93ms
+
+2025-02-18 02:39:26,435 - INFO - Detector: google_api
+Text: reviews comprei produto em 25 01 2018 at hoje 26 02 2018 ainda recebi comprei quantidade recebi qty ...
+Language: pt
+Confidence: 0.98
+Processing Time: 79.34ms
+
+2025-02-18 02:39:26,504 - INFO - Detector: word_list
+Text: reviews chegou dentro do prazo como descrito...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:26,506 - INFO - Detector: deepseek
+Text: reviews chegou dentro do prazo como descrito...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.55ms
+
+2025-02-18 02:39:26,508 - INFO - Detector: google_api
+Text: reviews chegou dentro do prazo como descrito...
+Language: pt
+Confidence: 1.00
+Processing Time: 56.24ms
+
+2025-02-18 02:39:26,574 - INFO - Detector: word_list
+Text: reviews no site tinha informando que tinha cor que eu pedi quando realizei compra disse que tinha pe...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.04ms
+
+2025-02-18 02:39:26,576 - INFO - Detector: deepseek
+Text: reviews no site tinha informando que tinha cor que eu pedi quando realizei compra disse que tinha pe...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.18ms
+
+2025-02-18 02:39:26,579 - INFO - Detector: google_api
+Text: reviews no site tinha informando que tinha cor que eu pedi quando realizei compra disse que tinha pe...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.01ms
+
+2025-02-18 02:39:26,649 - INFO - Detector: word_list
+Text: reviews meu produto chegou muito mais pido do qu esperado uma vez que previs era para dia 08 05 cheg...
+Language: pt
+Confidence: 0.62
+Processing Time: 0.04ms
+
+2025-02-18 02:39:26,651 - INFO - Detector: deepseek
+Text: reviews meu produto chegou muito mais pido do qu esperado uma vez que previs era para dia 08 05 cheg...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.94ms
+
+2025-02-18 02:39:26,654 - INFO - Detector: google_api
+Text: reviews meu produto chegou muito mais pido do qu esperado uma vez que previs era para dia 08 05 cheg...
+Language: pt
+Confidence: 0.96
+Processing Time: 56.93ms
+
+2025-02-18 02:39:26,732 - INFO - Detector: word_list
+Text: reviews eu pedi outro produto junto com este foi aprovado acho que quando um produto aprovado ou tem...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.04ms
+
+2025-02-18 02:39:26,735 - INFO - Detector: deepseek
+Text: reviews eu pedi outro produto junto com este foi aprovado acho que quando um produto aprovado ou tem...
+Language: pt
+Confidence: 1.00
+Processing Time: 19.30ms
+
+2025-02-18 02:39:26,737 - INFO - Detector: google_api
+Text: reviews eu pedi outro produto junto com este foi aprovado acho que quando um produto aprovado ou tem...
+Language: pt
+Confidence: 0.96
+Processing Time: 52.82ms
+
+2025-02-18 02:39:26,810 - INFO - Detector: word_list
+Text: reviews produto corretamente enviado bem embalado at antes do prazo...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:26,813 - INFO - Detector: deepseek
+Text: reviews produto corretamente enviado bem embalado at antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 15.33ms
+
+2025-02-18 02:39:26,815 - INFO - Detector: google_api
+Text: reviews produto corretamente enviado bem embalado at antes do prazo...
+Language: pt
+Confidence: 1.00
+Processing Time: 54.72ms
+
+2025-02-18 02:39:26,897 - INFO - Detector: word_list
+Text: reviews tima loja recomendo todos tima loja online...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:26,900 - INFO - Detector: deepseek
+Text: reviews tima loja recomendo todos tima loja online...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.64ms
+
+2025-02-18 02:39:26,902 - INFO - Detector: google_api
+Text: reviews tima loja recomendo todos tima loja online...
+Language: pt
+Confidence: 0.99
+Processing Time: 62.06ms
+
+2025-02-18 02:39:26,980 - INFO - Detector: word_list
+Text: reviews chega no prazo ainda informa es...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:26,982 - INFO - Detector: deepseek
+Text: reviews chega no prazo ainda informa es...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.18ms
+
+2025-02-18 02:39:26,984 - INFO - Detector: google_api
+Text: reviews chega no prazo ainda informa es...
+Language: pt
+Confidence: 0.94
+Processing Time: 57.49ms
+
+2025-02-18 02:39:27,072 - INFO - Detector: word_list
+Text: reviews recebi puff cesta chegou no site parece como foi entregue os dois...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,074 - INFO - Detector: deepseek
+Text: reviews recebi puff cesta chegou no site parece como foi entregue os dois...
+Language: pt
+Confidence: 0.99
+Processing Time: 15.89ms
+
+2025-02-18 02:39:27,076 - INFO - Detector: google_api
+Text: reviews recebi puff cesta chegou no site parece como foi entregue os dois...
+Language: pt
+Confidence: 0.87
+Processing Time: 69.07ms
+
+2025-02-18 02:39:27,154 - INFO - Detector: word_list
+Text: reviews recebi produto no prazo material de qualidade ficou muito bonita na cozinha eu recomendo par...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,156 - INFO - Detector: deepseek
+Text: reviews recebi produto no prazo material de qualidade ficou muito bonita na cozinha eu recomendo par...
+Language: pt
+Confidence: 1.00
+Processing Time: 22.56ms
+
+2025-02-18 02:39:27,157 - INFO - Detector: google_api
+Text: reviews recebi produto no prazo material de qualidade ficou muito bonita na cozinha eu recomendo par...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.19ms
+
+2025-02-18 02:39:27,228 - INFO - Detector: word_list
+Text: reviews status da entrega foi mudado para produdto indispon vel sem nenhum aviso por mail ou contato...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,230 - INFO - Detector: deepseek
+Text: reviews status da entrega foi mudado para produdto indispon vel sem nenhum aviso por mail ou contato...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.22ms
+
+2025-02-18 02:39:27,232 - INFO - Detector: google_api
+Text: reviews status da entrega foi mudado para produdto indispon vel sem nenhum aviso por mail ou contato...
+Language: pt
+Confidence: 0.79
+Processing Time: 50.53ms
+
+2025-02-18 02:39:27,301 - INFO - Detector: word_list
+Text: reviews recomendo pre timo chegou muito pido tempo todo nos deixa informa sobre pedido por mail enfi...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,303 - INFO - Detector: deepseek
+Text: reviews recomendo pre timo chegou muito pido tempo todo nos deixa informa sobre pedido por mail enfi...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.15ms
+
+2025-02-18 02:39:27,305 - INFO - Detector: google_api
+Text: reviews recomendo pre timo chegou muito pido tempo todo nos deixa informa sobre pedido por mail enfi...
+Language: pt
+Confidence: 0.79
+Processing Time: 54.47ms
+
+2025-02-18 02:39:27,376 - INFO - Detector: word_list
+Text: reviews chegou antes do prazo muito bem embalado achei rel gio pequeno mas lindo...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,378 - INFO - Detector: deepseek
+Text: reviews chegou antes do prazo muito bem embalado achei rel gio pequeno mas lindo...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.12ms
+
+2025-02-18 02:39:27,380 - INFO - Detector: google_api
+Text: reviews chegou antes do prazo muito bem embalado achei rel gio pequeno mas lindo...
+Language: pt
+Confidence: 0.99
+Processing Time: 51.28ms
+
+2025-02-18 02:39:27,448 - INFO - Detector: word_list
+Text: reviews produto chegou antes do prazo compraria novamente...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:27,450 - INFO - Detector: deepseek
+Text: reviews produto chegou antes do prazo compraria novamente...
+Language: pt
+Confidence: 0.99
+Processing Time: 13.84ms
+
+2025-02-18 02:39:27,452 - INFO - Detector: google_api
+Text: reviews produto chegou antes do prazo compraria novamente...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.69ms
+
+2025-02-18 02:39:27,526 - INFO - Detector: word_list
+Text: reviews produto entregue...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:27,528 - INFO - Detector: deepseek
+Text: reviews produto entregue...
+Language: pt
+Confidence: 0.93
+Processing Time: 12.94ms
+
+2025-02-18 02:39:27,530 - INFO - Detector: google_api
+Text: reviews produto entregue...
+Language: pt
+Confidence: 1.00
+Processing Time: 56.43ms
+
+2025-02-18 02:39:27,600 - INFO - Detector: word_list
+Text: reviews adorei tapete felpudo com bom acabamento...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,602 - INFO - Detector: deepseek
+Text: reviews adorei tapete felpudo com bom acabamento...
+Language: pt
+Confidence: 0.99
+Processing Time: 16.50ms
+
+2025-02-18 02:39:27,604 - INFO - Detector: google_api
+Text: reviews adorei tapete felpudo com bom acabamento...
+Language: pt
+Confidence: 0.97
+Processing Time: 49.47ms
+
+2025-02-18 02:39:27,679 - INFO - Detector: word_list
+Text: reviews produto chegou sem nenhum problema at antes do prazo entrega foi efetuada por veio faltando ...
+Language: pt
+Confidence: 0.67
+Processing Time: 0.05ms
+
+2025-02-18 02:39:27,682 - INFO - Detector: deepseek
+Text: reviews produto chegou sem nenhum problema at antes do prazo entrega foi efetuada por veio faltando ...
+Language: pt
+Confidence: 0.99
+Processing Time: 19.72ms
+
+2025-02-18 02:39:27,683 - INFO - Detector: google_api
+Text: reviews produto chegou sem nenhum problema at antes do prazo entrega foi efetuada por veio faltando ...
+Language: pt
+Confidence: 0.88
+Processing Time: 53.13ms
+
+2025-02-18 02:39:27,757 - INFO - Detector: word_list
+Text: reviews se voc entregam onde eu morro porque cobram frete sendo que tenho que ir buscar...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,759 - INFO - Detector: deepseek
+Text: reviews se voc entregam onde eu morro porque cobram frete sendo que tenho que ir buscar...
+Language: pt
+Confidence: 0.95
+Processing Time: 17.84ms
+
+2025-02-18 02:39:27,761 - INFO - Detector: google_api
+Text: reviews se voc entregam onde eu morro porque cobram frete sendo que tenho que ir buscar...
+Language: pt
+Confidence: 1.00
+Processing Time: 54.19ms
+
+2025-02-18 02:39:27,839 - INFO - Detector: word_list
+Text: reviews ainda estou aguardando uma resposta sobre fato de ter recebido apenas um dos dois produto qu...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,843 - INFO - Detector: deepseek
+Text: reviews ainda estou aguardando uma resposta sobre fato de ter recebido apenas um dos dois produto qu...
+Language: pt
+Confidence: 1.00
+Processing Time: 22.92ms
+
+2025-02-18 02:39:27,847 - INFO - Detector: google_api
+Text: reviews ainda estou aguardando uma resposta sobre fato de ter recebido apenas um dos dois produto qu...
+Language: pt
+Confidence: 0.99
+Processing Time: 52.44ms
+
+2025-02-18 02:39:27,917 - INFO - Detector: word_list
+Text: reviews produto chegou antes do prazo bem embalado tive nenhum problema com entrega nota 10 recomend...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 02:39:27,919 - INFO - Detector: deepseek
+Text: reviews produto chegou antes do prazo bem embalado tive nenhum problema com entrega nota 10 recomend...
+Language: pt
+Confidence: 0.99
+Processing Time: 13.77ms
+
+2025-02-18 02:39:27,921 - INFO - Detector: google_api
+Text: reviews produto chegou antes do prazo bem embalado tive nenhum problema com entrega nota 10 recomend...
+Language: pt
+Confidence: 0.99
+Processing Time: 53.82ms
+
+2025-02-18 02:39:27,996 - INFO - Detector: word_list
+Text: reviews bom atendimento previs de entrega cumprido tudo ocorreu bem sou freguesa satisfeita com aten...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:28,001 - INFO - Detector: deepseek
+Text: reviews bom atendimento previs de entrega cumprido tudo ocorreu bem sou freguesa satisfeita com aten...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.60ms
+
+2025-02-18 02:39:28,004 - INFO - Detector: google_api
+Text: reviews bom atendimento previs de entrega cumprido tudo ocorreu bem sou freguesa satisfeita com aten...
+Language: pt
+Confidence: 0.91
+Processing Time: 52.91ms
+
+2025-02-18 02:39:28,076 - INFO - Detector: word_list
+Text: reviews muito bom bem antes do prazo...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:28,078 - INFO - Detector: deepseek
+Text: reviews muito bom bem antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 13.84ms
+
+2025-02-18 02:39:28,080 - INFO - Detector: google_api
+Text: reviews muito bom bem antes do prazo...
+Language: pt
+Confidence: 1.00
+Processing Time: 53.95ms
+
+2025-02-18 02:39:28,214 - INFO - Detector: word_list
+Text: reviews material entregue em um pacote de papel kraft recebi mercadoria com pacote todo aberto rasga...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.05ms
+
+2025-02-18 02:39:28,217 - INFO - Detector: deepseek
+Text: reviews material entregue em um pacote de papel kraft recebi mercadoria com pacote todo aberto rasga...
+Language: pt
+Confidence: 1.00
+Processing Time: 18.72ms
+
+2025-02-18 02:39:28,219 - INFO - Detector: google_api
+Text: reviews material entregue em um pacote de papel kraft recebi mercadoria com pacote todo aberto rasga...
+Language: pt
+Confidence: 0.96
+Processing Time: 112.40ms
+
+2025-02-18 02:39:28,294 - INFO - Detector: word_list
+Text: reviews cabo de excelente qualidade chegou dentro do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:28,296 - INFO - Detector: deepseek
+Text: reviews cabo de excelente qualidade chegou dentro do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 18.56ms
+
+2025-02-18 02:39:28,298 - INFO - Detector: google_api
+Text: reviews cabo de excelente qualidade chegou dentro do prazo...
+Language: pt
+Confidence: 0.82
+Processing Time: 53.78ms
+
+2025-02-18 02:39:28,367 - INFO - Detector: word_list
+Text: reviews ainda estou aguardando tampa de cook top chegou toda quebrada pedi devolu...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:28,369 - INFO - Detector: deepseek
+Text: reviews ainda estou aguardando tampa de cook top chegou toda quebrada pedi devolu...
+Language: pt
+Confidence: 1.00
+Processing Time: 16.12ms
+
+2025-02-18 02:39:28,371 - INFO - Detector: google_api
+Text: reviews ainda estou aguardando tampa de cook top chegou toda quebrada pedi devolu...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.43ms
+
+2025-02-18 02:39:28,446 - INFO - Detector: word_list
+Text: reviews produto top pra quem que apaixonado por fazer drinks recomendo produto loja tbm que entregou...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 02:39:28,448 - INFO - Detector: deepseek
+Text: reviews produto top pra quem que apaixonado por fazer drinks recomendo produto loja tbm que entregou...
+Language: pt
+Confidence: 1.00
+Processing Time: 14.32ms
+
+2025-02-18 02:39:28,451 - INFO - Detector: google_api
+Text: reviews produto top pra quem que apaixonado por fazer drinks recomendo produto loja tbm que entregou...
+Language: pt
+Confidence: 1.00
+Processing Time: 56.14ms
+
+2025-02-18 02:39:28,524 - INFO - Detector: word_list
+Text: reviews comprei duas unidades recebi apenas uma com valor de duas at hj espero resolu do problema as...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.05ms
+
+2025-02-18 02:39:28,527 - INFO - Detector: deepseek
+Text: reviews comprei duas unidades recebi apenas uma com valor de duas at hj espero resolu do problema as...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.29ms
+
+2025-02-18 02:39:28,529 - INFO - Detector: google_api
+Text: reviews comprei duas unidades recebi apenas uma com valor de duas at hj espero resolu do problema as...
+Language: pt
+Confidence: 0.91
+Processing Time: 53.44ms
+
+2025-02-18 02:39:28,604 - INFO - Detector: word_list
+Text: reviews entrega bem antes do prazo produto muito bem embalado muito bonito do jeito que esperava pap...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.04ms
+
+2025-02-18 02:39:28,606 - INFO - Detector: deepseek
+Text: reviews entrega bem antes do prazo produto muito bem embalado muito bonito do jeito que esperava pap...
+Language: pt
+Confidence: 0.99
+Processing Time: 19.74ms
+
+2025-02-18 02:39:28,609 - INFO - Detector: google_api
+Text: reviews entrega bem antes do prazo produto muito bem embalado muito bonito do jeito que esperava pap...
+Language: pt
+Confidence: 0.99
+Processing Time: 52.39ms
+
+2025-02-18 02:39:28,677 - INFO - Detector: word_list
+Text: reviews fiquei muito feliz cm produto cm prazo de entrega...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:28,679 - INFO - Detector: deepseek
+Text: reviews fiquei muito feliz cm produto cm prazo de entrega...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.65ms
+
+2025-02-18 02:39:28,681 - INFO - Detector: google_api
+Text: reviews fiquei muito feliz cm produto cm prazo de entrega...
+Language: pt
+Confidence: 1.00
+Processing Time: 49.07ms
+
+2025-02-18 02:39:28,755 - INFO - Detector: word_list
+Text: reviews produto foi entregue conforme pedido no entanto pel cula veio rachada como fa para proceder ...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:28,757 - INFO - Detector: deepseek
+Text: reviews produto foi entregue conforme pedido no entanto pel cula veio rachada como fa para proceder ...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.22ms
+
+2025-02-18 02:39:28,759 - INFO - Detector: google_api
+Text: reviews produto foi entregue conforme pedido no entanto pel cula veio rachada como fa para proceder ...
+Language: pt
+Confidence: 0.97
+Processing Time: 51.92ms
+
+2025-02-18 02:39:28,989 - INFO - Detector: word_list
+Text: reviews sempre comprei nas lannister nunca havia tido problemas na montagem so que desta vez veio fa...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.04ms
+
+2025-02-18 02:39:28,992 - INFO - Detector: deepseek
+Text: reviews sempre comprei nas lannister nunca havia tido problemas na montagem so que desta vez veio fa...
+Language: pt
+Confidence: 1.00
+Processing Time: 20.15ms
+
+2025-02-18 02:39:28,993 - INFO - Detector: google_api
+Text: reviews sempre comprei nas lannister nunca havia tido problemas na montagem so que desta vez veio fa...
+Language: pt
+Confidence: 0.97
+Processing Time: 208.01ms
+
+2025-02-18 02:39:29,064 - INFO - Detector: word_list
+Text: reviews impress do quadro ssima detestei estou tentando fazer devolu do produto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:29,065 - INFO - Detector: deepseek
+Text: reviews impress do quadro ssima detestei estou tentando fazer devolu do produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 19.14ms
+
+2025-02-18 02:39:29,068 - INFO - Detector: google_api
+Text: reviews impress do quadro ssima detestei estou tentando fazer devolu do produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 47.97ms
+
+2025-02-18 02:39:29,133 - INFO - Detector: word_list
+Text: reviews papel lindo chegou bem antes do prazo um trabalhinho pra por mas ficou lindo demais...
+Language: pt
+Confidence: 0.72
+Processing Time: 0.03ms
+
+2025-02-18 02:39:29,134 - INFO - Detector: deepseek
+Text: reviews papel lindo chegou bem antes do prazo um trabalhinho pra por mas ficou lindo demais...
+Language: pt
+Confidence: 1.00
+Processing Time: 9.85ms
+
+2025-02-18 02:39:29,137 - INFO - Detector: google_api
+Text: reviews papel lindo chegou bem antes do prazo um trabalhinho pra por mas ficou lindo demais...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.87ms
+
+2025-02-18 02:39:29,217 - INFO - Detector: word_list
+Text: reviews dou parab ns para entrega 10 dias de anteced ncia prazo era 13 foi entregue em recomendo mui...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.04ms
+
+2025-02-18 02:39:29,219 - INFO - Detector: deepseek
+Text: reviews dou parab ns para entrega 10 dias de anteced ncia prazo era 13 foi entregue em recomendo mui...
+Language: pt
+Confidence: 1.00
+Processing Time: 22.18ms
+
+2025-02-18 02:39:29,221 - INFO - Detector: google_api
+Text: reviews dou parab ns para entrega 10 dias de anteced ncia prazo era 13 foi entregue em recomendo mui...
+Language: pt
+Confidence: 0.97
+Processing Time: 55.15ms
+
+2025-02-18 02:39:29,287 - INFO - Detector: word_list
+Text: reviews produto timo chegou antes do prazo eu recomendo produto timo mas as cores diferenciaram das ...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.06ms
+
+2025-02-18 02:39:29,288 - INFO - Detector: deepseek
+Text: reviews produto timo chegou antes do prazo eu recomendo produto timo mas as cores diferenciaram das ...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.79ms
+
+2025-02-18 02:39:29,291 - INFO - Detector: google_api
+Text: reviews produto timo chegou antes do prazo eu recomendo produto timo mas as cores diferenciaram das ...
+Language: pt
+Confidence: 0.97
+Processing Time: 49.06ms
+
+2025-02-18 02:39:29,356 - INFO - Detector: word_list
+Text: reviews muito bom como sempre...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:29,359 - INFO - Detector: deepseek
+Text: reviews muito bom como sempre...
+Language: pt
+Confidence: 0.98
+Processing Time: 9.78ms
+
+2025-02-18 02:39:29,361 - INFO - Detector: google_api
+Text: reviews muito bom como sempre...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.90ms
+
+2025-02-18 02:39:29,437 - INFO - Detector: word_list
+Text: reviews chegou bem antes da data prevista entrega no prazo combinado...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 02:39:29,438 - INFO - Detector: deepseek
+Text: reviews chegou bem antes da data prevista entrega no prazo combinado...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.44ms
+
+2025-02-18 02:39:29,441 - INFO - Detector: google_api
+Text: reviews chegou bem antes da data prevista entrega no prazo combinado...
+Language: pt
+Confidence: 1.00
+Processing Time: 61.40ms
+
+2025-02-18 02:39:29,506 - INFO - Detector: word_list
+Text: reviews alem de ter recebido dentro do prazo produto veio exatamente como descrito ainda testei mas ...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.05ms
+
+2025-02-18 02:39:29,509 - INFO - Detector: deepseek
+Text: reviews alem de ter recebido dentro do prazo produto veio exatamente como descrito ainda testei mas ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.17ms
+
+2025-02-18 02:39:29,510 - INFO - Detector: google_api
+Text: reviews alem de ter recebido dentro do prazo produto veio exatamente como descrito ainda testei mas ...
+Language: pt
+Confidence: 0.69
+Processing Time: 50.38ms
+
+2025-02-18 02:39:29,579 - INFO - Detector: word_list
+Text: reviews site bom para comprar chegou no prazo gostei...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.02ms
+
+2025-02-18 02:39:29,580 - INFO - Detector: deepseek
+Text: reviews site bom para comprar chegou no prazo gostei...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.14ms
+
+2025-02-18 02:39:29,584 - INFO - Detector: google_api
+Text: reviews site bom para comprar chegou no prazo gostei...
+Language: pt
+Confidence: 1.00
+Processing Time: 53.62ms
+
+2025-02-18 02:39:29,648 - INFO - Detector: word_list
+Text: reviews recebi produto errado produto foi entregue correta rapidamente foi testado aprovado sugiro r...
+Language: pt
+Confidence: 0.72
+Processing Time: 0.06ms
+
+2025-02-18 02:39:29,651 - INFO - Detector: deepseek
+Text: reviews recebi produto errado produto foi entregue correta rapidamente foi testado aprovado sugiro r...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.53ms
+
+2025-02-18 02:39:29,653 - INFO - Detector: google_api
+Text: reviews recebi produto errado produto foi entregue correta rapidamente foi testado aprovado sugiro r...
+Language: pt
+Confidence: 0.97
+Processing Time: 50.76ms
+
+2025-02-18 02:39:29,720 - INFO - Detector: word_list
+Text: reviews produto entregue em antes do prazo previsto em excelentes condi es parab ns...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:29,721 - INFO - Detector: deepseek
+Text: reviews produto entregue em antes do prazo previsto em excelentes condi es parab ns...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.19ms
+
+2025-02-18 02:39:29,724 - INFO - Detector: google_api
+Text: reviews produto entregue em antes do prazo previsto em excelentes condi es parab ns...
+Language: pt
+Confidence: 0.97
+Processing Time: 53.18ms
+
+2025-02-18 02:39:29,794 - INFO - Detector: word_list
+Text: reviews recebi produto ainda entregue no prazo tudo ok...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:29,796 - INFO - Detector: deepseek
+Text: reviews recebi produto ainda entregue no prazo tudo ok...
+Language: pt
+Confidence: 0.99
+Processing Time: 11.22ms
+
+2025-02-18 02:39:29,799 - INFO - Detector: google_api
+Text: reviews recebi produto ainda entregue no prazo tudo ok...
+Language: pt
+Confidence: 0.99
+Processing Time: 56.83ms
+
+2025-02-18 02:39:29,869 - INFO - Detector: word_list
+Text: reviews xxx foi muito bom comprar nas lojas lannister falta receber mais um produto estou esperando ...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.07ms
+
+2025-02-18 02:39:29,870 - INFO - Detector: deepseek
+Text: reviews xxx foi muito bom comprar nas lojas lannister falta receber mais um produto estou esperando ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.22ms
+
+2025-02-18 02:39:29,873 - INFO - Detector: google_api
+Text: reviews xxx foi muito bom comprar nas lojas lannister falta receber mais um produto estou esperando ...
+Language: pt
+Confidence: 0.70
+Processing Time: 54.08ms
+
+2025-02-18 02:39:29,939 - INFO - Detector: word_list
+Text: reviews olha gostei muito das coisas que tem na loja pena que lixeira foi como eu esperava mas bonit...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 02:39:29,941 - INFO - Detector: deepseek
+Text: reviews olha gostei muito das coisas que tem na loja pena que lixeira foi como eu esperava mas bonit...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.51ms
+
+2025-02-18 02:39:29,943 - INFO - Detector: google_api
+Text: reviews olha gostei muito das coisas que tem na loja pena que lixeira foi como eu esperava mas bonit...
+Language: pt
+Confidence: 0.65
+Processing Time: 51.84ms
+
+2025-02-18 02:39:30,013 - INFO - Detector: word_list
+Text: reviews gostei efetuei compra paguei pelo frete produto esta nos correios bem longe de minha residen...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.05ms
+
+2025-02-18 02:39:30,016 - INFO - Detector: deepseek
+Text: reviews gostei efetuei compra paguei pelo frete produto esta nos correios bem longe de minha residen...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.09ms
+
+2025-02-18 02:39:30,018 - INFO - Detector: google_api
+Text: reviews gostei efetuei compra paguei pelo frete produto esta nos correios bem longe de minha residen...
+Language: pt
+Confidence: 1.00
+Processing Time: 56.45ms
+
+2025-02-18 02:39:30,080 - INFO - Detector: word_list
+Text: reviews produto entregue dentro do prazo gostei muito...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:30,083 - INFO - Detector: deepseek
+Text: reviews produto entregue dentro do prazo gostei muito...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.45ms
+
+2025-02-18 02:39:30,086 - INFO - Detector: google_api
+Text: reviews produto entregue dentro do prazo gostei muito...
+Language: pt
+Confidence: 1.00
+Processing Time: 49.40ms
+
+2025-02-18 02:39:30,152 - INFO - Detector: word_list
+Text: reviews recebi produto mais veio errado ainda recebi nenhum contato da empresa comprei outras vezes ...
+Language: pt
+Confidence: 0.65
+Processing Time: 0.03ms
+
+2025-02-18 02:39:30,154 - INFO - Detector: deepseek
+Text: reviews recebi produto mais veio errado ainda recebi nenhum contato da empresa comprei outras vezes ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.01ms
+
+2025-02-18 02:39:30,156 - INFO - Detector: google_api
+Text: reviews recebi produto mais veio errado ainda recebi nenhum contato da empresa comprei outras vezes ...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.07ms
+
+2025-02-18 02:39:30,235 - INFO - Detector: word_list
+Text: reviews muito bom compara muito bonito pre regular podia ser mai barato...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:30,236 - INFO - Detector: deepseek
+Text: reviews muito bom compara muito bonito pre regular podia ser mai barato...
+Language: pt
+Confidence: 0.99
+Processing Time: 21.75ms
+
+2025-02-18 02:39:30,238 - INFO - Detector: google_api
+Text: reviews muito bom compara muito bonito pre regular podia ser mai barato...
+Language: pt
+Confidence: 0.97
+Processing Time: 54.29ms
+
+2025-02-18 02:39:30,303 - INFO - Detector: word_list
+Text: reviews prazo de entrega podia ser menor so achei preco do frete muito alto comparei uma banheira re...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.05ms
+
+2025-02-18 02:39:30,305 - INFO - Detector: deepseek
+Text: reviews prazo de entrega podia ser menor so achei preco do frete muito alto comparei uma banheira re...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.55ms
+
+2025-02-18 02:39:30,308 - INFO - Detector: google_api
+Text: reviews prazo de entrega podia ser menor so achei preco do frete muito alto comparei uma banheira re...
+Language: pt
+Confidence: 0.94
+Processing Time: 50.30ms
+
+2025-02-18 02:39:30,373 - INFO - Detector: word_list
+Text: reviews estou tentando entrar em contato dias com stark targaryen para resolu do problema veio somen...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.04ms
+
+2025-02-18 02:39:30,374 - INFO - Detector: deepseek
+Text: reviews estou tentando entrar em contato dias com stark targaryen para resolu do problema veio somen...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.82ms
+
+2025-02-18 02:39:30,379 - INFO - Detector: google_api
+Text: reviews estou tentando entrar em contato dias com stark targaryen para resolu do problema veio somen...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.47ms
+
+2025-02-18 02:39:30,445 - INFO - Detector: word_list
+Text: reviews gostei muito da minha capa de poltrona estou muito satisfeita com agilidade foi entregue bem...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 02:39:30,446 - INFO - Detector: deepseek
+Text: reviews gostei muito da minha capa de poltrona estou muito satisfeita com agilidade foi entregue bem...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.20ms
+
+2025-02-18 02:39:30,450 - INFO - Detector: google_api
+Text: reviews gostei muito da minha capa de poltrona estou muito satisfeita com agilidade foi entregue bem...
+Language: pt
+Confidence: 0.89
+Processing Time: 51.51ms
+
+2025-02-18 02:39:30,514 - INFO - Detector: word_list
+Text: reviews sou cliente ass duo das lojas lannister nunca tive um problema com minhas compras muito bom ...
+Language: pt
+Confidence: 0.63
+Processing Time: 0.03ms
+
+2025-02-18 02:39:30,517 - INFO - Detector: deepseek
+Text: reviews sou cliente ass duo das lojas lannister nunca tive um problema com minhas compras muito bom ...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.22ms
+
+2025-02-18 02:39:30,519 - INFO - Detector: google_api
+Text: reviews sou cliente ass duo das lojas lannister nunca tive um problema com minhas compras muito bom ...
+Language: pt
+Confidence: 0.90
+Processing Time: 49.75ms
+
+2025-02-18 02:39:30,579 - INFO - Detector: word_list
+Text: reviews mto bom parab ns...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:30,581 - INFO - Detector: deepseek
+Text: reviews mto bom parab ns...
+Language: pt
+Confidence: 0.95
+Processing Time: 9.36ms
+
+2025-02-18 02:39:30,584 - INFO - Detector: google_api
+Text: reviews mto bom parab ns...
+Language: unknown
+Confidence: 0.35
+Processing Time: 48.00ms
+
+2025-02-18 02:39:30,647 - INFO - Detector: word_list
+Text: reviews adorei produto igual ao an ncio estou mto satisfeita...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.04ms
+
+2025-02-18 02:39:30,651 - INFO - Detector: deepseek
+Text: reviews adorei produto igual ao an ncio estou mto satisfeita...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.73ms
+
+2025-02-18 02:39:30,656 - INFO - Detector: google_api
+Text: reviews adorei produto igual ao an ncio estou mto satisfeita...
+Language: pt
+Confidence: 0.90
+Processing Time: 49.17ms
+
+2025-02-18 02:39:30,788 - INFO - Detector: word_list
+Text: reviews produto foi entregue super pido recomendo fiquei muito satisfeita com atendimento com produt...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.03ms
+
+2025-02-18 02:39:30,790 - INFO - Detector: deepseek
+Text: reviews produto foi entregue super pido recomendo fiquei muito satisfeita com atendimento com produt...
+Language: pt
+Confidence: 0.99
+Processing Time: 61.88ms
+
+2025-02-18 02:39:30,797 - INFO - Detector: google_api
+Text: reviews produto foi entregue super pido recomendo fiquei muito satisfeita com atendimento com produt...
+Language: pt
+Confidence: 1.00
+Processing Time: 65.30ms
+
+2025-02-18 02:39:30,894 - INFO - Detector: word_list
+Text: reviews produto de qualidade...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:30,896 - INFO - Detector: deepseek
+Text: reviews produto de qualidade...
+Language: pt
+Confidence: 0.98
+Processing Time: 34.39ms
+
+2025-02-18 02:39:30,898 - INFO - Detector: google_api
+Text: reviews produto de qualidade...
+Language: pt
+Confidence: 1.00
+Processing Time: 55.80ms
+
+2025-02-18 02:39:30,984 - INFO - Detector: word_list
+Text: reviews gostei bastante do produto...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:30,986 - INFO - Detector: deepseek
+Text: reviews gostei bastante do produto...
+Language: pt
+Confidence: 0.99
+Processing Time: 27.06ms
+
+2025-02-18 02:39:30,988 - INFO - Detector: google_api
+Text: reviews gostei bastante do produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 56.75ms
+
+2025-02-18 02:39:31,074 - INFO - Detector: word_list
+Text: reviews chegou antes do previsto veio muito bem embalado at com papel de presente adorei...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.03ms
+
+2025-02-18 02:39:31,075 - INFO - Detector: deepseek
+Text: reviews chegou antes do previsto veio muito bem embalado at com papel de presente adorei...
+Language: pt
+Confidence: 0.99
+Processing Time: 28.38ms
+
+2025-02-18 02:39:31,078 - INFO - Detector: google_api
+Text: reviews chegou antes do previsto veio muito bem embalado at com papel de presente adorei...
+Language: pt
+Confidence: 0.79
+Processing Time: 54.62ms
+
+2025-02-18 02:39:31,145 - INFO - Detector: word_list
+Text: reviews eu recebi os dois produtos falta kit tapetes para cozinha pe as pintado cru unidade 35 00 ca...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.04ms
+
+2025-02-18 02:39:31,146 - INFO - Detector: deepseek
+Text: reviews eu recebi os dois produtos falta kit tapetes para cozinha pe as pintado cru unidade 35 00 ca...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.00ms
+
+2025-02-18 02:39:31,149 - INFO - Detector: google_api
+Text: reviews eu recebi os dois produtos falta kit tapetes para cozinha pe as pintado cru unidade 35 00 ca...
+Language: pt
+Confidence: 0.96
+Processing Time: 52.19ms
+
+2025-02-18 02:39:31,212 - INFO - Detector: word_list
+Text: reviews posso avaliar sei oque houve...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:31,214 - INFO - Detector: deepseek
+Text: reviews posso avaliar sei oque houve...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.15ms
+
+2025-02-18 02:39:31,216 - INFO - Detector: google_api
+Text: reviews posso avaliar sei oque houve...
+Language: pt
+Confidence: 1.00
+Processing Time: 47.96ms
+
+2025-02-18 02:39:31,285 - INFO - Detector: word_list
+Text: reviews td como ofertado no site...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:31,287 - INFO - Detector: deepseek
+Text: reviews td como ofertado no site...
+Language: pt
+Confidence: 0.91
+Processing Time: 16.04ms
+
+2025-02-18 02:39:31,290 - INFO - Detector: google_api
+Text: reviews td como ofertado no site...
+Language: pt
+Confidence: 0.66
+Processing Time: 50.39ms
+
+2025-02-18 02:39:31,357 - INFO - Detector: word_list
+Text: reviews produto chegou pido antes do prazo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:31,359 - INFO - Detector: deepseek
+Text: reviews produto chegou pido antes do prazo...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.80ms
+
+2025-02-18 02:39:31,361 - INFO - Detector: google_api
+Text: reviews produto chegou pido antes do prazo...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.90ms
+
+2025-02-18 02:39:31,432 - INFO - Detector: word_list
+Text: reviews loja coloca prazo extremamente extenso para entrega de produtos nem assim consegue cumpri lo...
+Language: pt
+Confidence: 0.60
+Processing Time: 0.03ms
+
+2025-02-18 02:39:31,434 - INFO - Detector: deepseek
+Text: reviews loja coloca prazo extremamente extenso para entrega de produtos nem assim consegue cumpri lo...
+Language: pt
+Confidence: 0.98
+Processing Time: 16.71ms
+
+2025-02-18 02:39:31,436 - INFO - Detector: google_api
+Text: reviews loja coloca prazo extremamente extenso para entrega de produtos nem assim consegue cumpri lo...
+Language: pt
+Confidence: 0.91
+Processing Time: 51.11ms
+
+2025-02-18 02:39:31,511 - INFO - Detector: word_list
+Text: reviews as cores da estampa vibrantes como na foto do site meio desbotado fica meio desfocaso timo p...
+Language: pt
+Confidence: 0.66
+Processing Time: 0.08ms
+
+2025-02-18 02:39:31,522 - INFO - Detector: deepseek
+Text: reviews as cores da estampa vibrantes como na foto do site meio desbotado fica meio desfocaso timo p...
+Language: pt
+Confidence: 0.99
+Processing Time: 18.09ms
+
+2025-02-18 02:39:31,534 - INFO - Detector: google_api
+Text: reviews as cores da estampa vibrantes como na foto do site meio desbotado fica meio desfocaso timo p...
+Language: pt
+Confidence: 0.96
+Processing Time: 54.08ms
+
+2025-02-18 02:39:31,647 - INFO - Detector: word_list
+Text: reviews otimo produto tudo timo td de bom td de bom bom produto encomenda chegou certinha antes do p...
+Language: pt
+Confidence: 0.79
+Processing Time: 0.12ms
+
+2025-02-18 02:39:31,649 - INFO - Detector: deepseek
+Text: reviews otimo produto tudo timo td de bom td de bom bom produto encomenda chegou certinha antes do p...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.43ms
+
+2025-02-18 02:39:31,655 - INFO - Detector: google_api
+Text: reviews otimo produto tudo timo td de bom td de bom bom produto encomenda chegou certinha antes do p...
+Language: pt
+Confidence: 0.92
+Processing Time: 51.43ms
+
+2025-02-18 02:39:31,787 - INFO - Detector: word_list
+Text: reviews produto veio na cor escolhida estetosc pio littmann cardiology iv burgundy 6153 sim entregar...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.04ms
+
+2025-02-18 02:39:31,798 - INFO - Detector: deepseek
+Text: reviews produto veio na cor escolhida estetosc pio littmann cardiology iv burgundy 6153 sim entregar...
+Language: pt
+Confidence: 1.00
+Processing Time: 73.01ms
+
+2025-02-18 02:39:31,804 - INFO - Detector: google_api
+Text: reviews produto veio na cor escolhida estetosc pio littmann cardiology iv burgundy 6153 sim entregar...
+Language: pt
+Confidence: 0.69
+Processing Time: 53.01ms
+
+2025-02-18 02:39:31,930 - INFO - Detector: word_list
+Text: reviews recebi produtos errado consigo fazer troca ou devolu...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:31,934 - INFO - Detector: deepseek
+Text: reviews recebi produtos errado consigo fazer troca ou devolu...
+Language: pt
+Confidence: 1.00
+Processing Time: 74.51ms
+
+2025-02-18 02:39:31,940 - INFO - Detector: google_api
+Text: reviews recebi produtos errado consigo fazer troca ou devolu...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.15ms
+
+2025-02-18 02:39:32,024 - INFO - Detector: word_list
+Text: reviews tive que comprar um cabo que veio com adaptador adaptador incompleto para uso...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,025 - INFO - Detector: deepseek
+Text: reviews tive que comprar um cabo que veio com adaptador adaptador incompleto para uso...
+Language: pt
+Confidence: 0.99
+Processing Time: 25.67ms
+
+2025-02-18 02:39:32,028 - INFO - Detector: google_api
+Text: reviews tive que comprar um cabo que veio com adaptador adaptador incompleto para uso...
+Language: pt
+Confidence: 0.90
+Processing Time: 55.14ms
+
+2025-02-18 02:39:32,100 - INFO - Detector: word_list
+Text: reviews as aves responderam muito bem com produto...
+Language: pt
+Confidence: 0.57
+Processing Time: 0.04ms
+
+2025-02-18 02:39:32,102 - INFO - Detector: deepseek
+Text: reviews as aves responderam muito bem com produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 14.12ms
+
+2025-02-18 02:39:32,104 - INFO - Detector: google_api
+Text: reviews as aves responderam muito bem com produto...
+Language: pt
+Confidence: 1.00
+Processing Time: 54.66ms
+
+2025-02-18 02:39:32,175 - INFO - Detector: word_list
+Text: reviews pedido foi entregue parcial nao total na nota veio faturado dois adesivos porem recebi sment...
+Language: pt
+Confidence: 0.75
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,177 - INFO - Detector: deepseek
+Text: reviews pedido foi entregue parcial nao total na nota veio faturado dois adesivos porem recebi sment...
+Language: pt
+Confidence: 1.00
+Processing Time: 18.30ms
+
+2025-02-18 02:39:32,179 - INFO - Detector: google_api
+Text: reviews pedido foi entregue parcial nao total na nota veio faturado dois adesivos porem recebi sment...
+Language: pt
+Confidence: 0.96
+Processing Time: 49.60ms
+
+2025-02-18 02:39:32,249 - INFO - Detector: word_list
+Text: reviews recebi produto estorno no cart foi feito dois meses depois...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,251 - INFO - Detector: deepseek
+Text: reviews recebi produto estorno no cart foi feito dois meses depois...
+Language: pt
+Confidence: 1.00
+Processing Time: 17.38ms
+
+2025-02-18 02:39:32,253 - INFO - Detector: google_api
+Text: reviews recebi produto estorno no cart foi feito dois meses depois...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.13ms
+
+2025-02-18 02:39:32,330 - INFO - Detector: word_list
+Text: reviews bom eu recomendo vendedor...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:32,332 - INFO - Detector: deepseek
+Text: reviews bom eu recomendo vendedor...
+Language: pt
+Confidence: 1.00
+Processing Time: 22.88ms
+
+2025-02-18 02:39:32,334 - INFO - Detector: google_api
+Text: reviews bom eu recomendo vendedor...
+Language: pt
+Confidence: 1.00
+Processing Time: 51.99ms
+
+2025-02-18 02:39:32,410 - INFO - Detector: word_list
+Text: reviews muito bom quero trocar produto tecido da cortina mega fino adorei minha cortina um material ...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.04ms
+
+2025-02-18 02:39:32,413 - INFO - Detector: deepseek
+Text: reviews muito bom quero trocar produto tecido da cortina mega fino adorei minha cortina um material ...
+Language: pt
+Confidence: 1.00
+Processing Time: 15.93ms
+
+2025-02-18 02:39:32,415 - INFO - Detector: google_api
+Text: reviews muito bom quero trocar produto tecido da cortina mega fino adorei minha cortina um material ...
+Language: pt
+Confidence: 0.96
+Processing Time: 57.67ms
+
+2025-02-18 02:39:32,481 - INFO - Detector: word_list
+Text: reviews posso culpar loja por deprimente receber at momento encomenda por culpa dos correios...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,483 - INFO - Detector: deepseek
+Text: reviews posso culpar loja por deprimente receber at momento encomenda por culpa dos correios...
+Language: pt
+Confidence: 0.99
+Processing Time: 12.57ms
+
+2025-02-18 02:39:32,487 - INFO - Detector: google_api
+Text: reviews posso culpar loja por deprimente receber at momento encomenda por culpa dos correios...
+Language: pt
+Confidence: 0.86
+Processing Time: 50.90ms
+
+2025-02-18 02:39:32,554 - INFO - Detector: word_list
+Text: reviews fiz pedido em 30 04 2018 paguei no mesmo dia valor do produto at hoje 09 06 2018 mais de um ...
+Language: pt
+Confidence: 0.83
+Processing Time: 0.05ms
+
+2025-02-18 02:39:32,556 - INFO - Detector: deepseek
+Text: reviews fiz pedido em 30 04 2018 paguei no mesmo dia valor do produto at hoje 09 06 2018 mais de um ...
+Language: pt
+Confidence: 1.00
+Processing Time: 10.75ms
+
+2025-02-18 02:39:32,559 - INFO - Detector: google_api
+Text: reviews fiz pedido em 30 04 2018 paguei no mesmo dia valor do produto at hoje 09 06 2018 mais de um ...
+Language: pt
+Confidence: 0.94
+Processing Time: 51.17ms
+
+2025-02-18 02:39:32,655 - INFO - Detector: word_list
+Text: reviews pedido chegou antes do previsto postagem foi imediata produto de tima qualidade parab ns pel...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,658 - INFO - Detector: deepseek
+Text: reviews pedido chegou antes do previsto postagem foi imediata produto de tima qualidade parab ns pel...
+Language: pt
+Confidence: 1.00
+Processing Time: 30.48ms
+
+2025-02-18 02:39:32,664 - INFO - Detector: google_api
+Text: reviews pedido chegou antes do previsto postagem foi imediata produto de tima qualidade parab ns pel...
+Language: pt
+Confidence: 0.97
+Processing Time: 62.81ms
+
+2025-02-18 02:39:32,761 - INFO - Detector: word_list
+Text: reviews parab ns est empresa ent site lannister com br obrigado parab ns est empresa ent site lannis...
+Language: pt
+Confidence: 0.77
+Processing Time: 0.09ms
+
+2025-02-18 02:39:32,763 - INFO - Detector: deepseek
+Text: reviews parab ns est empresa ent site lannister com br obrigado parab ns est empresa ent site lannis...
+Language: pt
+Confidence: 1.00
+Processing Time: 33.20ms
+
+2025-02-18 02:39:32,771 - INFO - Detector: google_api
+Text: reviews parab ns est empresa ent site lannister com br obrigado parab ns est empresa ent site lannis...
+Language: pt
+Confidence: 0.97
+Processing Time: 61.03ms
+
+2025-02-18 02:39:32,875 - INFO - Detector: word_list
+Text: reviews foram comprados itens cachepot recebido buxinho nao recebi envio pido produto muito bem emba...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,877 - INFO - Detector: deepseek
+Text: reviews foram comprados itens cachepot recebido buxinho nao recebi envio pido produto muito bem emba...
+Language: pt
+Confidence: 1.00
+Processing Time: 48.13ms
+
+2025-02-18 02:39:32,881 - INFO - Detector: google_api
+Text: reviews foram comprados itens cachepot recebido buxinho nao recebi envio pido produto muito bem emba...
+Language: pt
+Confidence: 0.98
+Processing Time: 51.97ms
+
+2025-02-18 02:39:32,974 - INFO - Detector: word_list
+Text: reviews quando mercadoria entregue pela lannister com chega muito mais pido gostaria de saber motivo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.03ms
+
+2025-02-18 02:39:32,976 - INFO - Detector: deepseek
+Text: reviews quando mercadoria entregue pela lannister com chega muito mais pido gostaria de saber motivo...
+Language: pt
+Confidence: 1.00
+Processing Time: 33.16ms
+
+2025-02-18 02:39:32,980 - INFO - Detector: google_api
+Text: reviews quando mercadoria entregue pela lannister com chega muito mais pido gostaria de saber motivo...
+Language: pt
+Confidence: 0.91
+Processing Time: 54.32ms
+
+2025-02-18 02:39:33,045 - INFO - Detector: word_list
+Text: reviews muito bom fiquei extremamente satisfeita com minha compra entrega antes do prazo recomendo...
+Language: pt
+Confidence: 0.78
+Processing Time: 0.03ms
+
+2025-02-18 02:39:33,046 - INFO - Detector: deepseek
+Text: reviews muito bom fiquei extremamente satisfeita com minha compra entrega antes do prazo recomendo...
+Language: pt
+Confidence: 0.99
+Processing Time: 10.49ms
+
+2025-02-18 02:39:33,049 - INFO - Detector: google_api
+Text: reviews muito bom fiquei extremamente satisfeita com minha compra entrega antes do prazo recomendo...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.79ms
+
+2025-02-18 02:39:33,117 - INFO - Detector: word_list
+Text: reviews recebi por enquanto apenas um jogo de lencol jogo de len ol casal king imperial 04 pe as per...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.03ms
+
+2025-02-18 02:39:33,118 - INFO - Detector: deepseek
+Text: reviews recebi por enquanto apenas um jogo de lencol jogo de len ol casal king imperial 04 pe as per...
+Language: pt
+Confidence: 1.00
+Processing Time: 13.63ms
+
+2025-02-18 02:39:33,121 - INFO - Detector: google_api
+Text: reviews recebi por enquanto apenas um jogo de lencol jogo de len ol casal king imperial 04 pe as per...
+Language: pt
+Confidence: 0.64
+Processing Time: 50.86ms
+
+2025-02-18 02:39:33,186 - INFO - Detector: word_list
+Text: reviews gostei muito do produto perfeito bonito pre otimo...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:33,187 - INFO - Detector: deepseek
+Text: reviews gostei muito do produto perfeito bonito pre otimo...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.91ms
+
+2025-02-18 02:39:33,191 - INFO - Detector: google_api
+Text: reviews gostei muito do produto perfeito bonito pre otimo...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.79ms
+
+2025-02-18 02:39:33,255 - INFO - Detector: word_list
+Text: reviews produto veio como pedi...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:33,256 - INFO - Detector: deepseek
+Text: reviews produto veio como pedi...
+Language: pt
+Confidence: 0.99
+Processing Time: 9.82ms
+
+2025-02-18 02:39:33,259 - INFO - Detector: google_api
+Text: reviews produto veio como pedi...
+Language: pt
+Confidence: 1.00
+Processing Time: 50.98ms
+
+2025-02-18 02:39:33,330 - INFO - Detector: word_list
+Text: reviews otimo timo timo...
+Language: unknown
+Confidence: 0.00
+Processing Time: 0.02ms
+
+2025-02-18 02:39:33,332 - INFO - Detector: deepseek
+Text: reviews otimo timo timo...
+Language: unknown
+Confidence: 0.94
+Processing Time: 15.39ms
+
+2025-02-18 02:39:33,335 - INFO - Detector: google_api
+Text: reviews otimo timo timo...
+Language: pt
+Confidence: 0.81
+Processing Time: 53.03ms
+
+2025-02-18 02:39:33,402 - INFO - Detector: word_list
+Text: reviews mto bom...
+Language: pt
+Confidence: 0.70
+Processing Time: 0.02ms
+
+2025-02-18 02:39:33,404 - INFO - Detector: deepseek
+Text: reviews mto bom...
+Language: unknown
+Confidence: 0.43
+Processing Time: 16.48ms
+
+2025-02-18 02:39:33,407 - INFO - Detector: google_api
+Text: reviews mto bom...
+Language: pt
+Confidence: 0.63
+Processing Time: 48.60ms
+
+2025-02-18 02:39:33,475 - INFO - Detector: word_list
+Text: reviews chegou at antes do prazo muito obrigado...
+Language: pt
+Confidence: 0.80
+Processing Time: 0.02ms
+
+2025-02-18 02:39:33,476 - INFO - Detector: deepseek
+Text: reviews chegou at antes do prazo muito obrigado...
+Language: pt
+Confidence: 1.00
+Processing Time: 11.52ms
+
+2025-02-18 02:39:33,481 - INFO - Detector: google_api
+Text: reviews chegou at antes do prazo muito obrigado...
+Language: pt
+Confidence: 1.00
+Processing Time: 52.45ms
+
