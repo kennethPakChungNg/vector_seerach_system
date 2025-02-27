@@ -380,8 +380,11 @@ class DeepSeekEnhancer:
             pass
         
         # Pattern for finding JSON-like object between curly braces
-        pattern = r'\{(?:[^{}]|(?R))*\}'
-        json_matches = re.findall(pattern, response, re.DOTALL)
+        #pattern = r'\{(?:[^{}]|(?R))*\}'
+        #json_matches = re.findall(pattern, response, re.DOTALL)
+
+        # Use a simpler non-recursive pattern to find JSON objects
+        json_matches = re.findall(r'\{[^{]*?\}', response, re.DOTALL)
         
         # Try each potential JSON block found
         for potential_json in json_matches:
