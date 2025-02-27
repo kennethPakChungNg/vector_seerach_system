@@ -22,6 +22,8 @@ __all__ = [
     'analyze_query',
     '_extract_query_info',
     'rerank_results',
-    'analyze_with_prompt'
-    
+    'analyze_with_prompt',
+    'optimize_memory',
+    'free_memory',
+    'rerank_results_with_memory_management'
 ]

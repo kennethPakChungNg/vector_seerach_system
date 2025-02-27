@@ -39,6 +39,204 @@ class DeepSeekEnhancer:
             print("DeepSeek model loaded successfully")
         return self._model, self._tokenizer
     
+
+    def optimize_memory(self):
+        """
+        Apply memory optimizations to reduce GPU memory usage.
+        Call this after loading the model.
+        """
+        import gc
+        import torch
+        
+        # Force garbage collection
+        gc.collect()
+        
+        # Clear CUDA cache if available
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            
+        # If model is already loaded, apply memory optimizations
+        if self._model is not None:
+            # Use CPU offloading for parts of the model when possible
+            if self.device == "cuda":
+                # Move less frequently used components to CPU
+                for param in self._model.parameters():
+                    if not param.requires_grad:
+                        param.data = param.data.to("cpu")
+                        if param._grad is not None:
+                            param._grad.data = param._grad.data.to("cpu")
+        
+        return True
+
+    def free_memory(self):
+        """
+        Free up memory by moving model to CPU.
+        Call this after completing intensive operations.
+        """
+        import gc
+        import torch
+        
+        # Move model to CPU if it's on GPU
+        if self._model is not None and next(self._model.parameters()).device.type == "cuda":
+            self._model = self._model.to("cpu")
+        
+        # Force garbage collection
+        gc.collect()
+        
+        # Clear CUDA cache
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+    def rerank_results_with_memory_management(self, 
+                                            query: str, 
+                                            results: pd.DataFrame, 
+                                            query_analysis: Dict = None,
+                                            top_n: int = 10) -> pd.DataFrame:
+        """
+        Memory-efficient version of rerank_results.
+        Processes in smaller batches and cleans up memory.
+        
+        Args:
+            query: Original search query
+            results: DataFrame containing search results
+            query_analysis: Optional pre-analyzed query information
+            top_n: Maximum number of results to rerank
+            
+        Returns:
+            DataFrame with reranked results
+        """
+        if len(results) == 0:
+            return results
+            
+        # Limit to top_n results for efficiency
+        results_to_rerank = results.head(top_n).copy()
+        
+        # Get query analysis if not provided
+        if query_analysis is None:
+            query_analysis = self.analyze_query(query)
+        
+        model, tokenizer = self.load_model()
+        
+        # Apply memory optimizations
+        self.optimize_memory()
+        
+        # Smaller batch size for memory efficiency
+        batch_size = 5
+        
+        # Process in batches
+        all_semantic_scores = []
+        
+        for batch_start in range(0, len(results_to_rerank), batch_size):
+            batch_end = min(batch_start + batch_size, len(results_to_rerank))
+            batch = results_to_rerank.iloc[batch_start:batch_end]
+            
+            batch_scores = []
+            
+            for _, row in batch.iterrows():
+                # Format product information (same as original)
+                product_desc = f"""
+                Name: {row['product_name']}
+                Category: {row['category']}
+                Price: {row['price_usd']} USD
+                """
+                
+                # Add product description
+                if 'about_product' in row and not pd.isna(row['about_product']):
+                    product_desc += f"Description: {row['about_product'][:300]}...\n"
+                
+                # Create prompt with query context
+                prompt = f"""
+                Rate how relevant this product is to the search query on a scale from 0 to 10.
+                
+                Search Query: "{query}"
+                
+                Product Information:
+                {product_desc}
+                
+                Key search requirements:
+                - Product Type: {query_analysis.get('product_type', 'Any')}
+                - Important Features: {', '.join(query_analysis.get('key_features', []))}
+                - Price Constraint: {query_analysis.get('price_constraint', 'None')}
+                
+                Consider exact category matches, feature matches, and price constraints.
+                Output only the numerical score (0-10).
+                """
+                
+                # Generate rating
+                try:
+                    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(self.device)
+                    with torch.no_grad():
+                        outputs = model.generate(
+                            **inputs,
+                            max_new_tokens=10,
+                            temperature=0.2,
+                            do_sample=True
+                        )
+                    
+                    # Extract numerical rating
+                    raw_output = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+                    
+                    # Parse the rating
+                    parsed_result = self._parse_deepseek_response(raw_output, default_value={"score": 0})
+                    if isinstance(parsed_result, dict) and "score" in parsed_result:
+                        score = parsed_result["score"]
+                    else:
+                        import re
+                        match = re.search(r'(\d+(\.\d+)?)', raw_output)
+                        score = float(match.group(1)) if match else 0.0
+                    
+                    score = min(max(score, 0.0), 10.0)  # Ensure in range 0-10
+                except Exception as e:
+                    print(f"Error generating score: {e}")
+                    score = 0.0
+                    
+                batch_scores.append(score)
+                
+                # Cleanup after each item to prevent memory accumulation
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+            
+            all_semantic_scores.extend(batch_scores)
+            
+            # Force memory cleanup after each batch
+            self.free_memory()
+        
+        # Add semantic scores to results
+        results_to_rerank['semantic_score'] = all_semantic_scores
+        
+        # Rest of the function remains the same as original rerank_results
+        # Create a deep copy to ensure values don't get overwritten
+        reranked_results = results_to_rerank.copy(deep=True)
+        
+        # Normalize original scores to 0-10 range
+        if 'hybrid_score' in reranked_results.columns and len(reranked_results) > 1:
+            min_score = reranked_results['hybrid_score'].min()
+            max_score = reranked_results['hybrid_score'].max()
+            if max_score > min_score:
+                reranked_results['normalized_score'] = (
+                    (reranked_results['hybrid_score'] - min_score) / 
+                    (max_score - min_score) * 10
+                )
+            else:
+                reranked_results['normalized_score'] = reranked_results['hybrid_score']
+        else:
+            # Fallback if hybrid_score isn't available
+            reranked_results['normalized_score'] = reranked_results.get('hybrid_score', 0)
+        
+        # Calculate final score (weighted combination)
+        reranked_results['final_score'] = (
+            reranked_results['normalized_score'].fillna(0) * 0.3 + 
+            reranked_results['semantic_score'].fillna(0) * 0.7
+        )
+        
+        # Sort by final score
+        reranked_results = reranked_results.sort_values('final_score', ascending=False)
+        
+        # Clean up one last time
+        self.free_memory()
+        
+        return reranked_results
+    
     def analyze_query(self, query: str) -> Dict:
         """
         Extract structured information from the search query using DeepSeek.
@@ -72,7 +270,7 @@ class DeepSeekEnhancer:
                 **inputs,
                 max_new_tokens=200,
                 temperature=0.1,
-                do_sample=False
+                do_sample=True
             )
         
         response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
@@ -156,9 +354,111 @@ class DeepSeekEnhancer:
         }
     
 
+    def _parse_deepseek_response(self, response, default_value=None):
+        """
+        Robustly parse DeepSeek responses with multiple fallback mechanisms.
+        
+        Args:
+            response: Raw response from DeepSeek model
+            default_value: Default value to return if parsing fails
+            
+        Returns:
+            Parsed data or default value if parsing fails
+        """
+        import json
+        import re
+        
+        # Early exit for empty responses
+        if not response or not isinstance(response, str):
+            return default_value
+        
+        # Try to parse as direct JSON first (best case)
+        try:
+            return json.loads(response.strip())
+        except json.JSONDecodeError:
+            # Not direct JSON, try to extract JSON block
+            pass
+        
+        # Pattern for finding JSON-like object between curly braces
+        pattern = r'\{(?:[^{}]|(?R))*\}'
+        json_matches = re.findall(pattern, response, re.DOTALL)
+        
+        # Try each potential JSON block found
+        for potential_json in json_matches:
+            try:
+                # Clean up the JSON string before parsing
+                cleaned_json = self._clean_json_string(potential_json)
+                return json.loads(cleaned_json)
+            except json.JSONDecodeError:
+                continue
+        
+        # If we're looking for a rating/score and regex-based extraction
+        num_pattern = r'(\d+(?:\.\d+)?)'
+        if 'rate' in response.lower() or 'score' in response.lower():
+            num_match = re.search(num_pattern, response)
+            if num_match:
+                try:
+                    return {"score": float(num_match.group(1))}
+                except (ValueError, TypeError):
+                    pass
+        
+        # Last resort: simple keyword-based extraction for specific fields
+        result = {}
+        
+        # Try to extract product_type
+        product_type_match = re.search(r'product[_\s]type[\s\:\"\']+([\w\s]+)', response, re.IGNORECASE)
+        if product_type_match:
+            result["product_type"] = product_type_match.group(1).strip()
+        
+        # Try to extract features as a list
+        features_section = re.search(r'features[\s\:\"\']+\[(.*?)\]', response, re.DOTALL | re.IGNORECASE)
+        if features_section:
+            features_text = features_section.group(1)
+            features = re.findall(r'[\"\']([^\"\',]+)[\"\']', features_text)
+            if features:
+                result["key_features"] = features
+        
+        # If we found any fields this way, return them
+        if result:
+            return result
+        
+        # If all else fails, return the default value
+        return default_value
+
+    def _clean_json_string(self, json_str):
+        """
+        Clean and fix common JSON formatting issues.
+        
+        Args:
+            json_str: Potentially malformed JSON string
+            
+        Returns:
+            Cleaned JSON string
+        """
+        import re
+        
+        # Remove any trailing commas before closing braces/brackets
+        cleaned = re.sub(r',\s*}', '}', json_str)
+        cleaned = re.sub(r',\s*]', ']', cleaned)
+        
+        # Fix missing quotes around keys
+        cleaned = re.sub(r'(\{|\,)\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', cleaned)
+        
+        # Fix unquoted string values
+        # This is tricky and might cause issues, so commenting it out for now
+        # cleaned = re.sub(r':\s*([a-zA-Z][a-zA-Z0-9_\s]+)(\,|})', r':"\1"\2', cleaned)
+        
+        # Fix Python True/False/None to JSON true/false/null
+        cleaned = re.sub(r':\s*True', r':true', cleaned)
+        cleaned = re.sub(r':\s*False', r':false', cleaned)
+        cleaned = re.sub(r':\s*None', r':null', cleaned)
+        
+        return cleaned
+
     def analyze_with_prompt(self, prompt: str) -> Dict:
         """
         Use DeepSeek to analyze any custom prompt and return structured data.
+        Enhanced version with robust error handling.
         
         Args:
             prompt: The prompt to analyze
@@ -168,46 +468,37 @@ class DeepSeekEnhancer:
         """
         model, tokenizer = self.load_model()
         
-        inputs = tokenizer(prompt, return_tensors="pt").to(self.device)
+        # Enhance the prompt to encourage proper JSON formatting
+        json_format_note = """
+        FORMAT INSTRUCTIONS:
+        - Return valid JSON only
+        - Use double quotes for keys and string values
+        - Do not add any text before or after the JSON object
+        - For ratings, use numbers not strings
+        """
+        
+        enhanced_prompt = prompt + "\n" + json_format_note
+        
+        inputs = tokenizer(enhanced_prompt, return_tensors="pt").to(self.device)
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
                 max_new_tokens=200,
                 temperature=0.1,
-                do_sample=False
+                top_p=0.95,
+                do_sample=True  # Set to True to make temperature and top_p work
             )
         
         response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
         
-        # Extract and parse JSON with better error handling
-        try:
-            import json
-            json_match = re.search(r'\{.*\}', response, re.DOTALL)
-            if json_match:
-                # Try to clean up the JSON string before parsing
-                json_str = json_match.group(0)
-                # Remove any trailing commas before closing braces (common JSON parsing error)
-                json_str = re.sub(r',\s*}', '}', json_str)
-                # Remove any trailing commas before closing brackets
-                json_str = re.sub(r',\s*]', ']', json_str)
-                parsed_json = json.loads(json_str)
-                return parsed_json
-            else:
-                # Fallback to numeric extraction for rating prompts
-                if "rate" in prompt.lower() or "score" in prompt.lower():
-                    num_match = re.search(r'(\d+(\.\d+)?)', response)
-                    if num_match:
-                        return {"score": float(num_match.group(1))}
-                
-                return {"error": "No JSON found in response", "raw_response": response}
-        except Exception as e:
-            print(f"Error parsing DeepSeek response: {e}")
-            # More aggressive fallback
-            if "rate" in prompt.lower() or "score" in prompt.lower():
-                num_match = re.search(r'(\d+(\.\d+)?)', response)
-                if num_match:
-                    return {"score": float(num_match.group(1))}
-            return {"error": str(e), "raw_response": response}
+        # Use our enhanced parsing function
+        parsed_response = self._parse_deepseek_response(response, default_value={"error": "Failed to parse response"})
+        
+        # If we couldn't parse the response at all, include the raw response for debugging
+        if "error" in parsed_response:
+            parsed_response["raw_response"] = response
+        
+        return parsed_response
     
 
     def rerank_results(self, 
@@ -292,7 +583,7 @@ class DeepSeekEnhancer:
                     **inputs,
                     max_new_tokens=10,
                     temperature=0.2,
-                    do_sample=False
+                    do_sample=True
                 )
             
             # Extract numerical rating
